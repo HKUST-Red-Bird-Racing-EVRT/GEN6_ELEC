@@ -1,0 +1,253 @@
+(footprint "G7L2AXLDC12"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "G7L-2A-X-L DC12-1")
+	(tags "Relay or Contactor")
+	(property "Reference" "K**"
+		(at -18.4 8.85 0)
+		(layer "F.SilkS")
+		(uuid "ca8c9817-b821-44f3-a9b3-9a2c33e26e8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "G7L2AXLDC12"
+		(at -18.4 8.85 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ab9b72e8-ea94-4e0a-98e5-917f16617a44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "43c5aa51-512e-4cd2-834c-3c6741733224")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c47bc99d-dc85-4de7-b82b-8ed0deaa1677")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -44.65 -8.9)
+		(end -44.65 26.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "805be662-a45e-4847-8c4b-75b69943ef5f")
+	)
+	(fp_line
+		(start -44.65 26.55)
+		(end 7.85 26.55)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "85ae211c-66c4-4de3-bf68-e6aee222fea5")
+	)
+	(fp_line
+		(start 7.85 -8.9)
+		(end -44.65 -8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eca4b3a8-affb-4a02-a782-4bcc77a49f5c")
+	)
+	(fp_line
+		(start 7.85 26.55)
+		(end 7.85 -8.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f80d9f88-071e-4776-ada9-3583ca915f3d")
+	)
+	(fp_line
+		(start -45.65 -9.9)
+		(end -45.65 27.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9410f57d-7913-4a4e-a9d5-b3ddbc2f85e4")
+	)
+	(fp_line
+		(start -45.65 27.6)
+		(end 8.85 27.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5c75c4f5-3bfa-45d0-99ce-b58a7ca1890f")
+	)
+	(fp_line
+		(start 8.85 -9.9)
+		(end -45.65 -9.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "432687cd-87fc-4ad3-80b8-5a669532ebc2")
+	)
+	(fp_line
+		(start 8.85 27.6)
+		(end 8.85 -9.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7ab498b-2284-4050-baf5-f9d3571dc5ab")
+	)
+	(fp_line
+		(start -44.65 -8.9)
+		(end -44.65 26.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ae08c90-3583-4548-be44-2161ec1fba7e")
+	)
+	(fp_line
+		(start -44.65 26.6)
+		(end 7.85 26.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9b839e82-0c09-48fa-8b64-d59255bd1238")
+	)
+	(fp_line
+		(start 7.85 -8.9)
+		(end -44.65 -8.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54c4a4d8-6845-44ff-9dfd-9ce05e467887")
+	)
+	(fp_line
+		(start 7.85 26.6)
+		(end 7.85 -8.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "682da8d2-27bb-4bce-be95-b78d0c0e644e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -18.4 8.85 0)
+		(layer "F.Fab")
+		(uuid "2634a3c9-b000-4fa4-bd12-302bb5e662d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "A0" thru_hole roundrect
+		(at 0 0)
+		(size 5 3)
+		(drill oval 3.2 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1755754975)
+		(uuid "3214bf9e-31e6-444f-ac55-dacd4a3bf90f")
+	)
+	(pad "A1" thru_hole roundrect
+		(at -36.8 0)
+		(size 5 3)
+		(drill oval 3.2 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1755754975)
+		(uuid "e5f3d2c5-1364-4c48-8add-c97f51ff74c4")
+	)
+	(pad "A2" thru_hole roundrect
+		(at 0 17.7)
+		(size 5 3)
+		(drill oval 3.2 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1755754975)
+		(uuid "b8c79934-9645-4560-b02d-a282b21a83bf")
+	)
+	(pad "A4" thru_hole roundrect
+		(at -11.2 17.7)
+		(size 5 3)
+		(drill oval 3.2 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1755754975)
+		(uuid "dc966fc6-cb41-431f-b32b-7cb468a81b5d")
+	)
+	(pad "A6" thru_hole roundrect
+		(at -25.6 17.7)
+		(size 5 3)
+		(drill oval 3.2 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1755754975)
+		(uuid "dfe9d933-31d1-4ebc-8845-cecb17492223")
+	)
+	(pad "A8" thru_hole roundrect
+		(at -36.8 17.7)
+		(size 5 3)
+		(drill oval 3.2 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1755754975)
+		(uuid "a10dc7b9-0843-4d0b-a7c0-cfa7bbfc94ef")
+	)
+	(embedded_fonts no)
+	(model "G7L-2A-X-L_DC12.stp"
+		(offset
+			(xyz -18.39999934 -8.850000249 40.99999938)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)

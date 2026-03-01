@@ -1,0 +1,9 @@
+Manufacturer=OMRON Electronics
+PartNumber=G7L-2A-X-L DC12
+PartCategory=Relay or Contactor
+PackageCategory=Other
+PinCount=6
+Version=1.1
+Released=2019-06-14 08:37:59
+Downloaded=2026-02-28 10:59:00
+3D=Y
