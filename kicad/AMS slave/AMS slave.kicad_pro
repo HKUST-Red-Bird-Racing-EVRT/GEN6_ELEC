@@ -60,11 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "silk_edge_clearance|54315000|103500000|48d909c7-4553-468a-8933-83649c52fe6e|24f75de9-69a8-4e1f-8c35-8904f04b688a",
+          "silk_edge_clearance|40315000|100500000|01b20a09-9772-415b-9fa4-d1e524d877f4|b15cb5b4-b860-4a57-9abb-3a3debefe547",
           ""
         ],
         [
-          "silk_edge_clearance|63685000|103500000|48d909c7-4553-468a-8933-83649c52fe6e|c84ebb03-5373-4123-8dbd-abc48adac861",
+          "silk_edge_clearance|49685000|100500000|01b20a09-9772-415b-9fa4-d1e524d877f4|d77ae2d8-1e72-4ad6-9a93-23b27ac1b037",
           ""
         ]
       ],
@@ -902,7 +902,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "3.1",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
