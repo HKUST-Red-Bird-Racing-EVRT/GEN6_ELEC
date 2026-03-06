@@ -2611,10 +2611,10 @@
 	)
 	(gr_circle
 		(center 37.25 84.25)
-		(end 37.25 85.75)
+		(end 38.85 84.25)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -2633,10 +2633,10 @@
 	)
 	(gr_circle
 		(center 62.75 84.25)
-		(end 62.75 85.75)
+		(end 64.35 84.25)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
