@@ -20714,17 +20714,6 @@
 		(layer "B.SilkS")
 		(uuid "75f63eae-c654-47e0-9112-564a6dc4206b")
 	)
-	(gr_rect
-		(start 121.5 109.75)
-		(end 123.5 114.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "B.SilkS")
-		(uuid "7b971e5e-0aad-4fea-b231-350527a4ee1f")
-	)
 	(gr_line
 		(start 194.5 88.75)
 		(end 184.5 78.75)
@@ -20734,17 +20723,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "82d6df48-628c-4eb0-b6a7-8dc8db867342")
-	)
-	(gr_rect
-		(start 123.5 109.75)
-		(end 126.5 111.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "B.SilkS")
-		(uuid "94aea32a-89de-41a7-b00b-f55ab4bffe83")
 	)
 	(gr_rect
 		(start 163.25 90)
@@ -20979,7 +20957,7 @@
 		(layer "Edge.Cuts")
 		(uuid "da5ed33a-6376-42fa-8c13-eb30beab2ce5")
 	)
-	(gr_text "RBR_SSRU_V3.3\n08/02/2026\nPCB by Nicholas Chan\nCode by Jasmine Lee"
+	(gr_text "RBR_SSRU_V3.3\n08/02/2026\nPCB by Nicholas and Jasmine\nCode by Jasmine Lee"
 		(at 169.75 138.25 0)
 		(layer "F.SilkS")
 		(uuid "1d098b4c-3fc2-4ac1-98ac-e7bfb9ff25d3")
