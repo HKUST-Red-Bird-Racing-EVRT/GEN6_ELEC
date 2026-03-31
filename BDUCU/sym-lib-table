@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "loc110")(type "KiCad")(uri "${KIPRJMOD}/lib/LOC110/loc110.kicad_sym")(options "")(descr ""))
+  (lib (name "B0505")(type "KiCad")(uri "${KIPRJMOD}/lib/B0505/B0505.kicad_sym")(options "")(descr ""))
+)
