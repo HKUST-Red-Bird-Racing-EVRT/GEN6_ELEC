@@ -504,12 +504,28 @@
       "MCU"
     ],
     [
+      "57d5af05-edab-40f7-aafe-6a2e0130ba84",
+      "POWER_MOS1"
+    ],
+    [
       "db59dc7f-5332-44a2-bb52-28901b78a7e3",
       "12V_Output"
     ],
     [
+      "b88b6ec3-afc4-43aa-baa2-21af531f917d",
+      "POWER_MOS2"
+    ],
+    [
+      "cd40e0a1-5e03-48e1-9b54-a7b8526d72ef",
+      "POWER_MOS3"
+    ],
+    [
       "35f5b11b-5d0d-4700-8479-f25bb26aecd1",
       "Connectors"
+    ],
+    [
+      "e4047b2f-bef8-49d9-83e0-04d733111886",
+      "CAN1"
     ]
   ],
   "text_variables": {}
