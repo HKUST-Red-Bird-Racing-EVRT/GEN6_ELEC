@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 121.666 116.84)
+		(at 130.048 115.824)
 		(size 34.544 28.194)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "35f5b11b-5d0d-4700-8479-f25bb26aecd1")
 		(property "Sheetname" "Connectors"
-			(at 121.666 116.1284 0)
+			(at 130.048 115.1124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
-			(at 121.666 145.6186 0)
+			(at 130.048 144.6026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -85,6 +85,48 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.484 52.832)
+		(size 27.686 21.336)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70aaf969-bfb6-4f44-b6a0-7bd7eae58d63")
+		(property "Sheetname" "SDC LATCH"
+			(at 189.484 52.1204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDCLATCH.kicad_sch"
+			(at 189.484 74.7526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf"
+					(page "14")
 				)
 			)
 		)

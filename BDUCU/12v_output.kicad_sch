@@ -268,6 +268,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 119.38) (xy 73.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b82b9c7b-e2e3-491e-b537-fb8013977bcd")
+	)
+	(wire
+		(pts
 			(xy 66.04 54.61) (xy 72.39 54.61)
 		)
 		(stroke
@@ -275,6 +285,16 @@
 			(type default)
 		)
 		(uuid "b82db96f-2814-4675-a348-7a72f9c29b3e")
+	)
+	(wire
+		(pts
+			(xy 67.31 127) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd22a3b-650f-457a-939f-3107d523ae4d")
 	)
 	(wire
 		(pts
@@ -326,6 +346,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMS_ERR"
+		(shape output)
+		(at 73.66 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "348cfd90-0161-4431-af0e-2b43cdf54b26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.2687 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -387,6 +429,28 @@
 		(uuid "c1f4449b-c36e-41d1-b6aa-5c1af17b95e4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.056 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMS_ERR_12"
+		(shape output)
+		(at 90.17 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ded7c368-f259-4672-82c0-86f12387da19")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.9479 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -478,6 +542,71 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/db59dc7f-5332-44a2-bb52-28901b78a7e3"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26d29da1-7d9e-495e-9869-8efa20d379f5")
+		(property "Reference" "#PWR078"
+			(at 67.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "55625a9e-419e-4f98-9b50-b535b32b8a2f")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/db59dc7f-5332-44a2-bb52-28901b78a7e3"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -738,6 +867,71 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/db59dc7f-5332-44a2-bb52-28901b78a7e3"
 					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 67.31 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef8e935a-e3bb-42db-978f-6617a30909b5")
+		(property "Reference" "#PWR077"
+			(at 67.31 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e16478d-973b-4d95-a626-d5152a6fee2c")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/db59dc7f-5332-44a2-bb52-28901b78a7e3"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -1065,6 +1259,88 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/db59dc7f-5332-44a2-bb52-28901b78a7e3"
 					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 116.84)
+		(size 16.51 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f4a90ec5-c194-4316-a05a-ec25706dc995")
+		(property "Sheetname" "POWER_MOS4"
+			(at 73.66 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_mos.kicad_sch"
+			(at 73.66 129.2356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VIN" input
+			(at 73.66 119.38 180)
+			(uuid "bcc306bc-4954-4022-852f-84adfec9a643")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SIGNAL" input
+			(at 73.66 123.19 180)
+			(uuid "8a5f37cc-1f6e-4bdd-9ccd-fffb8373dbdf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT" input
+			(at 90.17 123.19 0)
+			(uuid "5a72a8e7-87e8-4c26-84b6-337c989b9a38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 73.66 127 180)
+			(uuid "5ea21188-3a6d-4c2e-9c40-b37c2c641e89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/db59dc7f-5332-44a2-bb52-28901b78a7e3"
+					(page "11")
 				)
 			)
 		)

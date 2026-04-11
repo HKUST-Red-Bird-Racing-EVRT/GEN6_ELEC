@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "cell_tap")(type "KiCad")(uri "${KIPRJMOD}/lib/cell_tap.pretty")(options "")(descr ""))
+  (lib (name "CON_529010274_MOL")(type "KiCad")(uri "${KIPRJMOD}/lib/CON_529010274_MOL")(options "")(descr ""))
+)

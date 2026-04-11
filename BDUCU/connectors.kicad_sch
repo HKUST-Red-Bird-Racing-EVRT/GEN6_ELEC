@@ -1344,24 +1344,46 @@
 			)
 		)
 	)
-	(global_label "TS_ACT_5"
-		(shape input)
-		(at 145.923 72.644 180)
+	(global_label "SDC_5"
+		(shape output)
+		(at 177.8 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "2615f3ec-2acc-4ddc-bc35-9d897845ca58")
+		(uuid "116a2151-6553-4369-aa36-5abd6251f7d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.2898 72.644 0)
+			(at 186.7118 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TS_ACT_5"
+		(shape output)
+		(at 177.8 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19b57fd4-abe1-4218-8d80-fdf117ded764")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.4332 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1652,28 +1674,6 @@
 			)
 		)
 	)
-	(global_label "SDC_5"
-		(shape input)
-		(at 145.923 70.104 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e92a0f1e-2a60-48a1-973b-3039c54445b1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0112 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HALL_LO_input"
 		(shape input)
 		(at 223.52 86.36 0)
@@ -1692,28 +1692,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AMS_ERR"
-		(shape output)
-		(at 146.685 65.405 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "fbc30855-ec56-415a-b17b-8e864aecdabf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.2937 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2952,6 +2930,128 @@
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1"
 					(reference "J9")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 87.63)
+		(size 21.59 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c134f24c-ab46-4924-b33f-80effb4eb7ed")
+		(property "Sheetname" "4_INPUT_1"
+			(at 156.21 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4_input.kicad_sch"
+			(at 156.21 101.5496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "INPUT_1" input
+			(at 156.21 90.17 180)
+			(uuid "98d974f5-8e5c-4738-af56-8ee2ed8cb2c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OUT_1" input
+			(at 177.8 91.44 0)
+			(uuid "d4051570-8da3-4065-ac9b-8aaa8d969717")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_2" input
+			(at 177.8 93.98 0)
+			(uuid "05ad34ba-b3f4-4bf0-8d08-c66e08e7dac3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_4" input
+			(at 177.8 99.06 0)
+			(uuid "4ba5b158-e6bb-4662-b9a3-ae0332df5974")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_3" input
+			(at 177.8 96.52 0)
+			(uuid "6e735b5e-c686-4bcd-8717-2499206f7f9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "INPUT_3" input
+			(at 156.21 95.25 180)
+			(uuid "b1948a23-70b2-4452-af8a-a6bf34e200ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_4" input
+			(at 156.21 97.79 180)
+			(uuid "b5a1855b-7e77-4fc5-8988-437038ffd22d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "INPUT_2" input
+			(at 156.21 92.71 180)
+			(uuid "90abe699-01de-4817-ad6c-2ee1b055c558")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1"
+					(page "13")
 				)
 			)
 		)
