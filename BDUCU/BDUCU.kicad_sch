@@ -1,102 +1,275 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 9942a424-e19d-4ffb-8473-f960b5c811cf)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 121.666 116.84) (size 34.544 28.194) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 35f5b11b-5d0d-4700-8479-f25bb26aecd1)
-    (property "Sheetname" "Connectors" (at 121.666 116.1284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "connectors.kicad_sch" (at 121.666 145.6186 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BDUCU"
-        (path "/9942a424-e19d-4ffb-8473-f960b5c811cf" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 130.556 82.804) (size 33.02 23.876) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 6945656a-1a27-4b96-8a88-6a11e7484dc7)
-    (property "Sheetname" "Hall Sensor" (at 130.556 82.0924 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "hall_isense.kicad_sch" (at 130.556 107.2646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BDUCU"
-        (path "/9942a424-e19d-4ffb-8473-f960b5c811cf" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 186.944 84.836) (size 29.718 19.304) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 8fc427df-2d97-44b9-b479-5014f2f05880)
-    (property "Sheetname" "MCU" (at 186.944 84.1244 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu.kicad_sch" (at 186.944 104.7246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BDUCU"
-        (path "/9942a424-e19d-4ffb-8473-f960b5c811cf" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 130.302 53.086) (size 33.274 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d0210ccf-eb84-46ca-8cbf-aeaae330deeb)
-    (property "Sheetname" "HV iso measurement" (at 130.302 52.3744 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "hv_iso_analog.kicad_sch" (at 130.302 75.2606 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "BDUCU"
-        (path "/9942a424-e19d-4ffb-8473-f960b5c811cf" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 206.248 134.366) (size 25.654 15.748) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid db59dc7f-5332-44a2-bb52-28901b78a7e3)
-    (property "Sheetname" "12V_Output" (at 206.248 133.6544 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "12v_output.kicad_sch" (at 206.248 150.6986 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Field2" "" (at 206.248 134.366 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "BDUCU"
-        (path "/9942a424-e19d-4ffb-8473-f960b5c811cf" (page "7"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9942a424-e19d-4ffb-8473-f960b5c811cf")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 130.048 115.824)
+		(size 34.544 28.194)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35f5b11b-5d0d-4700-8479-f25bb26aecd1")
+		(property "Sheetname" "Connectors"
+			(at 130.048 115.1124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 130.048 144.6026 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.556 82.804)
+		(size 33.02 23.876)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6945656a-1a27-4b96-8a88-6a11e7484dc7")
+		(property "Sheetname" "Hall Sensor"
+			(at 130.556 82.0924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hall_isense.kicad_sch"
+			(at 130.556 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.484 52.832)
+		(size 27.686 21.336)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70aaf969-bfb6-4f44-b6a0-7bd7eae58d63")
+		(property "Sheetname" "SDC LATCH"
+			(at 189.484 52.1204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SDCLATCH.kicad_sch"
+			(at 189.484 74.7526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.944 84.836)
+		(size 29.718 19.304)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fc427df-2d97-44b9-b479-5014f2f05880")
+		(property "Sheetname" "MCU"
+			(at 186.944 84.1244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 186.944 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.302 53.086)
+		(size 33.274 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0210ccf-eb84-46ca-8cbf-aeaae330deeb")
+		(property "Sheetname" "HV iso measurement"
+			(at 130.302 52.3744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hv_iso_analog.kicad_sch"
+			(at 130.302 75.2606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 206.248 134.366)
+		(size 25.654 15.748)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "db59dc7f-5332-44a2-bb52-28901b78a7e3")
+		(property "Sheetname" "12V_Output"
+			(at 206.248 133.6544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12v_output.kicad_sch"
+			(at 206.248 150.6986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 206.248 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

@@ -1,0 +1,166 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "33f76c84-b63a-4574-97e2-5045805bfc7b")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 88.9 76.2)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d0ebbd05-5c1f-461d-b99e-71ff72e6c14c")
+		(property "Sheetname" "PSU (treat as black box)"
+			(at 88.9 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XLW-200W-600.kicad_sch"
+			(at 88.9 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AC+" input
+			(at 88.9 77.47 180)
+			(uuid "f707d2e2-360c-4ea4-b48c-641c4e4b6478")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AC-" input
+			(at 88.9 87.63 180)
+			(uuid "c27a8ce9-a1b9-4cf0-adc4-f97887d6f555")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CC" input
+			(at 105.41 76.2 90)
+			(uuid "98e37f16-de85-4cfe-b3fe-1076ec1edba5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC+" output
+			(at 102.87 76.2 90)
+			(uuid "1b819185-a4b7-432b-b88e-a8163d3c2211")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CC-" input
+			(at 102.87 88.9 270)
+			(uuid "ba297d61-b4ea-404a-ba22-49357040a89c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CV" input
+			(at 97.79 76.2 90)
+			(uuid "4c5358b3-b108-4d3d-873e-97024aefc12f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC+" output
+			(at 114.3 77.47 0)
+			(uuid "a4980fa8-217a-43cf-a17b-7fbbca0cff95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DC-" output
+			(at 114.3 87.63 0)
+			(uuid "871923a9-c81a-4ac6-8cd7-2003dca7afae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EARTH" input
+			(at 88.9 82.55 180)
+			(uuid "c9ef3d40-0517-4834-aef1-a9eab39aa065")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CV+" output
+			(at 100.33 76.2 90)
+			(uuid "f25e991f-b68b-48a5-87e9-a455e31d736a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CV-" input
+			(at 100.33 88.9 270)
+			(uuid "b7304d02-9a34-403d-832b-6ee712dfd499")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Charge cart"
+				(path "/33f76c84-b63a-4574-97e2-5045805bfc7b"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

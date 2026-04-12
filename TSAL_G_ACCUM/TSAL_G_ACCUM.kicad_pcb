@@ -5304,7 +5304,7 @@
 	(footprint "Fuse:Fuse_Littelfuse-NANO2-885"
 		(layer "F.Cu")
 		(uuid "7ca2d888-e815-46e0-83b3-70c262103b39")
-		(at 98 84.5 90)
+		(at 95 84.5 90)
 		(descr "Littelfuse NANO2, 350VAC, 450/500VDC, 10.86 x 4.78 x 4.78mm, https://www.littelfuse.com/media?resourcetype=datasheets&itemid=888f12ed-ed3b-4b45-b910-06af8854ad76&filename=littelfuse-fuse-885-datasheet")
 		(tags "Fuse Nano2 885")
 		(property "Reference" "F1"
@@ -18327,7 +18327,7 @@
 		(width 1)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "dfa80310-4683-4c96-a8e9-852ad0891566")
+		(uuid "17193284-7b08-4218-9056-01487cef25e6")
 	)
 	(segment
 		(start 95.695 92.08)
@@ -18335,7 +18335,7 @@
 		(width 1)
 		(layer "F.Cu")
 		(net 14)
-		(uuid "fce3615f-55c0-4919-a579-9f094d9be9d3")
+		(uuid "411c0131-3baa-4a1d-9638-6d8de3213424")
 	)
 	(segment
 		(start 85.965 88.5)
@@ -18346,28 +18346,28 @@
 		(uuid "202f644f-2691-41cd-8e2d-383d0236be45")
 	)
 	(segment
+		(start 85.965 80.535)
+		(end 87.275 79.225)
+		(width 2)
+		(layer "F.Cu")
+		(net 15)
+		(uuid "2842691e-7366-4bef-bdf0-6077eef43919")
+	)
+	(segment
 		(start 85.965 85.5)
-		(end 85.965 81.535)
+		(end 85.965 80.535)
 		(width 2)
 		(layer "F.Cu")
 		(net 15)
-		(uuid "bdd6355d-cde1-42e6-842e-2890fc427b70")
+		(uuid "34b5eb5a-5f92-4009-9fad-4cb183637683")
 	)
 	(segment
-		(start 85.965 81.535)
-		(end 88.275 79.225)
+		(start 87.275 79.225)
+		(end 95 79.225)
 		(width 2)
 		(layer "F.Cu")
 		(net 15)
-		(uuid "dee090f8-36a1-4dd7-b4fb-4532861b379f")
-	)
-	(segment
-		(start 88.275 79.225)
-		(end 98 79.225)
-		(width 2)
-		(layer "F.Cu")
-		(net 15)
-		(uuid "e3e8dd1e-6940-4aef-a842-0782bd3c9ef7")
+		(uuid "bd081324-21f1-46cb-843b-db25857b932c")
 	)
 	(segment
 		(start 145.5 119.035)
