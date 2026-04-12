@@ -2651,16 +2651,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 44.45) (xy 102.87 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3a01a01-5dd5-4f95-9593-0490c4495016")
-	)
-	(wire
-		(pts
 			(xy 106.68 33.02) (xy 111.76 33.02)
 		)
 		(stroke
@@ -3116,7 +3106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD40106BMT:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 118.11 132.08 0)
 			(effects
 				(font
@@ -3378,7 +3368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "114ed9e1-a1f9-4644-86ca-268a6d67db52")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR0110"
 			(at 130.81 110.49 0)
 			(effects
 				(font
@@ -3427,7 +3417,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR083")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD40106BMT:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 118.11 99.06 0)
 			(effects
 				(font
@@ -3817,7 +3807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d4063cd-e66d-4d89-a974-77872aa97767")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR0111"
 			(at 132.08 44.45 0)
 			(effects
 				(font
@@ -3866,7 +3856,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR081")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -4283,7 +4273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b0a1efe-83bb-4d6d-ab10-e81d6e5a23f3")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR0115"
 			(at 87.63 162.306 0)
 			(effects
 				(font
@@ -4332,7 +4322,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR084")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -4433,7 +4423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD40106BMT:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 119.38 33.02 0)
 			(effects
 				(font
@@ -4536,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD40106BMT:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 119.38 66.04 0)
 			(effects
 				(font
@@ -5098,7 +5088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CD40106BMT:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 87.63 172.72 0)
 			(effects
 				(font
@@ -5702,7 +5692,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 44.45 0)
+		(at 106.68 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5711,7 +5701,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4d8e199-81dd-42e7-99e6-0b9013083135")
 		(property "Reference" "#PWR096"
-			(at 102.87 50.8 0)
+			(at 106.68 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,7 +5710,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 49.53 0)
+			(at 106.68 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,7 +5718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 44.45 0)
+			(at 106.68 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 44.45 0)
+			(at 106.68 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5746,7 +5736,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 44.45 0)
+			(at 106.68 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf6422b4-e17e-45b4-b6f6-b5f7ba87d693")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR0114"
 			(at 87.63 192.532 0)
 			(effects
 				(font
@@ -6206,7 +6196,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR080")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -6356,7 +6346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9e524d3-60ef-4c8c-b0b0-2a8fbe22d0b0")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR0112"
 			(at 132.08 77.47 0)
 			(effects
 				(font
@@ -6405,7 +6395,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR082")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -6757,7 +6747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eec4db96-2210-4162-9f30-4753a9e5d080")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0116"
 			(at 80.645 46.99 0)
 			(effects
 				(font
@@ -6806,7 +6796,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR079")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)

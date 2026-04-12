@@ -3491,7 +3491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 181.356 89.662 0)
 			(effects
 				(font
@@ -3510,7 +3510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n1/1 Transceiver Half CANbus 8-SO\n"
+		(property "Description" "1/1 Transceiver Half CANbus 8-SO"
 			(at 181.356 89.662 0)
 			(effects
 				(font

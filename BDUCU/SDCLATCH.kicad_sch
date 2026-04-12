@@ -1565,7 +1565,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:SANYOU_SRD_Form_C"
+		(symbol "Relay:Relay_SPST-NO"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1578,7 +1578,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SANYOU_SRD_Form_C"
+			(property "Value" "Relay_SPST-NO"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -1587,7 +1587,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+			(property "Footprint" ""
 				(at 11.43 -1.27 0)
 				(effects
 					(font
@@ -1597,7 +1597,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1606,7 +1606,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+			(property "Description" "Relay SPST, normally open, EN50005"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1615,7 +1615,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Single Pole Relay SPDT"
+			(property "ki_keywords" "1P1T 1-Form-A single pole throw NO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1624,7 +1624,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*SPDT*SANYOU*SRD*Series*Form*C*"
+			(property "ki_fp_filters" "Relay?SPST*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1633,7 +1633,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SANYOU_SRD_Form_C_0_0"
+			(symbol "Relay_SPST-NO_0_0"
 				(polyline
 					(pts
 						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
@@ -1647,7 +1647,7 @@
 					)
 				)
 			)
-			(symbol "SANYOU_SRD_Form_C_0_1"
+			(symbol "Relay_SPST-NO_0_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -1791,19 +1791,7 @@
 					)
 				)
 			)
-			(symbol "SANYOU_SRD_Form_C_1_1"
-				(polyline
-					(pts
-						(xy 2.54 3.81) (xy 3.175 3.175) (xy 2.54 2.54) (xy 2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "Relay_SPST-NO_1_1"
 				(pin passive line
 					(at -5.08 7.62 270)
 					(length 2.54)
@@ -1814,7 +1802,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1832,25 +1820,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 7.62 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1868,7 +1838,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1886,7 +1856,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2432,16 +2402,6 @@
 		)
 		(uuid "0fb03847-dc41-4e94-b9aa-d01ea2a0fc23")
 	)
-	(text "NC"
-		(exclude_from_sim no)
-		(at 190.246 78.232 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "30bc015b-de6d-4f16-9c2a-84432abb4f77")
-	)
 	(text "latch if input is high"
 		(exclude_from_sim no)
 		(at 45.466 74.676 0)
@@ -2454,7 +2414,7 @@
 	)
 	(text "NO"
 		(exclude_from_sim no)
-		(at 190.246 84.582 0)
+		(at 190.246 78.232 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2488,31 +2448,31 @@
 		(at 218.44 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "17bfb55c-4de8-469f-a11b-c5cfaf5f3a50")
-	)
-	(junction
-		(at 121.92 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33bf0faa-e362-4fa7-856b-28d96b5ae5e0")
+		(uuid "11706c38-8b4b-412c-a5ad-378882c3150f")
 	)
 	(junction
 		(at 203.2 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70585644-df3c-4b86-8584-9be60c72174f")
-	)
-	(junction
-		(at 101.6 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "799e32c3-e00c-481c-9072-746dec2d4a6e")
+		(uuid "289272e5-db0b-4426-b21a-bdc674571db9")
 	)
 	(junction
 		(at 45.72 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f5c090c-11c7-484a-87c1-eb884339a796")
+	)
+	(junction
+		(at 105.41 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a542ee79-366d-4ff5-b496-e4516b9a3ef4")
+	)
+	(junction
+		(at 121.92 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b09fbf97-ce68-4def-b59f-61906ed5cf00")
 	)
 	(junction
 		(at 66.04 68.58)
@@ -2537,10 +2497,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f56b8aa5-522e-4f77-b6c7-b48fe2703fbd")
-	)
-	(no_connect
-		(at 193.04 78.74)
-		(uuid "abfc2560-10a7-4d81-9b39-5002ea21ae78")
 	)
 	(wire
 		(pts
@@ -2614,6 +2570,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 71.12) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216b5617-4927-4eaf-ab8c-741b919888c8")
+	)
+	(wire
+		(pts
 			(xy 26.67 71.12) (xy 40.64 71.12)
 		)
 		(stroke
@@ -2644,17 +2610,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 85.09) (xy 121.92 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "455cfc95-8fac-4f7c-98c3-b75738ceca26")
-	)
-	(wire
-		(pts
-			(xy 201.93 83.82) (xy 203.2 83.82)
+			(xy 201.93 78.74) (xy 203.2 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2784,7 +2740,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 55.88) (xy 121.92 85.09)
+			(xy 121.92 55.88) (xy 121.92 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2894,6 +2850,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 71.12) (xy 121.92 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0795532-ed21-4b4e-8e92-6ba4fd252b1f")
+	)
+	(wire
+		(pts
 			(xy 86.36 78.74) (xy 105.41 78.74)
 		)
 		(stroke
@@ -2901,16 +2867,6 @@
 			(type default)
 		)
 		(uuid "d60ef9c5-6b63-4ea9-b497-be463d35daff")
-	)
-	(wire
-		(pts
-			(xy 193.04 78.74) (xy 203.2 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dad12e22-c4a6-46c5-bd14-d21294de025b")
 	)
 	(wire
 		(pts
@@ -2994,7 +2950,7 @@
 	)
 	(hierarchical_label "SDC_OUT"
 		(shape input)
-		(at 201.93 83.82 180)
+		(at 201.93 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3053,7 +3009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RMC-KiCad:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 110.49 132.08 0)
 			(effects
 				(font
@@ -3117,14 +3073,14 @@
 			(uuid "e1dd76a4-b8d8-483b-823a-dca6c2191081")
 		)
 		(pin "14"
-			(uuid "98ea2dc0-594d-432d-bca3-72a3cef578eb")
+			(uuid "0518c7be-48e6-456f-a613-0c450ea8a24e")
 		)
 		(pin "7"
-			(uuid "9a5a548f-1a27-46bd-b670-1b57251b5360")
+			(uuid "f5f708df-5fde-4d4c-b10a-ddf5a73dcdd9")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "U16")
 					(unit 5)
 				)
@@ -3141,7 +3097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "080c270b-29bc-44d0-a83a-1c16aa5bf0d6")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR088"
 			(at 45.72 97.79 0)
 			(effects
 				(font
@@ -3186,12 +3142,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4ed33a4-c61d-4ce4-8ad0-ce12487bab13")
+			(uuid "c0bdc0c5-2dac-4b50-92e2-86d93b0a3980")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "#PWR092")
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -3223,7 +3179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC-KiCad:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 73.66 68.58 0)
 			(effects
 				(font
@@ -3272,16 +3228,16 @@
 			(uuid "f5487c57-b135-49dd-a26a-105783abffb6")
 		)
 		(pin "11"
-			(uuid "1360abec-1e3a-47f1-8e55-1d003b91ecee")
+			(uuid "5fd237c6-0096-430d-a729-3b26f029e162")
 		)
 		(pin "4"
 			(uuid "f603e201-9028-420b-ad54-b6d36bb243cd")
 		)
 		(pin "13"
-			(uuid "9c253cff-5cdf-4d4c-b12e-f3127c7172f7")
+			(uuid "1e58966a-9712-4055-bc93-af249fcac978")
 		)
 		(pin "12"
-			(uuid "5115e60a-5dd1-48ab-b7df-ba9a64bc3fe5")
+			(uuid "8f931ffa-4a2f-4d37-954a-f0ed12db92be")
 		)
 		(pin "8"
 			(uuid "e1dd76a4-b8d8-483b-823a-dca6c2191083")
@@ -3294,7 +3250,7 @@
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "U16")
 					(unit 4)
 				)
@@ -3311,7 +3267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20367aae-5304-44e4-bca5-fd47394fdb23")
-		(property "Reference" "C33"
+		(property "Reference" "C32"
 			(at 59.69 98.1709 0)
 			(effects
 				(font
@@ -3320,7 +3276,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220u"
+		(property "Value" "220uF"
 			(at 59.69 100.7109 0)
 			(effects
 				(font
@@ -3357,92 +3313,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "484d942e-5925-4576-9e3b-3807b53f0ad2")
+			(uuid "6053a599-5450-4264-9174-c3ad302a2d84")
 		)
 		(pin "2"
-			(uuid "f641f283-a496-41a4-9b28-bfcd165cc959")
+			(uuid "e27ff351-633f-4f40-85e7-a2f2d73d451c")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:SANYOU_SRD_Form_C")
-		(at 210.82 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "20875c0d-0bef-432d-ac09-1e711ebf55e7")
-		(property "Reference" "K1"
-			(at 210.82 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SANYOU_SRD_Form_C"
-			(at 210.82 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
-			(at 210.82 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
-			(at 210.82 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bb8f5313-cd73-47ef-94de-2765639045ec")
-		)
-		(pin "4"
-			(uuid "22ce6639-38a4-45af-93bf-eba03d927b9d")
-		)
-		(pin "5"
-			(uuid "ab94b5de-5907-493c-bc6e-39da2e8a94f7")
-		)
-		(pin "1"
-			(uuid "22dc6cbf-ee6a-4ede-94d6-851bafed8e99")
-		)
-		(pin "3"
-			(uuid "f8e44011-8b55-427b-9adc-1dbf53662445")
-		)
-		(instances
-			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "K1")
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3474,7 +3353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 142.24 86.868 90)
 			(effects
 				(font
@@ -3511,14 +3390,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e3524ca7-d496-47ca-bc82-cec3618f19f2")
+			(uuid "79e05a1d-5de1-4d0f-93d4-023a98fb4ba4")
 		)
 		(pin "2"
-			(uuid "652a6b42-9231-4672-ba2a-4f16f5569e00")
+			(uuid "8104256f-5d19-402b-8c37-de262d08e4a9")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "R71")
 					(unit 1)
 				)
@@ -3580,11 +3459,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "34c9b1e4-9db3-489b-81aa-7e2a0b5a81c2")
+			(uuid "6f44aab1-a52c-4fc1-a5c7-e1ea30358334")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "#PWR0100")
 					(unit 1)
 				)
@@ -3601,7 +3480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29a95fbf-a6a4-4632-b976-661f7ce808a8")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR092"
 			(at 110.49 151.13 0)
 			(effects
 				(font
@@ -3646,12 +3525,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea8cbbd7-7d3f-44b4-b3ff-7b9cb38250b0")
+			(uuid "3374db97-215d-4268-b1a1-8ea5e4c4a075")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "#PWR090")
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -3667,7 +3546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32cdfd80-e1de-4e0e-977e-983b12605970")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR093"
 			(at 123.19 125.73 0)
 			(effects
 				(font
@@ -3712,12 +3591,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dc794b04-ea23-48ef-b106-6ad9f6b220ae")
+			(uuid "9baa5c85-17ba-4a23-a8d0-3a414fc9c877")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "#PWR091")
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -3733,7 +3612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53d25e99-071f-4ac2-a772-2ed47e70aca6")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR091"
 			(at 110.49 116.84 0)
 			(effects
 				(font
@@ -3778,12 +3657,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c96815e8-0d12-4fb4-a1ea-e6c1a981efdd")
+			(uuid "05b61cc4-e957-45d9-987d-053f187c1518")
 		)
 		(instances
-			(project ""
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "#PWR088")
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -3799,7 +3678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ffa33f4-330f-46e4-bb8d-805dbb370e63")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR094"
 			(at 148.59 100.33 0)
 			(effects
 				(font
@@ -3844,12 +3723,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "382205fd-ab44-4b31-ad98-5dd390056ce1")
+			(uuid "b12bc821-8ee9-4edd-9cdb-b4607d52cb5f")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "#PWR0101")
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -3865,7 +3744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f21cb3e-aa3e-4878-a2c1-3acd17306041")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 119.38 111.76 90)
 			(effects
 				(font
@@ -3873,7 +3752,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 119.38 114.3 90)
 			(effects
 				(font
@@ -3881,7 +3760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 123.19 118.4148 0)
 			(effects
 				(font
@@ -3909,15 +3788,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea8cf862-5834-454f-8067-79b01af349ac")
+			(uuid "7db57a93-f2b1-445d-b2cf-97e7c5011c66")
 		)
 		(pin "2"
-			(uuid "34ec743e-78fd-4f56-a896-6241a228ba57")
+			(uuid "67a1fd7d-5248-4436-848e-7b2543074f1f")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "C32")
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at 210.82 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72d6c981-e909-41fb-afbd-c460d03baec5")
+		(property "Reference" "K2"
+			(at 210.82 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HF49FD-012-1H11T"
+			(at 210.82 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "to be sorted:HF49FD-012-1H11T"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 210.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A2"
+			(uuid "c0a4c76a-f988-4b9a-9e6b-b8736c3b0044")
+		)
+		(pin "A1"
+			(uuid "498d5cb6-de9a-4eb2-a47b-cb238fb07b14")
+		)
+		(pin "13"
+			(uuid "1dd95d4f-4f17-4145-98ce-993adc238f97")
+		)
+		(pin "14"
+			(uuid "f88737ea-72dd-4c62-ba2a-4e9fe73f7698")
+		)
+		(instances
+			(project ""
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -3949,7 +3903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC-KiCad:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 93.98 85.09 0)
 			(effects
 				(font
@@ -3986,10 +3940,10 @@
 			(uuid "f4b873e5-1633-471e-93ad-5ac3fdc13b44")
 		)
 		(pin "6"
-			(uuid "3f13f36d-f2c3-4f72-bcdc-b0c98af41886")
+			(uuid "4503eab5-b81c-4f54-a706-43f70591a77f")
 		)
 		(pin "5"
-			(uuid "1047c17d-d109-471d-bebf-d68bd6cba26e")
+			(uuid "6255dcfe-abda-436b-93e3-4e23c860af42")
 		)
 		(pin "9"
 			(uuid "a44cd3cc-731b-482e-a50c-dbb1c792e1d3")
@@ -4001,7 +3955,7 @@
 			(uuid "d4f1b510-9ee1-495c-80dc-b8656a6e5f6b")
 		)
 		(pin "4"
-			(uuid "1055b7f9-b65e-4048-a56e-08055bae4eae")
+			(uuid "8658c09d-7f19-4db9-9cd6-e8ee9073b0c6")
 		)
 		(pin "13"
 			(uuid "dbe38a86-7e94-41c3-9b9c-11f415d08aed")
@@ -4020,7 +3974,7 @@
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "U16")
 					(unit 2)
 				)
@@ -4053,7 +4007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC-KiCad:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 48.26 68.58 0)
 			(effects
 				(font
@@ -4096,10 +4050,10 @@
 			(uuid "74660b35-a66b-4fa7-8919-58be76863d76")
 		)
 		(pin "9"
-			(uuid "973476fa-27cf-493d-9567-5ba059ac8923")
+			(uuid "bb481a0f-42f6-4aa3-81c7-718e5cd13645")
 		)
 		(pin "10"
-			(uuid "7e6c0be0-8cdf-4b5b-ad7d-5d3b3fbb9854")
+			(uuid "cb00473d-a1be-472f-9817-44a4154d6880")
 		)
 		(pin "11"
 			(uuid "d4f1b510-9ee1-495c-80dc-b8656a6e5f6d")
@@ -4114,7 +4068,7 @@
 			(uuid "cc98ecbf-8c97-4e74-b529-b619941cc8ce")
 		)
 		(pin "8"
-			(uuid "81fb601d-3faf-47d9-a984-cd7eea652257")
+			(uuid "555adba5-d7e0-4ecc-bbb8-72f1bf9d2c5d")
 		)
 		(pin "14"
 			(uuid "4c4d8940-6f50-4cea-9aa1-63b2a0f143dd")
@@ -4124,7 +4078,7 @@
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "U16")
 					(unit 3)
 				)
@@ -4191,17 +4145,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "f0a34cde-d3ce-4154-8309-b9a0463ecba9")
+			(uuid "74916f8c-c185-46b4-b088-7a163d663b65")
 		)
 		(pin "1"
-			(uuid "cc1e843b-6a64-43d5-8e34-6128e48660b4")
+			(uuid "a037c2ee-0887-4fa0-bd96-286ba202920f")
 		)
 		(pin "3"
-			(uuid "37508822-916f-45e5-815c-446ddb070487")
+			(uuid "d1f8552a-6e08-4810-9d0e-8d6d49e32114")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "Q9")
 					(unit 1)
 				)
@@ -4263,11 +4217,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "211a6e2a-294f-4dbc-9556-ee829b900c0b")
+			(uuid "53c73672-7c80-4cc7-b2d4-86e5f7e26061")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "#PWR087")
 					(unit 1)
 				)
@@ -4346,14 +4300,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "574b29e3-d9d3-4a98-941f-b4d0e8136bc1")
+			(uuid "ed3e89e2-203e-4b81-a6ae-3f17cfa7527c")
 		)
 		(pin "2"
-			(uuid "d0d5a4e0-7087-4169-925c-99d3ca313973")
+			(uuid "8617ebe1-2fed-4809-97ea-ec0b4682647b")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "D12")
 					(unit 1)
 				)
@@ -4370,7 +4324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a131781e-fb70-4cf6-8b98-dfa79e02e7e5")
-		(property "Reference" "R73"
+		(property "Reference" "R72"
 			(at 151.13 90.1701 0)
 			(effects
 				(font
@@ -4388,7 +4342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 146.812 88.9 90)
 			(effects
 				(font
@@ -4425,15 +4379,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8261a42-4fcb-466b-a43e-f126b5ace27c")
+			(uuid "cd6dd546-5531-4899-9a7c-73c6450d7fa5")
 		)
 		(pin "2"
-			(uuid "48d8bd37-fb3e-415f-8535-658b7977212f")
+			(uuid "a201c158-e584-400a-b9de-1c41126020ee")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "R73")
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "R72")
 					(unit 1)
 				)
 			)
@@ -4467,7 +4421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 54.102 107.95 90)
 			(effects
 				(font
@@ -4495,14 +4449,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "f327774a-9307-4abd-8f69-7126b5bf2a91")
+			(uuid "93df4386-742e-4f91-9183-4d4f6863b75b")
 		)
 		(pin "1"
-			(uuid "a4358137-5ee2-4bab-810f-4c7bff00034e")
+			(uuid "c88aea88-f215-48e3-b1ab-bd5a428a8490")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "R70")
 					(unit 1)
 				)
@@ -4537,7 +4491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 43.942 100.33 90)
 			(effects
 				(font
@@ -4565,14 +4519,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "5248c9e0-a992-4e75-b36d-28c7ad14e05c")
+			(uuid "205f6b4f-c554-4b77-8aab-98c13652db0d")
 		)
 		(pin "1"
-			(uuid "c068e16b-da37-4330-bce4-b323ee75abcb")
+			(uuid "8e37038c-c433-411b-bddf-9eeeaf921a04")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "R69")
 					(unit 1)
 				)
@@ -4589,7 +4543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be59031f-51b4-4348-a7e7-c83b7371d9af")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR090"
 			(at 45.72 120.65 0)
 			(effects
 				(font
@@ -4634,12 +4588,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0ec9d9a-7ff9-4c6b-993c-ef9564b48017")
+			(uuid "953fa15c-d1b8-42c8-95e2-243def56eafa")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "#PWR093")
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -4673,7 +4627,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 24.892 74.93 90)
 			(effects
 				(font
@@ -4710,14 +4664,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1c94a85f-911f-48d7-991b-d22aa2664234")
+			(uuid "eb56f034-78ad-46bc-aae1-7ce74c36d970")
 		)
 		(pin "2"
-			(uuid "0dbc5518-b897-41e6-9454-27558e3761a7")
+			(uuid "f4202087-deae-4392-b7ad-e4f9a9588bf0")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "R52")
 					(unit 1)
 				)
@@ -4750,7 +4704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC-KiCad:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 93.98 71.12 0)
 			(effects
 				(font
@@ -4778,13 +4732,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "5eebca5c-67b3-415a-ae9f-99f620db72c6")
+			(uuid "0355bca0-8ff1-48d8-8fdd-bdec843e301e")
 		)
 		(pin "1"
-			(uuid "e27d327a-91c3-48c7-94fa-47ca9badbd0e")
+			(uuid "0ea0af29-1f81-4088-ac88-1cc42dac16cb")
 		)
 		(pin "3"
-			(uuid "abc3e11e-f8bf-4c63-b913-ee9b1bf4a50a")
+			(uuid "ae987d80-aa61-4aac-969e-443496e7dccb")
 		)
 		(pin "6"
 			(uuid "10f543d1-2561-42d2-bb37-7da30d85c352")
@@ -4821,7 +4775,7 @@
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
 					(reference "U16")
 					(unit 1)
 				)
@@ -4838,7 +4792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3e872c-724e-47cf-8abd-c57917bf0702")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0101"
 			(at 222.25 97.79 0)
 			(effects
 				(font
@@ -4883,12 +4837,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "52eb2275-c93b-4f5f-bcf8-75c2a6bd3553")
+			(uuid "744760f9-e870-4a89-8aaf-e986f688d079")
 		)
 		(instances
 			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/70aaf969-bfb6-4f44-b6a0-7bd7eae58d63"
-					(reference "#PWR094")
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/1890627c-a006-4e49-97ad-50a658112688"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)

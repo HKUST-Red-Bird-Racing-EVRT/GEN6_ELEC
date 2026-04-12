@@ -90,48 +90,6 @@
 		)
 	)
 	(sheet
-		(at 189.484 52.832)
-		(size 27.686 21.336)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "70aaf969-bfb6-4f44-b6a0-7bd7eae58d63")
-		(property "Sheetname" "SDC LATCH"
-			(at 189.484 52.1204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SDCLATCH.kicad_sch"
-			(at 189.484 74.7526 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf"
-					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 186.944 84.836)
 		(size 29.718 19.304)
 		(exclude_from_sim no)
@@ -216,7 +174,49 @@
 		)
 	)
 	(sheet
-		(at 206.248 134.366)
+		(at 187.96 53.34)
+		(size 27.94 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d4ffcd89-988d-4b7a-a40c-cc22466602f9")
+		(property "Sheetname" "voltage regulator"
+			(at 187.96 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage regulator.kicad_sch"
+			(at 187.96 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 187.198 116.586)
 		(size 25.654 15.748)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -232,7 +232,7 @@
 		)
 		(uuid "db59dc7f-5332-44a2-bb52-28901b78a7e3")
 		(property "Sheetname" "12V_Output"
-			(at 206.248 133.6544 0)
+			(at 187.198 115.8744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -241,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "12v_output.kicad_sch"
-			(at 206.248 150.6986 0)
+			(at 187.198 132.9186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -250,7 +250,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 206.248 134.366 0)
+			(at 187.198 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
