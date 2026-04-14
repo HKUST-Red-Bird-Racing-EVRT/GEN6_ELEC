@@ -13,4 +13,5 @@
   (lib (name "RMC_SOT")(type "KiCad")(uri "${KICAD9_FOOTPRINT_DIR}/RMC_SOT.pretty")(options "")(descr ""))
   (lib (name "RMC_TO")(type "KiCad")(uri "${KICAD9_FOOTPRINT_DIR}/RMC_TO.pretty")(options "")(descr ""))
   (lib (name "RMC_toggle_switch")(type "KiCad")(uri "${KICAD9_FOOTPRINT_DIR}/RMC_toggle_switch.pretty")(options "")(descr ""))
+  (lib (name "B0505S-2W3R")(type "KiCad")(uri "${KIPRJMOD}/B0505S-2W3R.pretty")(options "")(descr ""))
 )

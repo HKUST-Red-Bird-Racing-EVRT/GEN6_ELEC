@@ -429,10 +429,6 @@
         ""
       ],
       [
-        "multiple_net_names|2527300|1524000|34ecc084-a205-4226-8a79-ed2457d82c16|3de59b7b-0a87-410b-b51c-fbf05b20cd51|||",
-        ""
-      ],
-      [
         "multiple_net_names|2641600|1358900|d434a61e-aebb-43ca-ac89-b98e3d8457c1|3de59b7b-0a87-410b-b51c-fbf05b20cd51|||",
         ""
       ],
@@ -763,7 +759,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "AMS slave.step",
+      "step": "",
       "svg": "",
       "vrml": ""
     },

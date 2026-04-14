@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "CON_529010274_MOL")(type "KiCad")(uri "${KIPRJMOD}/CON_529010274_MOL/CON_529010274_MOL.kicad_sym")(options "")(descr ""))
+  (lib (name "B0505S-2W3R")(type "KiCad")(uri "${KIPRJMOD}/B0505S-2W3R.pretty/B0505S-2W3R.kicad_sym")(options "")(descr ""))
+)
