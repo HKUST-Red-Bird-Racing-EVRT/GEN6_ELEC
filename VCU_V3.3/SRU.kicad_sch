@@ -1753,6 +1753,12 @@
 		(uuid "3fd1ff19-d6c6-4db1-9bf2-2dc493d7618f")
 	)
 	(junction
+		(at 251.46 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45edba2f-2ef6-41d9-8808-3c9e538c94d1")
+	)
+	(junction
 		(at 119.38 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1775,12 +1781,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "661591ac-3a48-47bf-b17a-16b60a2bde0c")
-	)
-	(junction
-		(at 251.46 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82f92a58-4a2f-4565-8930-1be3f71e3b00")
 	)
 	(junction
 		(at 179.07 135.89)
@@ -2611,72 +2611,6 @@
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
 					(reference "#PWR088")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 251.46 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25bc5ca0-aef9-41d0-aa29-27eddef3d41e")
-		(property "Reference" "#PWR031"
-			(at 251.46 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 251.46 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 251.46 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "50f6f142-f334-4728-819c-929524e408e4")
-		)
-		(instances
-			(project ""
-				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3623,6 +3557,72 @@
 			(project "VCU V3.2"
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 251.46 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79f58a03-94a3-4815-8600-9078acf30b12")
+		(property "Reference" "#PWR031"
+			(at 251.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 251.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 251.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36d1ca1d-9532-46e1-99cb-3a478eaf5d40")
+		)
+		(instances
+			(project "VCU_V3.3"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/b417edad-fcc9-4afb-a8ec-d6310121a771"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
