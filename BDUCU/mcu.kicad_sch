@@ -1809,128 +1809,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5VA"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5VA"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5VA\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+5VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -2152,7 +2030,7 @@
 		(uuid "29420611-1565-44a8-8f51-5b543a1def2b")
 	)
 	(junction
-		(at 34.001 48.768)
+		(at 34.29 48.5525)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4007967a-44da-4cc4-82e6-7db47f865f33")
@@ -2267,7 +2145,17 @@
 	)
 	(wire
 		(pts
-			(xy 34.001 48.768) (xy 40.894 48.768)
+			(xy 28.483 48.6795) (xy 33.563 48.6795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ba0c149-6387-4fbe-8f16-618dc3e99daa")
+	)
+	(wire
+		(pts
+			(xy 34.29 48.5525) (xy 38.643 48.5525)
 		)
 		(stroke
 			(width 0)
@@ -2287,13 +2175,23 @@
 	)
 	(wire
 		(pts
-			(xy 34.001 45.9355) (xy 34.001 48.768)
+			(xy 34.29 45.72) (xy 34.29 48.5525)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "23e217fd-779e-4a56-8948-1c8c771e954e")
+	)
+	(wire
+		(pts
+			(xy 28.483 48.895) (xy 29.464 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257a9396-38f6-4dc3-9e2b-5d0621f5121c")
 	)
 	(wire
 		(pts
@@ -2304,6 +2202,16 @@
 			(type default)
 		)
 		(uuid "380f1d9d-3fce-4eb3-8b1f-0b1041c20a71")
+	)
+	(wire
+		(pts
+			(xy 28.483 48.6795) (xy 28.483 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f33c26-1155-4f17-8282-c6ce0252ccb3")
 	)
 	(wire
 		(pts
@@ -2417,7 +2325,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.274 48.895) (xy 33.274 48.768)
+			(xy 33.563 48.6795) (xy 33.563 48.5525)
 		)
 		(stroke
 			(width 0)
@@ -2487,6 +2395,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.643 48.768) (xy 40.894 48.768)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a598771-3a5c-45cf-ae1e-0389421e1406")
+	)
+	(wire
+		(pts
 			(xy 100.965 41.275) (xy 100.965 40.64)
 		)
 		(stroke
@@ -2504,6 +2422,16 @@
 			(type default)
 		)
 		(uuid "ab22f697-52eb-4619-8c0b-368fdaa4574b")
+	)
+	(wire
+		(pts
+			(xy 38.643 48.5525) (xy 38.643 48.768)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ac1f76-308d-48b4-959f-73745f58fe79")
 	)
 	(wire
 		(pts
@@ -2607,23 +2535,13 @@
 	)
 	(wire
 		(pts
-			(xy 33.274 48.768) (xy 34.001 48.768)
+			(xy 33.563 48.5525) (xy 34.29 48.5525)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d7497d56-8a87-4b2c-a66c-6509448842d3")
-	)
-	(wire
-		(pts
-			(xy 29.464 48.895) (xy 33.274 48.895)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d812bb3f-1ee7-474e-80a8-141262376d14")
 	)
 	(wire
 		(pts
@@ -3655,6 +3573,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 34.29 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be86fd6-2141-4f3b-b987-b4d5dfd5ea43")
+		(property "Reference" "#PWR033"
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 34.29 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 34.29 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9383b935-bbcb-4e1e-aeaa-d2abffedeee0")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/8fc427df-2d97-44b9-b479-5014f2f05880"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.095 64.135 0)
 		(mirror y)
@@ -4009,7 +3992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical_SMD"
 			(at 120.015 114.935 0)
 			(effects
 				(font
@@ -4420,71 +4403,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VA")
-		(at 34.001 45.9355 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77b1dfab-0ba7-42b4-af44-47f00d7c4fcd")
-		(property "Reference" "#PWR035"
-			(at 34.001 49.7455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 34.001 40.8555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.001 45.9355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.001 45.9355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 34.001 45.9355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40b32611-1221-4bd2-8d67-35416c51f870")
-		)
-		(instances
-			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/8fc427df-2d97-44b9-b479-5014f2f05880"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 100.965 36.83 180)
 		(unit 1)
@@ -4638,7 +4556,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20MHz"
+		(property "Value" "16MHz"
 			(at 104.775 64.008 90)
 			(effects
 				(font
@@ -5093,7 +5011,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(uuid "e2e5e103-1c6d-4d02-aac4-4f76f622f0fb")
 		(property "Reference" "C20"
