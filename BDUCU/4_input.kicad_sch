@@ -2823,7 +2823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+		(property "Footprint" "RMC_SO:SOIC-16_3.9x9.9mm_P1.27mm_Handsolder"
 			(at 142.24 142.24 0)
 			(effects
 				(font
@@ -2997,7 +2997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+		(property "Footprint" "RMC_SO:SOIC-16_3.9x9.9mm_P1.27mm_Handsolder"
 			(at 143.51 43.18 0)
 			(effects
 				(font
@@ -3209,7 +3209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+		(property "Footprint" "RMC_SO:SOIC-16_3.9x9.9mm_P1.27mm_Handsolder"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -5985,7 +5985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:SMDIP-16_W9.53mm"
+		(property "Footprint" "RMC_SO:SOIC-16_3.9x9.9mm_P1.27mm_Handsolder"
 			(at 143.51 76.2 0)
 			(effects
 				(font
