@@ -411,6 +411,22 @@
     [
       "ba218c5d-b6ee-4635-9cf5-de406e83bbdf",
       "Root"
+    ],
+    [
+      "9fecadd0-5ab5-414c-8571-63dacc0d0d4e",
+      "CAN0"
+    ],
+    [
+      "bef3a6fe-ee01-43d5-b78b-a1c8b4493358",
+      "voltage regulator"
+    ],
+    [
+      "5e21c6b0-7567-43d6-bd0d-213ea70bf189",
+      "POWER_MOS"
+    ],
+    [
+      "555d9f29-2dec-4b3b-ab31-34f0714418de",
+      "INPUT"
     ]
   ],
   "text_variables": {}
