@@ -891,7 +891,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_02x10_Top_Bottom"
+		(symbol "Connector_Generic_MountingPin:Conn_02x10_Top_Bottom_MountingPin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -907,12 +907,13 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x10_Top_Bottom"
-				(at 1.27 -15.24 0)
+			(property "Value" "Conn_02x10_Top_Bottom_MountingPin"
+				(at 2.54 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -933,7 +934,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connectable mounting pin connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -951,7 +952,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(property "ki_fp_filters" "Connector*:*_2x??-1MP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -960,7 +961,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x10_Top_Bottom_1_1"
+			(symbol "Conn_02x10_Top_Bottom_MountingPin_1_1"
 				(rectangle
 					(start -1.27 11.43)
 					(end 3.81 -13.97)
@@ -1082,6 +1083,18 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0.254 -14.732) (xy 2.286 -14.732)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start 3.81 10.287)
 					(end 2.54 10.033)
@@ -1190,6 +1203,14 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 1.27 -14.351 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
 					)
 				)
 				(pin passive line
@@ -1365,6 +1386,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -17.78 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3395,6 +3434,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe8f301b-ae07-444f-8b5f-746d94a63dad")
+	)
+	(no_connect
+		(at 241.3 162.56)
+		(uuid "05b82846-1098-40b4-a4cb-7486251d31d7")
 	)
 	(no_connect
 		(at 50.8 92.71)
@@ -9028,7 +9071,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x10_Top_Bottom")
+		(lib_id "Connector_Generic_MountingPin:Conn_02x10_Top_Bottom_MountingPin")
 		(at 240.03 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9071,7 +9114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connectable mounting pin connector, double row, 02x10, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 240.03 144.78 0)
 			(effects
 				(font
@@ -9139,6 +9182,9 @@
 		)
 		(pin "19"
 			(uuid "34a1d6b3-9da6-496f-a42a-bf42ea2485e4")
+		)
+		(pin "MP"
+			(uuid "81747616-6843-4a3e-909e-7e71747482e1")
 		)
 		(instances
 			(project ""

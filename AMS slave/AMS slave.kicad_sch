@@ -14107,7 +14107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RMC_Inductor:L_10.4x10.4_H4.8_handsolder"
 			(at 252.73 111.76 0)
 			(effects
 				(font
