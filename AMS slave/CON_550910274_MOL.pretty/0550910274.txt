@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"90-04062020-053837";"";
+"REFERENCE";"550910274";"";
+"TraceParts.PartTitle";"SlimStack";"";
+"TraceParts.InstanceId";"90-04062020-0538372N3XX9WWY2MK673V115V3T3RA";"";
+"SUPPLIER";"Molex";"";
+"DESIGN";"SlimStack Board-to-Board Connector, 0.635mm Pitch, 0.635 Series, Plug, 6.00 or 12.00mm Mated Height, 6.40mm Mated Width, 20 Circuits";"";
+"TRACEPARTS";"TRACEPARTS";"";
+"TraceParts.PartLanguage";"en";"";
+"TraceParts.PartVersion";"1.0.5";"";
