@@ -14616,7 +14616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RMC_Capacitor:CP_Radial_D6.3mm_P2.50mm_handsolder"
 			(at 214.3252 114.3 0)
 			(effects
 				(font
@@ -15330,7 +15330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RMC_Capacitor:CP_Radial_D6.3mm_P2.50mm_handsolder"
 			(at 262.5852 119.38 0)
 			(effects
 				(font
