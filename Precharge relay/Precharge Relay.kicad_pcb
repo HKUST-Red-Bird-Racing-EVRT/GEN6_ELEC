@@ -96,7 +96,7 @@
 		(descr "Molex Micro-Fit 3.0 Connector System, 43650-0215 (compatible alternatives: 43650-0216, 43650-0217), 2 Pins per row (http://www.molex.com/pdm_docs/sd/436500215_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Micro-Fit_3.0 vertical")
 		(property "Reference" "J1"
-			(at 1.5 -3.67 0)
+			(at -2.15 -4.1 0)
 			(layer "F.SilkS")
 			(uuid "e068f9df-074e-41a9-bf8c-0d472557ff80")
 			(effects
@@ -1185,46 +1185,6 @@
 		(sheetname "/")
 		(sheetfile "Precharge Relay.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start -44.65 -8.9)
-			(end -44.65 26.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7acd2e80-a6ce-492a-ac70-255e80156894")
-		)
-		(fp_line
-			(start -44.65 26.55)
-			(end 7.85 26.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e3b3271c-8df7-47a9-b25f-7910c2c69829")
-		)
-		(fp_line
-			(start 7.85 -8.9)
-			(end -44.65 -8.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a0c3752d-0d50-4da7-91d1-ef3c3ad98f2f")
-		)
-		(fp_line
-			(start 7.85 26.55)
-			(end 7.85 -8.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "867bc43b-0d1f-43b0-8f27-5f56abe11772")
-		)
 		(fp_line
 			(start -45.65 -9.9)
 			(end -45.65 27.6)
@@ -4399,9 +4359,59 @@
 		)
 		(embedded_fonts no)
 	)
+	(gr_line
+		(start 51.2 64)
+		(end 77.4 64)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f65f161-c9e2-4801-bd0a-597648ffba9e")
+	)
+	(gr_line
+		(start 51.2 48.4)
+		(end 51.2 64)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d1cb31c-d3a8-4bd1-b4bb-ea6862e5ea3f")
+	)
+	(gr_line
+		(start 23.75 32.25)
+		(end 23.75 67.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7acd2e80-a6ce-492a-ac70-255e80156894")
+	)
+	(gr_line
+		(start 76.25 67.7)
+		(end 76.25 32.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "867bc43b-0d1f-43b0-8f27-5f56abe11772")
+	)
+	(gr_line
+		(start 76.25 32.25)
+		(end 23.75 32.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0c3752d-0d50-4da7-91d1-ef3c3ad98f2f")
+	)
 	(gr_rect
-		(start 61.2 70.2)
-		(end 36.2 112.2)
+		(start 36.2 70.2)
+		(end 61.2 112.2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -4409,6 +4419,26 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "e04f0695-bc66-48fa-9f23-f69f5167dae7")
+	)
+	(gr_line
+		(start 23.75 67.7)
+		(end 76.25 67.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3b3271c-8df7-47a9-b25f-7910c2c69829")
+	)
+	(gr_line
+		(start 22.6 48.4)
+		(end 51.2 48.4)
+		(stroke
+			(width 1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e936e5bc-e069-4483-aae0-505ce8c9950e")
 	)
 	(gr_circle
 		(center 48.7 78.45)
@@ -4444,7 +4474,7 @@
 		(uuid "a07af506-6782-44f7-a299-402ee1b4d0d3")
 	)
 	(gr_text "TS+"
-		(at 76.1 71.9 0)
+		(at 72 74.8 0)
 		(layer "F.SilkS")
 		(uuid "01f21071-10e4-4d99-a808-3c758f65ca09")
 		(effects
@@ -4467,6 +4497,19 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "LVS"
+		(at 50.2 26.4 0)
+		(layer "F.SilkS")
+		(uuid "682aa19d-21c1-43a5-b369-698a6ead7cc5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "BAT+"
 		(at 25 90 0)
 		(layer "F.SilkS")
@@ -4479,8 +4522,21 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TS"
+		(at 68 95.6 0)
+		(layer "F.SilkS")
+		(uuid "99df5c47-7072-46a7-8ee0-1c930e42153d")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SDC+ AMS-"
-		(at 42.2 22.3 0)
+		(at 38.4 22 0)
 		(layer "F.SilkS")
 		(uuid "b7da3a97-5917-4bf9-9341-da0ddf472738")
 		(effects
