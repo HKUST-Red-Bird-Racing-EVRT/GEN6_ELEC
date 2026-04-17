@@ -3265,7 +3265,7 @@
 	)
 	(global_label "CAN0_CS"
 		(shape output)
-		(at 71.374 53.848 0)
+		(at 71.374 51.308 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3275,7 +3275,7 @@
 		)
 		(uuid "c7b543af-5d84-4926-a5d0-d9d334ed6304")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.7049 53.848 0)
+			(at 82.7049 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3375,7 +3375,7 @@
 	)
 	(global_label "CAN1_CS"
 		(shape output)
-		(at 71.374 51.308 0)
+		(at 71.374 53.848 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3385,7 +3385,7 @@
 		)
 		(uuid "fb3afc95-4d4b-46f4-86c2-d61391720b8b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.7049 51.308 0)
+			(at 82.7049 53.848 0)
 			(effects
 				(font
 					(size 1.27 1.27)

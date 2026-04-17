@@ -1513,6 +1513,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12VA"
 			(power)
 			(pin_names
@@ -1982,7 +2107,7 @@
 		)
 	)
 	(junction
-		(at 87.63 159.258)
+		(at 87.63 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0038f512-4bb5-42eb-8d25-0e4e03923f89")
@@ -2018,7 +2143,7 @@
 		(uuid "28903a4b-5f83-42cb-9a57-f01b1088239e")
 	)
 	(junction
-		(at 87.63 185.674)
+		(at 87.63 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4214dc8c-fb2b-40fa-b66a-aaac252801a8")
@@ -2052,6 +2177,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3df1037-13d3-4c2d-b745-215912478efe")
+	)
+	(junction
+		(at 100.33 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a52d8d81-da9a-46b7-b486-7bc7d459ddf0")
 	)
 	(junction
 		(at 106.68 132.08)
@@ -2141,6 +2272,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 158.75) (xy 100.33 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3060ca2d-c503-4603-9733-744e3bcee449")
+	)
+	(wire
+		(pts
 			(xy 90.17 99.06) (xy 93.98 99.06)
 		)
 		(stroke
@@ -2191,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 186.182) (xy 87.63 185.674)
+			(xy 87.63 186.69) (xy 87.63 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2321,16 +2462,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 158.496) (xy 87.63 159.258)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68f02308-c009-4666-9b41-e8eb542e585e")
-	)
-	(wire
-		(pts
 			(xy 86.36 33.02) (xy 93.98 33.02)
 		)
 		(stroke
@@ -2441,7 +2572,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.584 185.674) (xy 87.63 185.674)
+			(xy 100.33 185.42) (xy 87.63 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2451,7 +2582,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.584 168.148) (xy 100.584 185.674)
+			(xy 100.33 167.64) (xy 100.33 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2521,26 +2652,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.584 160.528) (xy 100.584 159.258)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3d46535-b8ac-40db-8f98-98d399c4daa9")
-	)
-	(wire
-		(pts
-			(xy 87.63 185.674) (xy 87.63 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa2a9816-97d6-441a-b6f5-7ed3c85648cf")
-	)
-	(wire
-		(pts
 			(xy 156.21 66.04) (xy 159.512 66.04)
 		)
 		(stroke
@@ -2571,7 +2682,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 159.258) (xy 87.63 160.02)
+			(xy 87.63 158.75) (xy 87.63 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2691,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 159.258) (xy 100.584 159.258)
+			(xy 87.63 158.75) (xy 100.33 158.75)
 		)
 		(stroke
 			(width 0)
@@ -2711,7 +2822,7 @@
 	)
 	(hierarchical_label "INPUT_1"
 		(shape input)
-		(at 78.74 33.02 180)
+		(at 62.23 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2722,7 +2833,7 @@
 	)
 	(hierarchical_label "INPUT_2"
 		(shape input)
-		(at 78.74 66.04 180)
+		(at 60.96 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2733,7 +2844,7 @@
 	)
 	(hierarchical_label "OUT_4"
 		(shape input)
-		(at 160.02 132.08 0)
+		(at 159.512 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2744,7 +2855,7 @@
 	)
 	(hierarchical_label "OUT_3"
 		(shape input)
-		(at 160.02 99.06 0)
+		(at 159.512 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2755,7 +2866,7 @@
 	)
 	(hierarchical_label "INPUT_4"
 		(shape input)
-		(at 60.96 132.08 180)
+		(at 78.74 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2766,7 +2877,7 @@
 	)
 	(hierarchical_label "OUT_1"
 		(shape input)
-		(at 159.512 33.02 0)
+		(at 160.02 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2777,7 +2888,7 @@
 	)
 	(hierarchical_label "INPUT_3"
 		(shape input)
-		(at 62.23 99.06 180)
+		(at 78.74 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2788,7 +2899,7 @@
 	)
 	(hierarchical_label "OUT_2"
 		(shape input)
-		(at 159.512 66.04 0)
+		(at 160.02 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2799,7 +2910,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 142.24 134.62 0)
+		(at 143.51 35.56 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2808,7 +2919,7 @@
 		(fields_autoplaced yes)
 		(uuid "0184534d-485c-41ae-bdc3-4c875ff92a30")
 		(property "Reference" "U15"
-			(at 142.24 126.492 0)
+			(at 143.51 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2927,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 142.24 129.032 0)
+			(at 143.51 29.972 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2935,7 @@
 			)
 		)
 		(property "Footprint" "RMC_SO:SOIC-16_3.9x9.9mm_P1.27mm_Handsolder"
-			(at 142.24 142.24 0)
+			(at 143.51 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2944,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 127 123.19 0)
+			(at 128.27 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 134.62 0)
+			(at 143.51 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2973,7 +3084,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 143.51 35.56 0)
+		(at 142.24 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2982,7 +3093,7 @@
 		(fields_autoplaced yes)
 		(uuid "06091644-48aa-41f1-be8f-3165ec2c7da7")
 		(property "Reference" "U15"
-			(at 143.51 26.67 0)
+			(at 142.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +3101,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 143.51 29.21 0)
+			(at 142.24 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +3109,7 @@
 			)
 		)
 		(property "Footprint" "RMC_SO:SOIC-16_3.9x9.9mm_P1.27mm_Handsolder"
-			(at 143.51 43.18 0)
+			(at 142.24 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +3118,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 128.27 24.13 0)
+			(at 127 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +3127,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 35.56 0)
+			(at 142.24 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3185,7 +3296,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 142.24 101.6 0)
+		(at 143.51 68.58 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3194,7 +3305,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ee345a8-d40a-4685-ab55-c3e5dab26d1e")
 		(property "Reference" "U15"
-			(at 142.24 93.472 0)
+			(at 143.51 60.452 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3202,7 +3313,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 142.24 96.012 0)
+			(at 143.51 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3321,7 @@
 			)
 		)
 		(property "Footprint" "RMC_SO:SOIC-16_3.9x9.9mm_P1.27mm_Handsolder"
-			(at 142.24 109.22 0)
+			(at 143.51 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3330,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 127 90.17 0)
+			(at 128.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3339,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 142.24 101.6 0)
+			(at 143.51 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3483,6 +3594,72 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 100.33 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e162815-2007-4905-8e8d-e2f0626403f1")
+		(property "Reference" "#PWR035"
+			(at 100.33 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 100.33 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 100.33 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "710b64b9-c62f-45d3-aad9-a8067a55fc4e")
+		)
+		(instances
+			(project ""
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -4265,7 +4442,7 @@
 	)
 	(symbol
 		(lib_id "power:+12VA")
-		(at 87.63 158.496 0)
+		(at 87.63 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4274,7 +4451,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b0a1efe-83bb-4d6d-ab10-e81d6e5a23f3")
 		(property "Reference" "#PWR0115"
-			(at 87.63 162.306 0)
+			(at 87.63 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,7 +4460,7 @@
 			)
 		)
 		(property "Value" "+12VA"
-			(at 87.63 153.416 0)
+			(at 87.63 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4468,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 158.496 0)
+			(at 87.63 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 158.496 0)
+			(at 87.63 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4309,7 +4486,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 158.496 0)
+			(at 87.63 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +6138,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-847S")
-		(at 143.51 68.58 0)
+		(at 142.24 101.6 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5970,7 +6147,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce446dba-3f72-41f5-bdf8-071286747fbd")
 		(property "Reference" "U15"
-			(at 143.51 60.452 0)
+			(at 142.24 93.472 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +6155,7 @@
 			)
 		)
 		(property "Value" "LTV-847S"
-			(at 143.51 62.992 0)
+			(at 142.24 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +6163,7 @@
 			)
 		)
 		(property "Footprint" "RMC_SO:SOIC-16_3.9x9.9mm_P1.27mm_Handsolder"
-			(at 143.51 76.2 0)
+			(at 142.24 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5995,7 +6172,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 128.27 57.15 0)
+			(at 127 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +6181,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 68.58 0)
+			(at 142.24 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6139,7 +6316,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 186.182 0)
+		(at 87.63 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6148,7 +6325,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf6422b4-e17e-45b4-b6f6-b5f7ba87d693")
 		(property "Reference" "#PWR0114"
-			(at 87.63 192.532 0)
+			(at 87.63 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6334,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 191.262 0)
+			(at 87.63 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 186.182 0)
+			(at 87.63 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +6351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 186.182 0)
+			(at 87.63 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6360,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 186.182 0)
+			(at 87.63 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6933,7 +7110,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 100.584 164.338 0)
+		(at 100.33 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6942,7 +7119,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc1bef8c-22ea-4aa7-9338-3b18cb1d1d36")
 		(property "Reference" "CA5"
-			(at 103.886 163.068 0)
+			(at 103.632 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6951,7 +7128,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 103.886 165.608 0)
+			(at 103.632 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6960,7 +7137,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
-			(at 101.5492 168.148 0)
+			(at 101.2952 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,7 +7146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.584 164.338 0)
+			(at 100.33 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6978,7 +7155,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.584 164.338 0)
+			(at 100.33 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
