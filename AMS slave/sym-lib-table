@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "B0505S-2W3R")(type "KiCad")(uri "${KIPRJMOD}/B0505S-2W3R.pretty/B0505S-2W3R.kicad_sym")(options "")(descr ""))
+  (lib (name "B05xxMT-1WR4_MNS")(type "KiCad")(uri "${KIPRJMOD}/B05xxMT-1WR4_MNS.pretty/B05xxMT-1WR4_MNS.kicad_sym")(options "")(descr ""))
 )
