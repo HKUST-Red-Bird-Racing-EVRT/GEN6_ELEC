@@ -620,6 +620,12 @@
 		)
 	)
 	(junction
+		(at 208.915 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cfeb192-6114-4747-bf8a-2dfe69622afb")
+	)
+	(junction
 		(at 149.86 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -631,6 +637,32 @@
 		(color 0 0 0 0)
 		(uuid "d99f9f2f-cb71-4b31-a314-11ae675a1c2b")
 	)
+	(junction
+		(at 208.915 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f50305c5-155b-4a2e-97fd-5588a8e23230")
+	)
+	(wire
+		(pts
+			(xy 167.64 129.54) (xy 182.88 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297245a9-6f00-4e16-8d7b-32a6e0a6f1f1")
+	)
+	(wire
+		(pts
+			(xy 203.2 80.645) (xy 203.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30b536f9-b7e0-479d-a4a8-fb625f8d75de")
+	)
 	(wire
 		(pts
 			(xy 144.145 53.34) (xy 149.86 53.34)
@@ -640,6 +672,16 @@
 			(type default)
 		)
 		(uuid "4878350e-77ab-4a22-a940-8500095b3a09")
+	)
+	(wire
+		(pts
+			(xy 167.64 102.87) (xy 167.64 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67f7e59a-3a71-4c79-a86d-259cbc1223cc")
 	)
 	(wire
 		(pts
@@ -663,6 +705,36 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 129.54) (xy 182.88 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddba375-7482-4f5d-8890-9cbcccc14442")
+	)
+	(wire
+		(pts
+			(xy 203.2 83.82) (xy 208.915 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "882c8413-bed7-4894-818d-8a5fbe161b7e")
+	)
+	(wire
+		(pts
+			(xy 167.64 107.95) (xy 182.88 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88bca4e1-7af6-415d-a919-210283e65333")
+	)
+	(wire
+		(pts
 			(xy 123.825 76.2) (xy 123.825 69.85)
 		)
 		(stroke
@@ -670,6 +742,26 @@
 			(type default)
 		)
 		(uuid "8e93965f-f0de-4476-93ae-108eaede8b7f")
+	)
+	(wire
+		(pts
+			(xy 167.64 123.19) (xy 167.64 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef654c2-63be-4bc0-98c0-99168941d6c4")
+	)
+	(wire
+		(pts
+			(xy 203.2 73.025) (xy 203.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956f29ed-1898-4162-9f25-ca87b7cf6bee")
 	)
 	(wire
 		(pts
@@ -703,6 +795,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 68.58) (xy 208.915 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5bd916-58d6-4ae7-8e8b-e1a42a361991")
+	)
+	(wire
+		(pts
 			(xy 108.585 92.71) (xy 108.585 97.79)
 		)
 		(stroke
@@ -730,6 +832,60 @@
 			(type default)
 		)
 		(uuid "f9607243-a39c-4adf-a7d6-a1bdf43e1703")
+	)
+	(wire
+		(pts
+			(xy 182.88 107.95) (xy 182.88 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f978670a-403f-4257-ac55-de11ce3ddb8c")
+	)
+	(global_label "TS-_T"
+		(shape input)
+		(at 182.88 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "036eee72-340c-45cf-9fe3-d1d204a3b0fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.5499 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PRE_R_T"
+		(shape input)
+		(at 182.88 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0db00134-e9d1-4439-a3de-5055b9ab109d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.727 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "HALL_HI"
 		(shape input)
@@ -766,6 +922,50 @@
 		(uuid "1a597402-4dd8-4bcc-bc11-4e8da095cdea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.4765 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TS-_T_input"
+		(shape input)
+		(at 167.64 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b479e91-b221-48f7-83c0-a9c51291250b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.225 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PRE_R_T_input"
+		(shape input)
+		(at 167.64 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8788b8a3-3c97-4754-92c7-2b8ce2602ecf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.0479 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,6 +1016,74 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06a01c8e-95be-4c31-b8ea-7cd389f41002")
+		(property "Reference" "C42"
+			(at 199.136 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 199.136 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+			(at 204.1652 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89c7d5bd-df3b-41b6-9d15-890cd6eec174")
+		)
+		(pin "2"
+			(uuid "8c3d3dd5-0774-4d91-a2c9-065a0640c30f")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/6945656a-1a27-4b96-8a88-6a11e7484dc7"
+					(reference "C42")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -880,6 +1148,176 @@
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/6945656a-1a27-4b96-8a88-6a11e7484dc7"
 					(reference "#PWR066")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 175.26 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23618e2d-99ca-46b3-83b7-31dd9e3a55d4")
+		(property "Reference" "U18"
+			(at 175.26 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 175.26 93.218 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "2c519e30-589a-4351-b6bc-b54ba2556a3a")
+		)
+		(pin "8"
+			(uuid "5ef1cfb4-d749-4f62-a080-82696a22cbb4")
+		)
+		(pin "1"
+			(uuid "cd2b20b0-9b2f-4ab7-ba76-2019d350246d")
+		)
+		(pin "6"
+			(uuid "d273111b-3b81-428b-a825-7e7302a66035")
+		)
+		(pin "4"
+			(uuid "6623e832-797c-42d5-bf45-e44e881836c0")
+		)
+		(pin "5"
+			(uuid "af19be15-9afe-4bc4-be3d-3642637644e6")
+		)
+		(pin "7"
+			(uuid "b04d0a35-36a6-4053-9174-0fd886bb8c6f")
+		)
+		(pin "2"
+			(uuid "6681f993-bfc2-448f-b022-baa8346c8e0c")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/6945656a-1a27-4b96-8a88-6a11e7484dc7"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 175.26 120.65 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2739616a-288e-42a9-b256-0563195d875c")
+		(property "Reference" "U18"
+			(at 175.26 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM358"
+			(at 175.26 113.284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c7ffe83b-c009-46e8-afc1-59b3f1f9e8a3")
+		)
+		(pin "8"
+			(uuid "5ef1cfb4-d749-4f62-a080-82696a22cbb2")
+		)
+		(pin "1"
+			(uuid "4f565ded-b674-4c73-acd1-d1aff2c01adc")
+		)
+		(pin "6"
+			(uuid "29134fd6-0ab8-4d7a-9576-2456c49022d2")
+		)
+		(pin "4"
+			(uuid "6623e832-797c-42d5-bf45-e44e881836be")
+		)
+		(pin "5"
+			(uuid "378b98e4-ff27-4242-b1d6-df54d118290d")
+		)
+		(pin "7"
+			(uuid "4d1fc70c-ab2e-49c0-91a8-e3f8c34c3499")
+		)
+		(pin "2"
+			(uuid "dc632b35-06fe-475b-9e27-43818b4e364f")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/6945656a-1a27-4b96-8a88-6a11e7484dc7"
+					(reference "U18")
+					(unit 2)
 				)
 			)
 		)
@@ -1097,6 +1535,223 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/6945656a-1a27-4b96-8a88-6a11e7484dc7"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM358")
+		(at 211.455 76.2 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9737640a-97fe-480b-abfc-14a175241d08")
+		(property "Reference" "U18"
+			(at 210.693 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LM358"
+			(at 210.693 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
+			(at 211.455 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf"
+			(at 211.455 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 211.455 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "c7ffe83b-c009-46e8-afc1-59b3f1f9e8a4")
+		)
+		(pin "8"
+			(uuid "468c8068-098c-4921-8162-3006227fb395")
+		)
+		(pin "1"
+			(uuid "4f565ded-b674-4c73-acd1-d1aff2c01add")
+		)
+		(pin "6"
+			(uuid "d273111b-3b81-428b-a825-7e7302a66034")
+		)
+		(pin "4"
+			(uuid "8e899adb-3a56-4ec3-a148-802451582eff")
+		)
+		(pin "5"
+			(uuid "af19be15-9afe-4bc4-be3d-3642637644e5")
+		)
+		(pin "7"
+			(uuid "b04d0a35-36a6-4053-9174-0fd886bb8c6e")
+		)
+		(pin "2"
+			(uuid "dc632b35-06fe-475b-9e27-43818b4e3650")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/6945656a-1a27-4b96-8a88-6a11e7484dc7"
+					(reference "U18")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.915 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a443946f-30fa-42a2-bc8f-4f903337e318")
+		(property "Reference" "#PWR0122"
+			(at 208.915 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.915 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.915 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.915 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.915 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fd34d24-a465-4ae2-81af-d526371bd925")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/6945656a-1a27-4b96-8a88-6a11e7484dc7"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 208.915 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c281903c-6c88-4517-989d-daaa2baeca9a")
+		(property "Reference" "#PWR0121"
+			(at 208.915 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 208.915 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.915 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.915 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.915 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b237886a-37dc-4cc6-8fa8-6b1c1133556c")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/6945656a-1a27-4b96-8a88-6a11e7484dc7"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)

@@ -2899,28 +2899,6 @@
 			)
 		)
 	)
-	(global_label "LVB_5"
-		(shape input)
-		(at 71.12 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7abbb0fa-da90-43d1-8515-8d0198bc041b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.669 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "XTAL2"
 		(shape input)
 		(at 71.12 66.04 0)
@@ -3000,6 +2978,28 @@
 		(uuid "942c1a6f-e74b-4b7e-804c-3e664f26527f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.622 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PRE_R_T"
+		(shape input)
+		(at 71.12 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9531cc23-112c-42cf-b098-cf7a6f7a4de7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.967 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3115,6 +3115,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TS-_T"
+		(shape input)
+		(at 71.12 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd0dd53c-fd9e-4867-9210-c641d3f79f1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.7899 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

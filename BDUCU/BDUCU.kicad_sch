@@ -63,7 +63,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6945656a-1a27-4b96-8a88-6a11e7484dc7")
-		(property "Sheetname" "Hall Sensor"
+		(property "Sheetname" "ANALOG_IN"
 			(at 130.556 82.0924 0)
 			(effects
 				(font
