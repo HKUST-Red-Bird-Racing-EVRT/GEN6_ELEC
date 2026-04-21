@@ -2045,8 +2045,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 219.71 111.76 270)
-		(mirror x)
+		(at 219.71 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2113,8 +2112,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 219.71 81.28 270)
-		(mirror x)
+		(at 219.71 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2181,8 +2179,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 219.71 86.36 270)
-		(mirror x)
+		(at 219.71 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2515,8 +2512,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 219.71 96.52 270)
-		(mirror x)
+		(at 219.71 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2650,7 +2646,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 116.84 90)
+		(at 163.83 116.84 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3578,7 +3575,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 111.76 90)
+		(at 163.83 111.76 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3914,8 +3912,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 219.71 106.68 270)
-		(mirror x)
+		(at 219.71 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4049,8 +4046,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 219.71 91.44 270)
-		(mirror x)
+		(at 219.71 91.44 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4117,8 +4113,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 219.71 101.6 270)
-		(mirror x)
+		(at 219.71 101.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
