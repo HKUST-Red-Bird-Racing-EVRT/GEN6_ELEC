@@ -509,7 +509,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
+      "plot": "./gerbers_bducu",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

@@ -9,7 +9,7 @@ constexpr int PACK_VOLTAGE_MAX_VX10 = 3696;
 constexpr int PACK_CURRENT_MAX_AX10 = 2600;
 constexpr unsigned long CRITICAL_PERSIST_MS = 500UL;
 constexpr unsigned long NEGATIVE_SETTLE_MS = 100UL;
-constexpr unsigned long PRECHARGE_TIMEOUT_MS = 5000UL;
+constexpr unsigned long PRECHARGE_TIMEOUT_MS = 5000UL; //uint32_t
 
 enum class AmsState {
   IDLE,
