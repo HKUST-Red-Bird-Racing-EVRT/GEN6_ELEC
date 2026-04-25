@@ -427,6 +427,14 @@
     [
       "555d9f29-2dec-4b3b-ab31-34f0714418de",
       "INPUT"
+    ],
+    [
+      "31db9058-1875-4020-8110-a9a0958439e1",
+      "Connectors"
+    ],
+    [
+      "723d3193-29c3-4d78-8ff0-96894e34a9dd",
+      "DIGIPOT"
     ]
   ],
   "text_variables": {}
