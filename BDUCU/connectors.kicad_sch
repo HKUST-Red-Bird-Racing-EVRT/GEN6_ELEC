@@ -2787,6 +2787,14 @@
 				(hide yes)
 			)
 		)
+		(property "Price" ".372"
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "129da392-cd1b-4e36-ac37-be2dc177ab1a")
 		)
@@ -3201,6 +3209,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Price" "1.56"
+			(at 264.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "9"

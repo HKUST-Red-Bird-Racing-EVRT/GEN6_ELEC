@@ -1025,7 +1025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d460d7a-8830-44da-902b-8b86fde68dea")
-		(property "Reference" "R?"
+		(property "Reference" "R24"
 			(at 127.381 94.107 0)
 			(effects
 				(font
@@ -1110,7 +1110,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7bf7c575-0bc9-415b-b947-81fdd5efaf67")
-		(property "Reference" "R?"
+		(property "Reference" "R31"
 			(at 136.271 86.233 0)
 			(effects
 				(font
@@ -1194,7 +1194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b3ab91b-8e20-4e85-9f2f-2f3941b6bec8")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 124.841 81.026 0)
 			(effects
 				(font
@@ -1284,7 +1284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a060f0dd-d629-4b1b-971d-d51e651b62c3")
-		(property "Reference" "R?"
+		(property "Reference" "R23"
 			(at 119.38 74.168 90)
 			(effects
 				(font
@@ -1369,7 +1369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a46c9994-1d83-4d14-acee-3728143e13ab")
-		(property "Reference" "R?"
+		(property "Reference" "R30"
 			(at 135.636 76.708 0)
 			(effects
 				(font
@@ -1453,7 +1453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acf6fad7-7a9c-42e4-aa63-311e8b877a07")
-		(property "Reference" "D?"
+		(property "Reference" "D4"
 			(at 126.365 86.233 90)
 			(effects
 				(font
@@ -1540,7 +1540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb815bc5-6a01-4dae-b657-57d2d0a66278")
-		(property "Reference" "Q?"
+		(property "Reference" "Q10"
 			(at 152.4 80.0099 0)
 			(effects
 				(font
