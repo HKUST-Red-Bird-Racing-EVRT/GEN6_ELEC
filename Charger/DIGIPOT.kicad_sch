@@ -5,4 +5,136 @@
 	(uuid "df3818c6-67b7-4782-be28-2a7c839641bc")
 	(paper "A4")
 	(lib_symbols)
+	(global_label "VOLT_GND"
+		(shape output)
+		(at 132.08 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a8a7520-1a66-47cd-8142-e9f6a87f9218")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.3181 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMP_SIGNAL"
+		(shape output)
+		(at 132.08 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6cb75dc9-2d16-4996-9da0-a5f707eabb51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.3743 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMP_GND"
+		(shape output)
+		(at 132.08 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77b25042-e35c-434c-81eb-634506fe2c56")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.7133 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VOLT_SIGNAL"
+		(shape output)
+		(at 132.08 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "996c712f-f1cb-40ee-b662-c693a79c48ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.9791 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AMP_VCC"
+		(shape output)
+		(at 132.08 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8706245-4666-4569-a2bc-c304fbc6582b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.4714 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VOLT_VCC"
+		(shape output)
+		(at 132.08 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f375db41-342c-4d42-a55a-153527ede343")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.0762 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 )
