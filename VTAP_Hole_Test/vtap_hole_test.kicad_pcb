@@ -78,27 +78,29 @@
 		)
 	)
 	(net 0 "")
-	(footprint "TestPoint:TestPoint_Pad_D4.0mm"
+	(footprint "dumshit:Untitled"
 		(layer "F.Cu")
-		(uuid "12181a30-130c-46a7-b7a9-7d1658230b52")
-		(at 40 40)
-		(descr "SMD pad as test Point, diameter 4.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "4.7"
-			(at 0 -3.898 0)
+		(uuid "534b873b-a095-4544-a850-81eac03a4975")
+		(at 33 31)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "a7c46686-667c-4b82-aece-d5de3388a2e3")
+			(hide yes)
+			(uuid "bf0d9bae-c515-4c5f-85db-666d23f66a19")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1)
 				)
 			)
 		)
-		(property "Value" "TestPoint_Pad_D4.0mm"
-			(at 0 3.1 0)
+		(property "Value" "Untitled"
+			(at 0 1 0)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "69f01bcf-df65-44af-923d-0b2613230545")
+			(hide yes)
+			(uuid "236c1436-5ad0-4ec5-abcb-05b7aec77816")
 			(effects
 				(font
 					(size 1 1)
@@ -111,10 +113,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e70fc49f-af92-4871-8c9a-d126190f486f")
+			(uuid "333714e2-f3b0-4c59-bc34-8d243833ebd3")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -124,30 +126,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e10e5551-aa94-431e-bf4c-97d5a476db4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "c347ffa9-c114-4834-9bc7-6ed8ef3a9e45")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.9 0)
-			(layer "F.Fab")
-			(uuid "33ff9390-0427-445e-9770-494f630d0503")
+			(uuid "feac624f-942e-4757-bb54-a38d754e97ca")
 			(effects
 				(font
 					(size 1 1)
@@ -155,90 +134,376 @@
 				)
 			)
 		)
-		(pad "1" thru_hole rect
-			(at 0 0)
-			(size 6 6)
-			(drill 4.7)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "5f1ddad7-211b-4006-b959-2bef445d29ff")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D4.0mm"
-		(layer "F.Cu")
-		(uuid "18e1a3d8-b846-4801-b9ba-9a342c6730df")
-		(at 30 30)
-		(descr "SMD pad as test Point, diameter 4.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "4.2"
-			(at 0 -3.898 0)
+		(attr smd)
+		(fp_text user "4.64"
+			(at 16 36 0)
+			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "a261cb7c-e48f-4ca5-a123-803069ca5a72")
+			(uuid "1ac9ab3c-c4be-4f73-acb4-d64668249cc1")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1)
 				)
 			)
 		)
-		(property "Value" "TestPoint_Pad_D4.0mm"
-			(at 0 3.1 0)
-			(layer "F.Fab")
-			(uuid "2758d2db-3b65-4ba4-997d-a90adc43dcc7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(fp_text user "4.42"
+			(at 24 12 0)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f4c98f6-cf9d-4ac3-8424-a2a85b2bdded")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c1246755-e54c-4364-9191-d79e876770b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "f3283401-3bc4-4dc3-b9d5-8ee279b9125d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.9 0)
-			(layer "F.Fab")
-			(uuid "4774196b-c589-42b1-80e6-5f0cce5a18ed")
+			(layer "F.SilkS")
+			(uuid "24a302a2-604d-488f-b0de-7a7c4fcea154")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.30"
+			(at 8 4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "27390dd3-f863-43ef-9df6-54435605a698")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.52"
+			(at 0 28 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2e4d40b4-a722-4b90-9825-617d717b4650")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.46"
+			(at 8 20 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "39e400f5-26be-4084-9ddc-3de54fe52972")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.62"
+			(at 8 36 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "516c5d6c-baab-4756-88ae-1c8042318fc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.28"
+			(at 0 4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5337bad9-a7a9-4620-b6bf-961f3e126626")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.70"
+			(at 8 44 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "69a07be9-e506-4b2b-94fd-ce5b686de67f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.38"
+			(at 8 12 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6c7e38ef-7bed-4a0c-9082-0afb0f1252be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.24"
+			(at 16 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7365189c-b60e-4731-89a5-6517f9f78899")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.36"
+			(at 0 12 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "73f83de7-4ad9-4ae6-a3c1-4ad1be74d6d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.66"
+			(at 24 36 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7d73187c-e576-46ba-9c11-700e7c6c1066")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.50"
+			(at 24 20 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "84638fe1-b72a-482f-a66f-8ec3faeb6a2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.32"
+			(at 16 4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "86eb17b3-63e2-4210-aaba-9b1599879cc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.34"
+			(at 24 4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "90fcd40d-92f4-4e6b-b9b9-4265b5d52876")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.72"
+			(at 16 44 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "91a5359f-af7a-481a-a2d2-e4ea5e987545")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.54"
+			(at 8 28 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "963d5d62-7e28-412f-8843-8f890dfdd6e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.20"
+			(at 0 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "97ad490b-8e63-4220-82b0-ff53b4857075")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.56"
+			(at 16 28 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9da1d392-0a45-4fe0-aa6b-840461ef0d5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.78"
+			(at 8 52 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9de0d0a0-f2a6-4dc7-aa47-1ae1e2f024d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.58"
+			(at 24 28 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a3c5d2d0-b785-4afa-a12e-325a854cde00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.74"
+			(at 24 44 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bc48205b-52f5-42c3-84f3-aa33668b484e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.44"
+			(at 0 20 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bea5155d-8627-47a2-a106-d565a22b34ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.80"
+			(at 16 52 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c1845de2-f1f7-4083-a03a-9dccf2067092")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.76"
+			(at 0 52 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c81120f5-b0a2-4ffe-b68b-f2c231093d10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.48"
+			(at 16 20 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c9fd1756-35f4-4912-923b-6c2b5ddeea55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.22"
+			(at 8 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cca6cba0-3639-47e6-ac9d-df7f6e0ce566")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.60"
+			(at 0 36 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d87c2123-4643-4397-a77e-786d3a3235e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.68"
+			(at 0 44 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e1abb8e6-fbeb-4d3e-bca2-95ef0cb52e0c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.40"
+			(at 16 12 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e5719098-c56b-41bc-a13d-e2bb08e795c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(fp_text user "4.26"
+			(at 24 -4 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e66397f8-3c06-4ae5-90c9-ea46845cb165")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -248,367 +513,259 @@
 			(drill 4.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "a78d6be2-6412-41ad-887b-8a4c8cf784ad")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D4.0mm"
-		(layer "F.Cu")
-		(uuid "3a1b336d-9dc0-443c-8e3c-2f6ff7f2aa7a")
-		(at 30 40)
-		(descr "SMD pad as test Point, diameter 4.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "4.6"
-			(at 0 -3.898 0)
-			(layer "F.SilkS")
-			(uuid "b0f6f271-7d7c-4b52-983b-75cada258f66")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Pad_D4.0mm"
-			(at 0 3.1 0)
-			(layer "F.Fab")
-			(uuid "c673fd7a-ac7a-4295-b814-2096202eb94d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8f5eb750-da0f-49e7-a8d7-047f6165c19c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b76aa3ef-14c8-4596-ae8b-375f3e9a37c3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "89a5b603-3c3e-4554-8b69-51e0887472f9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.9 0)
-			(layer "F.Fab")
-			(uuid "adaf9b0e-9d2e-4f0e-b9e7-f6d8e1ad4648")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "5e9e2a4a-a958-4c7f-9f6c-feb37609c89b")
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 8)
+			(size 6 6)
+			(drill 4.28)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "e48e00de-d575-4b05-90ae-813ca131cbc1")
+		)
+		(pad "1" thru_hole rect
+			(at 0 16)
+			(size 6 6)
+			(drill 4.36)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "34046d50-b8a2-4056-9dde-205e98cf9f06")
+		)
+		(pad "1" thru_hole rect
+			(at 0 24)
+			(size 6 6)
+			(drill 4.44)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "3db68814-1e04-4509-a605-d7ce60adab6f")
+		)
+		(pad "1" thru_hole rect
+			(at 0 32)
+			(size 6 6)
+			(drill 4.52)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "0c5d88e3-fbdd-442b-a106-ae4f5ae29a19")
+		)
+		(pad "1" thru_hole rect
+			(at 0 40)
 			(size 6 6)
 			(drill 4.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "97f5a089-86cb-43f6-99d3-70098922e066")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D4.0mm"
-		(layer "F.Cu")
-		(uuid "3c410605-804e-4c75-a0a3-aa6d8e190008")
-		(at 50 40)
-		(descr "SMD pad as test Point, diameter 4.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "4.8"
-			(at 0 -3.898 0)
-			(layer "F.SilkS")
-			(uuid "408a6b7c-6bed-453f-97c1-bf006a6ddb93")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Pad_D4.0mm"
-			(at 0 3.1 0)
-			(layer "F.Fab")
-			(uuid "4f3284ad-82bb-4dca-b659-f1ff4dce3251")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "04267e05-0c95-406c-8eae-3ec0fdc11c18")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "76e3d4a6-dc4f-40b0-961f-418b4bcc217c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "785305d4-89a1-481d-a466-84195e380e4e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.9 0)
-			(layer "F.Fab")
-			(uuid "ee5c6e2d-3b94-4512-a10d-adc9dd3533d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "c679528c-dadf-46e4-9d42-d3b9f04bcfb9")
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 48)
 			(size 6 6)
-			(drill 4.8)
+			(drill 4.68)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "22b305c6-d8b3-4b41-9517-fadb3cc03fc6")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D4.0mm"
-		(layer "F.Cu")
-		(uuid "4af75e8c-4236-4e94-9221-ef6361ac3d5e")
-		(at 60 30)
-		(descr "SMD pad as test Point, diameter 4.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "4.5"
-			(at 0 -4 0)
-			(layer "F.SilkS")
-			(uuid "55cb9a01-c699-4a63-9d51-22cceacd8479")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Pad_D4.0mm"
-			(at 0 3.1 0)
-			(layer "F.Fab")
-			(uuid "6d47732d-c67f-40a4-b926-53836e2800f7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e820858a-565a-4b33-b951-4c1f2043fba1")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f2faf45-deda-444d-bbc3-6e90e7e98392")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "8f3b8d13-8480-4181-acb1-280d3b419f76")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.9 0)
-			(layer "F.Fab")
-			(uuid "6719738f-27d1-4018-9afc-05d1be3f5074")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "cfe374ae-082c-4290-95bf-655e6c973139")
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 0 56)
 			(size 6 6)
-			(drill 4.5)
+			(drill 4.76)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "d36be975-ef06-492b-81d6-9c4225e9716e")
-		)
-		(embedded_fonts no)
-	)
-	(footprint "TestPoint:TestPoint_Pad_D4.0mm"
-		(layer "F.Cu")
-		(uuid "7ce807af-6a1a-4959-b57c-f526b42954f7")
-		(at 40 30)
-		(descr "SMD pad as test Point, diameter 4.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "4.3"
-			(at 0 -3.898 0)
-			(layer "F.SilkS")
-			(uuid "3bdc1f0f-932f-4070-bf6f-fe218a19b643")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Pad_D4.0mm"
-			(at 0 3.1 0)
-			(layer "F.Fab")
-			(uuid "1e139b3f-8e9f-4699-90ce-4f71eeaf11ed")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0724e33-2d8f-40ba-8f0c-65c8e76270db")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca3e805f-40ef-4352-86db-da4e9a2f2cdb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "b513c440-1f5f-4866-987a-a80485734bf7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.9 0)
-			(layer "F.Fab")
-			(uuid "3481cc56-46c9-43cf-8014-6bbb0ca0e837")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
+			(uuid "657739df-d6ec-4e45-907b-7ecea99f9cb0")
 		)
 		(pad "1" thru_hole rect
-			(at 0 0)
+			(at 8 0)
+			(size 6 6)
+			(drill 4.22)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "6d04afa4-8658-4009-8866-a0944f6acef9")
+		)
+		(pad "1" thru_hole rect
+			(at 8 8)
 			(size 6 6)
 			(drill 4.3)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "9e1ea245-bccc-4b74-bb11-4a3ab5638039")
+			(uuid "2418da6e-e020-473c-bb4f-2bacc7adc9c3")
+		)
+		(pad "1" thru_hole rect
+			(at 8 16)
+			(size 6 6)
+			(drill 4.38)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "32bbeb21-66d2-43f9-8122-5e0cb8ed3bc2")
+		)
+		(pad "1" thru_hole rect
+			(at 8 24)
+			(size 6 6)
+			(drill 4.46)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "e7bfca40-8f95-4cfc-9f40-cac59d800ca0")
+		)
+		(pad "1" thru_hole rect
+			(at 8 32)
+			(size 6 6)
+			(drill 4.54)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "9db3c224-80a5-44de-aba4-d8c6367b789d")
+		)
+		(pad "1" thru_hole rect
+			(at 8 40)
+			(size 6 6)
+			(drill 4.62)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b1e56f6a-ebdd-4369-ab44-0f182498946b")
+		)
+		(pad "1" thru_hole rect
+			(at 8 48)
+			(size 6 6)
+			(drill 4.7)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "6be48f2b-0084-4711-8f28-b888c52801c1")
+		)
+		(pad "1" thru_hole rect
+			(at 8 56)
+			(size 6 6)
+			(drill 4.78)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "8e0d8da7-821a-4a6c-addd-4ea96ec17eda")
+		)
+		(pad "1" thru_hole rect
+			(at 16 0)
+			(size 6 6)
+			(drill 4.24)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "0058c374-f7ea-46cb-a596-110653fa2d4d")
+		)
+		(pad "1" thru_hole rect
+			(at 16 8)
+			(size 6 6)
+			(drill 4.32)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "6a2e7b97-cca7-4aa1-a448-4e8d6c57b030")
+		)
+		(pad "1" thru_hole rect
+			(at 16 16)
+			(size 6 6)
+			(drill 4.4)
+			(layers "*.Cu" "*.Mask" "B.SilkS")
+			(remove_unused_layers no)
+			(uuid "b53868ad-578b-4c23-bb76-1e37a523a5fe")
+		)
+		(pad "1" thru_hole rect
+			(at 16 24)
+			(size 6 6)
+			(drill 4.48)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "db9987d5-d8ad-434d-89c7-2ae1decb7e93")
+		)
+		(pad "1" thru_hole rect
+			(at 16 32)
+			(size 6 6)
+			(drill 4.56)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "2e2ef9d3-33a9-484c-a4fc-73cc149607c3")
+		)
+		(pad "1" thru_hole rect
+			(at 16 40)
+			(size 6 6)
+			(drill 4.64)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "d0547ff2-b2d4-4b17-969e-a68a6ab5b50f")
+		)
+		(pad "1" thru_hole rect
+			(at 16 48)
+			(size 6 6)
+			(drill 4.72)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "d5412fad-9940-4785-bd38-daf5cc11d7be")
+		)
+		(pad "1" thru_hole rect
+			(at 16 56)
+			(size 6 6)
+			(drill 4.8)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "06ea9cd0-a801-4bc9-a31e-ad590e1a3f8f")
+		)
+		(pad "1" thru_hole rect
+			(at 24 0)
+			(size 6 6)
+			(drill 4.26)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "3213b7ca-9209-4f5d-abd7-1208e0549004")
+		)
+		(pad "1" thru_hole rect
+			(at 24 8)
+			(size 6 6)
+			(drill 4.34)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "15ef5566-0b05-409b-b5c5-10b33bab07cc")
+		)
+		(pad "1" thru_hole rect
+			(at 24 16)
+			(size 6 6)
+			(drill 4.42)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "232f1a1a-7a65-4b7a-80a1-5fc9eae1a93d")
+		)
+		(pad "1" thru_hole rect
+			(at 24 24)
+			(size 6 6)
+			(drill 4.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "0face38c-3524-46be-a7d9-1bdee13346a4")
+		)
+		(pad "1" thru_hole rect
+			(at 24 32)
+			(size 6 6)
+			(drill 4.58)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "e6947a09-2569-4883-acbe-a7a4f836183f")
+		)
+		(pad "1" thru_hole rect
+			(at 24 40)
+			(size 6 6)
+			(drill 4.66)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "208b03b9-d797-40e0-9d56-a1db2a1d8c03")
+		)
+		(pad "1" thru_hole rect
+			(at 24 48)
+			(size 6 6)
+			(drill 4.74)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "d321e33f-b25b-4c80-b7ce-06027657476e")
 		)
 		(embedded_fonts no)
 	)
 	(footprint "LOGO"
 		(layer "F.Cu")
 		(uuid "badc24d4-3217-4402-9878-4291b17910f1")
-		(at 59 41)
+		(at 57.6 89.8)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c0ea201a-3fb3-43ff-8f76-749da57284db")
+			(uuid "68d642c8-4766-4108-ae80-d72abf9e77e0")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -620,7 +777,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4dcc5934-d8f2-44b4-a244-d2b11f34cdeb")
+			(uuid "844f63d0-4eb9-44a9-830e-a136d19f56a3")
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -632,7 +789,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "352c6f92-b0c9-42fb-9eee-18dc40dbcd71")
+			(uuid "7a37b0de-2d08-4f21-9ab1-00545db6229a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -644,7 +801,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6469afa-b043-4d9c-bece-0b750dd845b2")
+			(uuid "40a1aa1d-33a4-455b-8e48-a3ceb3dcdc18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,96 +2903,9 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_Pad_D4.0mm"
-		(layer "F.Cu")
-		(uuid "d911875d-2a61-4f4b-b88f-fbf33263af06")
-		(at 50 30)
-		(descr "SMD pad as test Point, diameter 4.0mm")
-		(tags "test point SMD pad")
-		(property "Reference" "4.4"
-			(at 0 -3.898 0)
-			(layer "F.SilkS")
-			(uuid "46b5bed6-d7cd-45d2-856c-e92488c884b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint_Pad_D4.0mm"
-			(at 0 3.1 0)
-			(layer "F.Fab")
-			(uuid "a30bdd13-f7cc-4914-9b71-1e6997dcea6a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "54bdc31b-f7eb-4ece-9839-d600fd058eca")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c9c8e86e-d306-48a7-b9b3-1b8c615be943")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.5 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "194adc84-e93c-4c2c-a22a-e0a3495af918")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 -2.9 0)
-			(layer "F.Fab")
-			(uuid "b6301957-eefd-48c4-a5bc-e24339120792")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole rect
-			(at 0 0)
-			(size 6 6)
-			(drill 4.4)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(uuid "18818f87-46b8-4d7f-9419-c37806617a1c")
-		)
-		(embedded_fonts no)
-	)
 	(gr_rect
 		(start 26 24)
-		(end 64 45)
+		(end 64 94)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2845,7 +2915,7 @@
 		(uuid "e2d8dff2-4c81-4d29-aef6-49167eeab60d")
 	)
 	(gr_text "Hole Size\nTest board"
-		(at 55 37 0)
+		(at 53.6 85.8 0)
 		(layer "F.SilkS")
 		(uuid "e2269ad5-d026-42ab-b01a-2b2c64a36480")
 		(effects
