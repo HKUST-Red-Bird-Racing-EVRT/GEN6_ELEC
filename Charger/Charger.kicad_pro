@@ -626,6 +626,10 @@
       "POWER_MOS0"
     ],
     [
+      "d20a1503-06d5-45b3-92f8-a558cbee8499",
+      "POWER_MOS1"
+    ],
+    [
       "31db9058-1875-4020-8110-a9a0958439e1",
       "Connectors"
     ],
@@ -636,10 +640,6 @@
     [
       "4ad1186d-4a80-4977-a17a-751b63298a90",
       "Digital input"
-    ],
-    [
-      "812aa809-535a-4f88-8660-97ab8c1b15da",
-      "POWER_MOS1"
     ]
   ],
   "text_variables": {}
