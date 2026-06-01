@@ -1,4 +1,4 @@
-25790294336007038
+25767605163093709
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91510,13 +91510,6 @@ capacitor handsolder
 0
 2
 2
-RMC_Capacitor
-C_1210_3225Metric_Pad1.33x2.70mm_HandSolder
-Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-capacitor handsolder
-0
-2
-2
 RMC_Connnector
 3 in 1 fuseholder
 
@@ -91560,47 +91553,12 @@ HD241_GF30
 24
 24
 RMC_Connnector
-ISP_pogo
-
-
-0
-6
-6
-RMC_Connnector
 JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical_handsolder
 JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
 connector JST PH side entry
 0
 6
 6
-RMC_Connnector
-JST_PH_S5B-PH-SM4-TB_1x05-1MP_P2.00mm_Horizontal
-JST PH series connector, S5B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
-connector JST PH horizontal
-0
-7
-6
-RMC_Connnector
-PHB_2x6_SMD
-
-
-0
-14
-13
-RMC_Connnector
-PHB_2x7_SMD
-
-
-0
-16
-15
-RMC_Connnector
-PHB_02x10_SMD
-
-
-0
-14
-14
 RMC_Connnector
 PinHeader_2x03_P2.54mm_Vertical_handsolder
 Through hole straight pin header, 2x03, 2.54mm pitch, double rows
@@ -91615,13 +91573,6 @@ TE-2354318-1_32pin_conn
 0
 32
 32
-RMC_Connnector
-TE_185226-1
-
-
-0
-26
-26
 RMC_Connnector
 USB_C_Receptacle_G-Switch_GT-USB-7010ASV_Handsolder
 USB Type C, right-angle, SMT, https://datasheet.lcsc.com/lcsc/2204071530_G-Switch-GT-USB-7010ASV_C2988369.pdf
@@ -91658,13 +91609,6 @@ SMD SMT crystal
 4
 4
 RMC_Inductor
-FIL_ACT45B-101-2P-TL003
-
-
-0
-4
-4
-RMC_Inductor
 L_10.4x10.4_H4.8
 Choke, SMD, 10.4x10.4mm 4.8mm height
 Choke SMD
@@ -91679,23 +91623,9 @@ Choke SMD
 2
 2
 RMC_Inductor
-L_ACT45B-510-2P-TL003
-
-
-0
-4
-4
-RMC_Inductor
 L_CD54
 Inductor, Wuerth Elektronik, Wuerth_HCI-5040, 5.5mmx5.2mm
 inductor Wuerth hci smd
-0
-2
-2
-RMC_Inductor
-L_Sunlord_MWSA0603S
-Inductor, Sunlord, MWSA0603S, 7.0x6.6x2.8mm, https://sunlordinc.com/Download.aspx?file=L1VwbG9hZEZpbGVzL1BERl9DYXQvMjAyMjExMTUxNDQ4MDU0NTQucGRm&lan=en
-Inductor mwsa
 0
 2
 2
@@ -91798,26 +91728,12 @@ MLX10407EDF-AAA-000-RE
 24
 24
 RMC_SO
-SOIC-8_3.9x4.9mm_P1.27mm
-SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
-0
-8
-8
-RMC_SO
 SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder
 SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
 8
 8
-RMC_SO
-SOIC-14_3.9x8.7mm_P1.27mm
-SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
-0
-14
-14
 RMC_SO
 SOIC-16_3.9x9.9mm_P1.27mm_Handsolder
 SOIC, 16 Pin (JEDEC MS-012AC, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -103243,13 +103159,6 @@ DO-218
 2
 2
 to be sorted
-D_SOD-123F
-D_SOD-123F
-D_SOD-123F
-0
-2
-2
-to be sorted
 D_SOD-523
 http://www.diodes.com/datasheets/ap02001.pdf p.144
 Diode SOD523
@@ -103284,13 +103193,6 @@ HD241_GF15
 0
 24
 24
-to be sorted
-HF49FD-012-1H11T
-
-
-0
-4
-4
 to be sorted
 L_10.4x10.4_H4.8
 Choke, SMD, 10.4x10.4mm 4.8mm height
