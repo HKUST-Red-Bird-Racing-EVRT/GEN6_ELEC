@@ -6712,6 +6712,30 @@
 			)
 		)
 	)
+	(global_label "CAN0_CS"
+		(shape output)
+		(at 60.96 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0dd482cb-9595-4cdb-aaf0-767c8b56d954")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.2909 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TXD"
 		(shape output)
 		(at 60.96 165.1 0)
@@ -7048,6 +7072,30 @@
 			)
 		)
 	)
+	(global_label "CAN1_CS"
+		(shape output)
+		(at 60.96 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "357c8719-f5bc-4c06-a130-e9d01cd34aa1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.2909 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "RST"
 		(shape input)
 		(at 60.96 157.48 0)
@@ -7142,6 +7190,30 @@
 			)
 		)
 	)
+	(global_label "CAN2_CS"
+		(shape output)
+		(at 60.96 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40e415e5-bc10-4f00-83e1-1f4fa0b1f2bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.2909 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ENC_B"
 		(shape input)
 		(at 171.45 170.18 180)
@@ -7163,6 +7235,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "CS_SD"
+		(shape output)
+		(at 60.96 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4797a655-2778-4d14-85dc-7230b9cfc57a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.8718 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7764,30 +7860,6 @@
 			)
 		)
 	)
-	(global_label "CAN1_CS"
-		(shape output)
-		(at 60.96 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a70be773-3ca2-4316-bfc1-b7cf108f4835")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.2909 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "XTAL2"
 		(shape bidirectional)
 		(at 91.44 130.81 180)
@@ -7929,30 +8001,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "CAN0_CS"
-		(shape output)
-		(at 60.96 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b6eec5f5-aef6-4a78-a7e7-55cb07879418")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.2909 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -8338,30 +8386,6 @@
 			)
 		)
 	)
-	(global_label "CAN2_CS"
-		(shape output)
-		(at 60.96 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f23d36c3-4072-4d9c-b0dd-e11b17a91ba3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.2909 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "CAN0_CS"
 		(shape input)
 		(at 43.18 38.1 180)
@@ -8383,30 +8407,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "CS_SD"
-		(shape output)
-		(at 60.96 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9ea4f3b-f02d-45eb-9113-9601c90b7642")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.8718 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -9586,7 +9586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 250.19 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11222,7 +11222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 250.19 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -11458,7 +11458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 250.19 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -13614,7 +13614,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "20MHz"
+		(property "Value" "16MHz"
 			(at 91.059 133.096 90)
 			(hide yes)
 			(show_name no)
