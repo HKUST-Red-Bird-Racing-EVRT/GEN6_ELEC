@@ -1559,20 +1559,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "12V"
-		(exclude_from_sim no)
-		(at 100.33 105.918 0)
-		(effects
-			(font
-				(size 7.62 7.62)
-				(thickness 1.524)
-				(bold yes)
-				(italic yes)
-				(color 255 0 26 1)
-			)
-		)
-		(uuid "0072ea78-d791-472e-b42c-2287720f572f")
-	)
 	(text "POWER"
 		(exclude_from_sim no)
 		(at 101.473 82.423 0)
@@ -1965,7 +1951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 134.62 113.9952 0)
 			(hide yes)
 			(show_name no)
@@ -2362,7 +2348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 172.4152 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -2523,7 +2509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 160.9852 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2684,7 +2670,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 83.5152 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -2844,7 +2830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 173.6852 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -2926,7 +2912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 177.292 138.43 90)
 			(hide yes)
 			(show_name no)
@@ -3008,7 +2994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 94.9452 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3167,7 +3153,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 103.632 124.46 90)
 			(hide yes)
 			(show_name no)
@@ -3249,7 +3235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 177.292 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -3330,7 +3316,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 103.632 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -3801,7 +3787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "RMC_SOT:SOT-23-6_Handsoldering_Extended_RMC"
 			(at 125.73 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3896,7 +3882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 177.292 119.38 90)
 			(hide yes)
 			(show_name no)

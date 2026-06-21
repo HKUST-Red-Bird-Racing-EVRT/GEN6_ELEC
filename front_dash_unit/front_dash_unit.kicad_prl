@@ -25,7 +25,7 @@
       "otherItems": true,
       "pads": true,
       "text": true,
-      "tracks": true,
+      "tracks": false,
       "vias": true,
       "zones": true
     },
@@ -92,13 +92,13 @@
       186,
       171,
       113,
-      92,
-      112,
+      93,
+      113,
       115,
-      112,
+      113,
       98,
-      112,
-      112
+      113,
+      113
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

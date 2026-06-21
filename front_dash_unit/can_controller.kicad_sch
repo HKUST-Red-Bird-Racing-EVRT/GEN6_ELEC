@@ -2322,7 +2322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 86.868 59.69 90)
 			(hide yes)
 			(show_name no)
@@ -2410,7 +2410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm"
+		(property "Footprint" "RMC_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 110.49 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2552,7 +2552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 187.198 62.23 90)
 			(hide yes)
 			(show_name no)
@@ -2639,7 +2639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 81.28 87.3252 0)
 			(hide yes)
 			(show_name no)
@@ -2725,7 +2725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 133.858 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -2896,7 +2896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 142.24 51.7652 0)
 			(hide yes)
 			(show_name no)
@@ -2982,7 +2982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 111.76 53.0352 0)
 			(hide yes)
 			(show_name no)
@@ -3071,7 +3071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:Crystal_HC49-U_Vertical_W_SMD"
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 90.17 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3412,7 +3412,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 81.28 77.7748 0)
 			(hide yes)
 			(show_name no)
@@ -3669,7 +3669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 86.868 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -3756,7 +3756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Better_Handsolder:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 130.81 87.122 90)
 			(hide yes)
 			(show_name no)
@@ -4014,7 +4014,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TJA1050T_CM_118:SOIC127P600X175-8N"
+		(property "Footprint" "RMC_SO:SOIC-8_3.9x4.9mm_P1.27mm_RMC_Handsolder"
 			(at 162.56 58.42 0)
 			(hide yes)
 			(show_name no)
