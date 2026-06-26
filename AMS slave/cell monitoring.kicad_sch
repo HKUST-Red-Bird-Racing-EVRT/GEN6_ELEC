@@ -7,7 +7,7 @@
 	(title_block
 		(title "AMS slave cell monitoring")
 		(date "2026-04-19")
-		(rev "0.5.0")
+		(rev "0.5.1")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:BQ76940DBT"

@@ -78,6 +78,10 @@
       ],
       "drc_exclusions": [
         [
+          "hole_clearance|90000000|103159992|8576e533-f3e3-49f6-b801-34a3f03bfa27|4d621b62-7544-4652-aa15-9fb4c00947aa",
+          "it's literally the footprint bruh"
+        ],
+        [
           "hole_clearance|90000000|93840008|678e6aaf-0222-412e-af03-dbd6585e38ac|7f5fd097-2659-4a37-8142-82ed68086b53",
           ""
         ],
