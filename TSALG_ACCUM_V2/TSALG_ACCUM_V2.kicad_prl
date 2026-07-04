@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 7,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -49,9 +49,11 @@
       "drc_exclusions",
       "locked_item_shadows",
       "conflict_shadows",
-      "shapes"
+      "shapes",
+      "board_outline_area",
+      "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -61,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "600 to 12V dc.kicad_prl",
+    "filename": "TSALG_ACCUM_V2.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -90,16 +92,16 @@
       9
     ],
     "col_widths": [
-      246,
-      231,
-      146,
-      87,
-      146,
-      146,
-      146,
-      87,
-      146,
-      146
+      198,
+      183,
+      157,
+      126,
+      136,
+      161,
+      139,
+      133,
+      122,
+      122
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
