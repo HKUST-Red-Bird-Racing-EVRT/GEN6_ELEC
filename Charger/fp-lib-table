@@ -3,4 +3,5 @@
 	(lib (name "AD5235BRUZ25") (type "KiCad") (uri "${KIPRJMOD}/AD5235BRUZ25") (options "") (descr ""))
 	(lib (name "B0505") (type "KiCad") (uri "${KIPRJMOD}/B0505/B0505.pretty") (options "") (descr ""))
 	(lib (name "LOC110") (type "KiCad") (uri "${KIPRJMOD}/LOC110.pretty") (options "") (descr ""))
+	(lib (name "AMC1302Q1") (type "KiCad") (uri "${KIPRJMOD}/AMC1302Q1/AMC1302Q1.pretty") (options "") (descr ""))
 )
