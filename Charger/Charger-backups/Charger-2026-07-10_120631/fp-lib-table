@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "AD5235BRUZ25")(type "KiCad")(uri "${KIPRJMOD}/AD5235BRUZ25")(options "")(descr ""))
-)

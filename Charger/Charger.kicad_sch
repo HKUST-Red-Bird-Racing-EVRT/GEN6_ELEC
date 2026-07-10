@@ -4358,8 +4358,25 @@
 		(uuid "51dee3f2-f00a-42a4-8d1d-b2c8cb491317")
 	)
 	(rectangle
+<<<<<<< Updated upstream
 		(start 84.709 216.154)
 		(end 107.315 225.298)
+=======
+		(start 38.1 76.835)
+		(end 57.15 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "56b1e8ab-9cd9-4fb8-b971-48f7199760e6")
+	)
+	(rectangle
+		(start 90.678 217.932)
+		(end 113.284 227.076)
+>>>>>>> Stashed changes
 		(stroke
 			(width 0)
 			(type default)
