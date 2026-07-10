@@ -4176,8 +4176,8 @@
 		)
 	)
 	(rectangle
-		(start 109.728 234.696)
-		(end 125.476 243.586)
+		(start 103.759 232.918)
+		(end 119.507 241.808)
 		(stroke
 			(width 0)
 			(type default)
@@ -4188,8 +4188,8 @@
 		(uuid "02cc2693-abe6-449b-9f2e-4ec60df32283")
 	)
 	(rectangle
-		(start 70.358 250.698)
-		(end 86.868 261.112)
+		(start 64.389 248.92)
+		(end 80.899 259.334)
 		(stroke
 			(width 0)
 			(type default)
@@ -4200,8 +4200,8 @@
 		(uuid "51dee3f2-f00a-42a4-8d1d-b2c8cb491317")
 	)
 	(rectangle
-		(start 90.678 217.932)
-		(end 113.284 227.076)
+		(start 84.709 216.154)
+		(end 107.315 225.298)
 		(stroke
 			(width 0)
 			(type default)
@@ -4212,8 +4212,8 @@
 		(uuid "5ced8ae3-72e7-4762-a8a2-606adb975bff")
 	)
 	(rectangle
-		(start 93.218 249.936)
-		(end 111.506 261.366)
+		(start 87.249 248.158)
+		(end 105.537 259.588)
 		(stroke
 			(width 0)
 			(type default)
@@ -4224,8 +4224,8 @@
 		(uuid "5f69fab8-771f-41e4-b5c9-ceeb89e11088")
 	)
 	(rectangle
-		(start 80.772 234.696)
-		(end 98.298 244.094)
+		(start 74.803 232.918)
+		(end 92.329 242.316)
 		(stroke
 			(width 0)
 			(type default)
@@ -4234,18 +4234,6 @@
 			(type none)
 		)
 		(uuid "8fcda30e-4bd0-4cd5-b70d-acfff6780afe")
-	)
-	(rectangle
-		(start 121.666 249.936)
-		(end 148.336 261.112)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "97b5d0bb-10f6-4a61-92a5-d7e55ea591aa")
 	)
 	(rectangle
 		(start 152.654 12.954)
@@ -4271,7 +4259,7 @@
 	)
 	(text "J"
 		(exclude_from_sim no)
-		(at 103.378 252.476 0)
+		(at 97.409 250.698 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4279,7 +4267,7 @@
 		)
 		(uuid "06ea82fa-ba5a-4ef2-84b9-cea61eeccd4c")
 	)
-	(text "capacity						8Ah\nstandard/max charge current		1/2C\ncharge above 1 deg C\nmax current 16A\n"
+	(text "capacity						8Ah\nstandard/max charge current		1/2C\ncharge above 1 deg C\nmax current 					16A\n\nPSU power						2kW\nAccum voltage					600V\nmax current						3.34A\nRSNS							15m\nADC range						50mV"
 		(exclude_from_sim no)
 		(at 152.4 228.6 0)
 		(effects
@@ -4302,7 +4290,7 @@
 	)
 	(text "LVPSU"
 		(exclude_from_sim no)
-		(at 88.9 239.522 0)
+		(at 82.931 237.744 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4322,7 +4310,7 @@
 	)
 	(text "J"
 		(exclude_from_sim no)
-		(at 110.236 251.206 0)
+		(at 104.267 249.428 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4332,7 +4320,7 @@
 	)
 	(text "screen"
 		(exclude_from_sim no)
-		(at 78.486 255.778 0)
+		(at 72.517 254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4361,19 +4349,9 @@
 		)
 		(uuid "26a62e9c-95d3-4642-8778-60d59a42f58a")
 	)
-	(text "I2C"
-		(exclude_from_sim no)
-		(at 117.094 254.254 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "26ae3e82-cbfb-4251-b004-beef567e1cc8")
-	)
 	(text "buttons and"
 		(exclude_from_sim no)
-		(at 100.838 229.108 0)
+		(at 94.869 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4395,19 +4373,9 @@
 		)
 		(uuid "2d802a2d-a5d4-4278-88a1-2a125a99fcb4")
 	)
-	(text "hall sensor\nV measurement"
-		(exclude_from_sim no)
-		(at 131.572 247.142 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2eaea604-be5e-47b4-b185-7f284f17e76d")
-	)
 	(text "charger PCB"
 		(exclude_from_sim no)
-		(at 102.362 255.778 0)
+		(at 96.393 254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4425,16 +4393,6 @@
 			(justify left bottom)
 		)
 		(uuid "30b713a0-546e-4768-86c6-56aeb95cecb2")
-	)
-	(text "J"
-		(exclude_from_sim no)
-		(at 110.236 254.254 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "389d18d4-1943-4f1e-b94e-5ffa9d051e71")
 	)
 	(text "(Arduino A2)\n"
 		(exclude_from_sim no)
@@ -4456,16 +4414,6 @@
 			)
 		)
 		(uuid "487ef554-5d8c-4f89-8e2e-72a817ad7824")
-	)
-	(text "HVPSU measurement PCB"
-		(exclude_from_sim no)
-		(at 135.128 255.524 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4a719c6d-7064-46ba-b0ab-e18dc0c1ce84")
 	)
 	(text "INDICATORS\nTSALG\nAMS ERR\nIMD ERR\nCHARGER ERR"
 		(exclude_from_sim no)
@@ -4510,7 +4458,7 @@
 	)
 	(text "J"
 		(exclude_from_sim no)
-		(at 96.774 251.714 0)
+		(at 90.805 249.936 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4520,7 +4468,7 @@
 	)
 	(text "I2C"
 		(exclude_from_sim no)
-		(at 89.916 254.254 0)
+		(at 83.947 252.476 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4561,7 +4509,7 @@
 	)
 	(text "power line"
 		(exclude_from_sim no)
-		(at 111.76 233.934 0)
+		(at 105.791 232.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4571,7 +4519,7 @@
 	)
 	(text "HVPSU"
 		(exclude_from_sim no)
-		(at 117.348 239.014 0)
+		(at 111.379 237.236 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4581,7 +4529,7 @@
 	)
 	(text "junction box\n(only does inputs)"
 		(exclude_from_sim no)
-		(at 102.108 222.758 0)
+		(at 96.139 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4612,7 +4560,7 @@
 	)
 	(text "power line"
 		(exclude_from_sim no)
-		(at 94.742 247.904 0)
+		(at 88.773 246.126 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4633,7 +4581,7 @@
 	)
 	(text "J"
 		(exclude_from_sim no)
-		(at 94.742 256.286 0)
+		(at 88.773 254.508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4663,7 +4611,7 @@
 	)
 	(text "power line"
 		(exclude_from_sim no)
-		(at 90.678 233.934 0)
+		(at 84.709 232.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4673,7 +4621,7 @@
 	)
 	(text "SDC IN"
 		(exclude_from_sim no)
-		(at 102.108 245.618 0)
+		(at 96.139 243.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4681,9 +4629,9 @@
 		)
 		(uuid "d6cd9aa7-c5e7-4089-8c97-a7936bea15d1")
 	)
-	(text "relay\ndigipots"
+	(text "relay\ndigipots\nshunt resistor\nV measurement"
 		(exclude_from_sim no)
-		(at 112.268 246.38 0)
+		(at 116.078 250.952 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4693,7 +4641,7 @@
 	)
 	(text "indicator lights"
 		(exclude_from_sim no)
-		(at 79.756 220.98 0)
+		(at 73.787 219.202 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4977,7 +4925,7 @@
 	)
 	(polyline
 		(pts
-			(xy 85.852 255.27) (xy 85.852 256.032)
+			(xy 79.883 253.492) (xy 79.883 254.254)
 		)
 		(stroke
 			(width 0)
@@ -5037,27 +4985,7 @@
 	)
 	(polyline
 		(pts
-			(xy 122.174 254.508) (xy 122.174 255.524)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58be3c9d-15fe-466f-9f58-6c9cc5ee2e14")
-	)
-	(polyline
-		(pts
-			(xy 122.174 241.808) (xy 122.936 241.808)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59243edb-c473-40a0-a8e6-5108af7f0efb")
-	)
-	(polyline
-		(pts
-			(xy 91.694 226.568) (xy 91.694 235.712)
+			(xy 85.725 224.79) (xy 85.725 233.934)
 		)
 		(stroke
 			(width 0)
@@ -5097,7 +5025,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.506 236.474) (xy 112.776 236.474)
+			(xy 105.537 234.696) (xy 106.807 234.696)
 		)
 		(stroke
 			(width 0)
@@ -5117,7 +5045,7 @@
 	)
 	(polyline
 		(pts
-			(xy 102.87 226.822) (xy 102.87 250.952)
+			(xy 96.901 225.044) (xy 96.901 249.174)
 		)
 		(stroke
 			(width 0)
@@ -5167,7 +5095,7 @@
 	)
 	(polyline
 		(pts
-			(xy 112.776 226.314) (xy 112.776 236.474)
+			(xy 106.807 224.536) (xy 106.807 234.696)
 		)
 		(stroke
 			(width 0)
@@ -5197,7 +5125,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.758 250.444) (xy 97.282 250.444)
+			(xy 89.789 248.666) (xy 91.313 248.666)
 		)
 		(stroke
 			(width 0)
@@ -5227,7 +5155,7 @@
 	)
 	(polyline
 		(pts
-			(xy 102.87 226.822) (xy 102.87 225.806)
+			(xy 96.901 225.044) (xy 96.901 224.028)
 		)
 		(stroke
 			(width 0)
@@ -5237,7 +5165,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.998 242.316) (xy 110.998 250.698)
+			(xy 105.029 240.538) (xy 105.029 248.92)
 		)
 		(stroke
 			(width 0)
@@ -5327,7 +5255,7 @@
 	)
 	(polyline
 		(pts
-			(xy 94.234 255.27) (xy 85.852 255.27)
+			(xy 88.265 253.492) (xy 79.883 253.492)
 		)
 		(stroke
 			(width 0)
@@ -5365,16 +5293,6 @@
 		)
 		(uuid "abbc8349-9897-412c-8bac-9d5d2dac582e")
 	)
-	(polyline
-		(pts
-			(xy 122.936 241.808) (xy 122.936 251.206)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ace23e16-4219-4a1e-9687-87fa17c285a8")
-	)
 	(wire
 		(pts
 			(xy 242.062 53.594) (xy 242.062 54.102)
@@ -5384,16 +5302,6 @@
 			(type default)
 		)
 		(uuid "afa11eb4-f0f9-4e5d-b5a0-d968fc1fb3d2")
-	)
-	(polyline
-		(pts
-			(xy 110.998 255.524) (xy 122.174 255.524)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b00fb117-da8d-4d2e-ab8f-f69657bd0265")
 	)
 	(wire
 		(pts
@@ -5447,7 +5355,7 @@
 	)
 	(polyline
 		(pts
-			(xy 101.092 225.806) (xy 102.87 225.806)
+			(xy 95.123 224.028) (xy 96.901 224.028)
 		)
 		(stroke
 			(width 0)
@@ -5464,16 +5372,6 @@
 			(type default)
 		)
 		(uuid "c7df7e4c-93ca-4ff5-a4d0-82a4765c8a62")
-	)
-	(polyline
-		(pts
-			(xy 110.998 255.524) (xy 110.998 256.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9dd190f-1434-4b25-b850-7ee8713cceee")
 	)
 	(wire
 		(pts
@@ -5517,7 +5415,7 @@
 	)
 	(polyline
 		(pts
-			(xy 91.694 235.712) (xy 93.472 235.712)
+			(xy 85.725 233.934) (xy 87.503 233.934)
 		)
 		(stroke
 			(width 0)
@@ -5537,7 +5435,7 @@
 	)
 	(polyline
 		(pts
-			(xy 110.998 242.316) (xy 112.522 242.316)
+			(xy 105.029 240.538) (xy 106.553 240.538)
 		)
 		(stroke
 			(width 0)
@@ -5547,7 +5445,7 @@
 	)
 	(polyline
 		(pts
-			(xy 102.87 250.952) (xy 103.886 250.952)
+			(xy 96.901 249.174) (xy 97.917 249.174)
 		)
 		(stroke
 			(width 0)
@@ -5587,7 +5485,7 @@
 	)
 	(polyline
 		(pts
-			(xy 95.758 243.84) (xy 95.758 250.444)
+			(xy 89.789 242.062) (xy 89.789 248.666)
 		)
 		(stroke
 			(width 0)
@@ -13130,6 +13028,52 @@
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 78.74 180.975)
+		(size 19.05 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c8ed4f6d-e52f-4967-9fbf-72e548218336")
+		(property "Sheetname" "HVPSU iso measurements"
+			(at 78.74 180.2634 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HV iso measurement.kicad_sch"
+			(at 78.74 194.2596 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
+					(page "9")
 				)
 			)
 		)

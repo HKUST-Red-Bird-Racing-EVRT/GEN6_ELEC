@@ -661,7 +661,7 @@
         "uuid": "ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D9,#PWR71-86,C19-26,R36-45,U8-11",
     "variants": []
   },
   "sheets": [
@@ -696,6 +696,10 @@
     [
       "4ad1186d-4a80-4977-a17a-751b63298a90",
       "Digital input"
+    ],
+    [
+      "c8ed4f6d-e52f-4967-9fbf-72e548218336",
+      "HVPSU iso measurements"
     ]
   ],
   "text_variables": {},
