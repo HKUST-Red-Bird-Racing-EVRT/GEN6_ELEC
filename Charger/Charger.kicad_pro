@@ -467,7 +467,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -661,7 +661,7 @@
         "uuid": "ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
       }
     ],
-    "used_designators": "D9,#PWR71-86,C19-26,R36-45,U8-11",
+    "used_designators": "D1-11,#PWR1-106,C1-35,R1-49,#FLG1-8,AVR\\-ISP1,J1-7,U1-13,P1,CA1-5,F1,K1-2,RSHUNT1,L1,Q1-4,SW1-3,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -686,10 +686,6 @@
       "POWER_MOS1"
     ],
     [
-      "31db9058-1875-4020-8110-a9a0958439e1",
-      "Connectors"
-    ],
-    [
       "723d3193-29c3-4d78-8ff0-96894e34a9dd",
       "DIGIPOT"
     ],
@@ -700,6 +696,10 @@
     [
       "c8ed4f6d-e52f-4967-9fbf-72e548218336",
       "HVPSU iso measurements"
+    ],
+    [
+      "31db9058-1875-4020-8110-a9a0958439e1",
+      "Connectors"
     ]
   ],
   "text_variables": {},

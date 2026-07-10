@@ -2641,7 +2641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16bc24d8-b7eb-4eb9-a175-5c5a434b722b")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR047"
 			(at 120.65 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -2706,7 +2706,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR055")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2724,7 +2724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18d9529d-8e82-4171-a26b-c98ebdc25ec5")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR059"
 			(at 179.07 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -2790,7 +2790,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR067")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2808,7 +2808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ab4c3d4-972a-4a0c-80f9-b8926c3ae788")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR061"
 			(at 251.46 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2873,7 +2873,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR069")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3530,7 +3530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65ff6384-5f64-4378-a2fc-117893148ad3")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR051"
 			(at 156.21 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3595,7 +3595,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR059")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3821,7 +3821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ea3496a-e07a-4310-b872-c83d26809ad3")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR054"
 			(at 168.91 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3887,7 +3887,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR062")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -3905,7 +3905,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71deda53-5305-43e2-8102-cb6f76fa5a3a")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR050"
 			(at 148.59 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3970,7 +3970,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR058")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -3988,7 +3988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79f58a03-94a3-4815-8600-9078acf30b12")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR060"
 			(at 251.46 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4054,7 +4054,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR068")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -4072,7 +4072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a959dcb-076a-4a01-a37a-16a7d3437d3b")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR056"
 			(at 170.688 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4137,7 +4137,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR064")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -4325,7 +4325,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4164892-9fb1-457d-a929-51da54dd2831")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR058"
 			(at 178.308 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4390,7 +4390,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR066")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a657a80e-13db-455d-863c-f3e66d7b515c")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR048"
 			(at 146.05 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4557,7 +4557,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR056")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -4575,7 +4575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab71bb01-b84b-4be9-a2fc-28bf2307ebb9")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR053"
 			(at 168.148 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4640,7 +4640,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR061")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -4872,7 +4872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b67cf93c-2a75-43e5-a450-2588b697f3ba")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR057"
 			(at 171.45 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -4938,7 +4938,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR065")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -5462,7 +5462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8820994-9619-42bd-9f87-0512994fb179")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR046"
 			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5527,7 +5527,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR054")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5632,7 +5632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d98399d9-5432-4db7-95f9-8330e71904da")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR044"
 			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -5697,7 +5697,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR052")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6013,7 +6013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e07ea6c9-5ab1-4d20-9108-1e076be23536")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR049"
 			(at 146.05 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -6078,7 +6078,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR057")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -6096,7 +6096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e160d8fd-ae1c-432b-b49a-7b66168d0635")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR052"
 			(at 168.148 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -6161,7 +6161,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR060")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6351,7 +6351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ae223b-3787-4d94-87db-c76d8f3d15d6")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR055"
 			(at 168.91 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6417,7 +6417,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR063")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6556,7 +6556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa2651af-9627-4fb9-a8fe-a9d4b55233b5")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR045"
 			(at 119.38 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6621,7 +6621,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR053")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6639,7 +6639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff4897e9-e76b-4b7a-926a-e389ada407b7")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR062"
 			(at 261.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6704,7 +6704,7 @@
 			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/4ad1186d-4a80-4977-a17a-751b63298a90"
-					(reference "#PWR070")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
