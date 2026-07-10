@@ -3010,6 +3010,7 @@
 		)
 		(property "Value" "20MHz"
 			(at 106.426 120.777 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

@@ -1,4 +1,4 @@
-#include <pins.h>
+#include "pins.h"
 
 constexpr int PRECHARGE_TARGET_PERCENT = 95;
 constexpr int TS_VOLTAGE_PRESENT_MIN_RAW = 30;
