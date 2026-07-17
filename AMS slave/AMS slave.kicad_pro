@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.0,
-          "width": 2.5
+          "height": 1.0,
+          "width": 1.25
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,11 +60,11 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 2,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -78,27 +78,27 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|90000000|103159992|8576e533-f3e3-49f6-b801-34a3f03bfa27|4d621b62-7544-4652-aa15-9fb4c00947aa",
-          "it's literally the footprint bruh"
-        ],
-        [
-          "hole_clearance|90000000|93840008|678e6aaf-0222-412e-af03-dbd6585e38ac|7f5fd097-2659-4a37-8142-82ed68086b53",
+          "hole_clearance|90000000|89659992|8576e533-f3e3-49f6-b801-34a3f03bfa27|4d621b62-7544-4652-aa15-9fb4c00947aa",
           ""
         ],
         [
-          "silk_edge_clearance|75815000|154400000|dbcde882-7f53-40b5-9a31-40a2e7ffac27|a0aa96c3-2306-48cf-8114-dee05f475acb",
+          "lib_footprint_mismatch|62300000|126899999|7a5f3cc6-9d74-4881-a67a-e201da612e9b|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_edge_clearance|85185000|154400000|dbcde882-7f53-40b5-9a31-40a2e7ffac27|85399c8c-669a-4e43-b875-bf752aaac152",
+          "lib_footprint_mismatch|93111251|147208750|0d20420a-d541-4ffb-bdb8-57d15f310269|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
-          "silk_edge_clearance|88615400|154400000|dbcde882-7f53-40b5-9a31-40a2e7ffac27|ed923203-9e50-4ea6-9f4d-0996b3be6d66",
+          "starved_thermal|79025000|137290000|59f1bbfb-d18c-49a3-b191-3c436b6e2acf|9146f336-9d62-429f-9b22-b1904ed22368|F.Cu",
           ""
         ],
         [
-          "silk_edge_clearance|96184600|154400000|dbcde882-7f53-40b5-9a31-40a2e7ffac27|28e034f9-e1ba-4d43-8003-94ea2dccbe54",
+          "starved_thermal|84284400|136493100|59f1bbfb-d18c-49a3-b191-3c436b6e2acf|77d55c09-3ed1-4f26-917d-687acab8799e|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|84467500|117902500|59f1bbfb-d18c-49a3-b191-3c436b6e2acf|7bb9cb66-1a71-4473-acca-65d38b4f6f02|F.Cu",
           ""
         ]
       ],
@@ -146,8 +146,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -183,10 +183,10 @@
         "min_silk_clearance": 0.15,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.2,
+        "min_through_hole_diameter": 0.1,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.4,
+        "min_via_annular_width": 0.0,
+        "min_via_diameter": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -295,7 +295,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.5.0"
+      "sch_revision": "1.0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -739,7 +739,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -982,7 +982,7 @@
         "uuid": "9d086174-c3f9-4f2b-b5ac-a2d10e7f2013"
       }
     ],
-    "used_designators": "C37,#PWR139-140",
+    "used_designators": "C37-42,D7-22,#PWR19,#PWR36-38,#PWR129,#PWR139-140,Q1-14,Cx4,R1-5,R23-26,R28,R43-54,Rx1,Rx4,RBAL1-14,U5,U11-12",
     "variants": []
   },
   "sheets": [
