@@ -1,13 +1,13 @@
 (footprint "Untitled"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -9 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "d67299c8-f9ee-4a5f-9feb-a1f1f88c7418")
+		(uuid "222e452f-1ef9-4391-8221-b16e5416c54a")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f452116a-4a29-4960-be52-5f93eeccf44b")
+		(uuid "0a697bc4-550c-416f-b89b-237d3b97ed7b")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1dc2fe20-1cdd-46e8-90f8-7b4c244965fc")
+		(uuid "f0049ee0-2c0d-4c3b-8668-35a0599f5703")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "75d8efb5-455d-46f7-a416-f90a2edcd202")
+		(uuid "c40f4b5f-3837-4f32-b2ac-fd74a90d89ab")
 		(effects
 			(font
 				(size 1 1)
@@ -54,22 +54,23 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -8 -3.5)
-		(end 8 3.5)
+		(start -11.5 -3.5)
+		(end 11.5 3.5)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "13ebe9e5-8fb0-4ef3-ab6a-e5c2483e1442")
+		(uuid "c74b3bcb-f74f-45a0-83b9-745e95d41256")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "e437ea16-97bb-4269-955c-75b85ef28178")
+		(uuid "5c6067f9-a21f-4e38-8f06-60baaabd777d")
 		(effects
 			(font
 				(size 1 1)
@@ -79,197 +80,166 @@
 	)
 	(pad "1" thru_hole rect
 		(at 0 0)
-		(size 15 6)
-		(drill 4.5)
+		(size 22 6)
+		(drill 4.48)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(uuid "6f0d022e-d756-4580-b851-d42baeee0754")
+		(uuid "36aacbb2-ce55-4088-ada6-bdcf35f4270a")
 		(padstack
 			(mode custom)
 			(layer "In1.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In2.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In3.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In4.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In5.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In6.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In7.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In8.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In9.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In10.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In11.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In12.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In13.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In14.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In15.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In16.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In17.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In18.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In19.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In20.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In21.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In22.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In23.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In24.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In25.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In26.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In27.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In28.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In29.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "In30.Cu"
 				(shape rect)
 				(size 15 6)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 			(layer "B.Cu"
 				(shape oval)
 				(size 4.9 4.9)
-				(thermal_bridge_angle 45)
 				(zone_connect -1)
 			)
 		)
