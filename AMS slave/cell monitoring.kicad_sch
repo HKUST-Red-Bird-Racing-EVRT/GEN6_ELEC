@@ -4578,6 +4578,12 @@
 		(uuid "4e6af104-0876-4060-8d70-260b7f8714a7")
 	)
 	(junction
+		(at 38.1 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "525fa929-8f2e-4b05-9941-eff0040df656")
+	)
+	(junction
 		(at 41.91 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4630,12 +4636,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f8d1306-bb14-426f-aba0-d8d2029cd4df")
-	)
-	(junction
-		(at 38.1 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "729bfac5-8492-4ad9-9641-c79d6218eb97")
 	)
 	(junction
 		(at 218.44 157.48)
@@ -4810,6 +4810,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a91002fd-f2d4-448e-9204-9afb453f6232")
+	)
+	(junction
+		(at 38.1 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aab771dd-822d-4262-8a18-f7f348193bcd")
 	)
 	(junction
 		(at 274.32 157.48)
@@ -5274,6 +5280,16 @@
 			(type default)
 		)
 		(uuid "1629cb20-8f42-484b-9c52-e691c9cb9b43")
+	)
+	(wire
+		(pts
+			(xy 35.56 87.63) (xy 38.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17361e2d-edd5-47df-821b-0374ed171833")
 	)
 	(wire
 		(pts
@@ -6027,6 +6043,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 81.28) (xy 35.56 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bbc9ac6-16d3-4c26-b121-e31726d56790")
+	)
+	(wire
+		(pts
 			(xy 25.4 165.1) (xy 27.94 165.1)
 		)
 		(stroke
@@ -6494,6 +6520,16 @@
 			(type default)
 		)
 		(uuid "829a0212-29eb-4e35-a656-c90b6952f775")
+	)
+	(wire
+		(pts
+			(xy 33.02 81.28) (xy 35.56 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b6c7eb-3992-491d-992c-9aef69d36103")
 	)
 	(wire
 		(pts
@@ -7187,6 +7223,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 86.36) (xy 35.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befc1062-f729-4565-b63e-835cc3ca5385")
+	)
+	(wire
+		(pts
 			(xy 135.89 62.23) (xy 133.35 62.23)
 		)
 		(stroke
@@ -7224,6 +7270,16 @@
 			(type default)
 		)
 		(uuid "c139ec98-024b-4b7a-ad8e-039dff67594a")
+	)
+	(wire
+		(pts
+			(xy 35.56 86.36) (xy 35.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ef0b1f-da8e-490d-a99a-970068afb721")
 	)
 	(wire
 		(pts
@@ -7914,6 +7970,16 @@
 			(type default)
 		)
 		(uuid "f29a0b60-2096-486d-bfce-dc46711f5b5d")
+	)
+	(wire
+		(pts
+			(xy 35.56 80.01) (xy 38.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4620062-83d9-4834-b454-21217be891e4")
 	)
 	(wire
 		(pts
@@ -8994,16 +9060,6 @@
 			(justify right top)
 		)
 		(uuid "fccf2ad0-1a60-4101-97dd-3ba6c02575e2")
-	)
-	(label "TP1"
-		(at 30.48 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ffb5dd24-e287-45df-8a8f-3f84b00cfe30")
 	)
 	(hierarchical_label "NTC5+"
 		(shape output)
@@ -11832,7 +11888,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 15.24 74.93 0)
+		(at 17.78 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11843,7 +11899,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f30fc6e-ce43-42f4-a9c4-ff76448c6a75")
 		(property "Reference" "#PWR036"
-			(at 15.24 78.74 0)
+			(at 17.78 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11854,7 +11910,7 @@
 			)
 		)
 		(property "Value" "VCC2"
-			(at 15.24 69.85 0)
+			(at 17.78 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11864,7 +11920,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 74.93 0)
+			(at 17.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11875,7 +11931,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 74.93 0)
+			(at 17.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11886,7 +11942,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 15.24 74.93 0)
+			(at 17.78 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15388,86 +15444,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 34.29 80.01 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70f592e0-6d2c-45d8-a8de-865dbb129937")
-		(property "Reference" "R44"
-			(at 34.29 75.692 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 34.29 77.724 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 34.29 81.788 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 34.29 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7624e15a-c2f3-4082-a81f-73b65c33f541")
-		)
-		(pin "1"
-			(uuid "cd99e5e0-8f90-4f78-bfea-fb18263dab9d")
-		)
-		(instances
-			(project "AMS slave"
-				(path "/9d086174-c3f9-4f2b-b5ac-a2d10e7f2013/72ba2d86-b5f1-4c9f-9e37-5b2b76178c75"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 111.76 160.02 0)
 		(unit 1)
@@ -17618,7 +17594,7 @@
 	)
 	(symbol
 		(lib_id "power:GND2")
-		(at 15.24 80.01 0)
+		(at 17.78 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17629,7 +17605,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9330b7e-0221-4e38-84ea-4a7b98427090")
 		(property "Reference" "#PWR037"
-			(at 15.24 86.36 0)
+			(at 17.78 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17640,7 +17616,7 @@
 			)
 		)
 		(property "Value" "GND2"
-			(at 15.24 85.09 0)
+			(at 17.78 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17650,7 +17626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 15.24 80.01 0)
+			(at 17.78 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17661,7 +17637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 80.01 0)
+			(at 17.78 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17672,7 +17648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 15.24 80.01 0)
+			(at 17.78 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21955,7 +21931,7 @@
 	)
 	(symbol
 		(lib_id "Isolator:LTV-817S")
-		(at 22.86 77.47 0)
+		(at 25.4 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21966,7 +21942,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8329b1b-ae4a-444f-a477-178e2bb0f9a4")
 		(property "Reference" "U5"
-			(at 22.86 68.58 0)
+			(at 25.4 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21976,7 +21952,7 @@
 			)
 		)
 		(property "Value" "LTV-817S"
-			(at 22.86 71.12 0)
+			(at 25.4 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21986,7 +21962,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-4_W9.53mm"
-			(at 22.86 85.09 0)
+			(at 25.4 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21997,7 +21973,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.us.liteon.com/downloads/LTV-817-827-847.PDF"
-			(at 13.97 69.85 0)
+			(at 16.51 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22008,7 +21984,7 @@
 			)
 		)
 		(property "Description" "DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"
-			(at 22.86 77.47 0)
+			(at 25.4 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
