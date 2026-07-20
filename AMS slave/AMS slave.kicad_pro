@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 1.475
+          "height": 1.4,
+          "width": 0.975
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -134,23 +134,7 @@
           ""
         ],
         [
-          "courtyards_overlap|64905000|118855000|7a5f3cc6-9d74-4881-a67a-e201da612e9b|8f223cb1-d7bf-4ed9-b342-6567306e1b80",
-          ""
-        ],
-        [
           "courtyards_overlap|65105000|90255000|7b7b4949-8626-4759-8a4f-1697b434cf12|dcb5019d-c80e-407d-a7ca-0f70afbcee02",
-          ""
-        ],
-        [
-          "courtyards_overlap|65146215|128301120|11f4a703-aad6-4322-adfa-687f132f6e4a|8f223cb1-d7bf-4ed9-b342-6567306e1b80",
-          ""
-        ],
-        [
-          "courtyards_overlap|67105000|129755000|5a5bef80-9a3f-40e1-a4b0-548e8e973612|8f223cb1-d7bf-4ed9-b342-6567306e1b80",
-          ""
-        ],
-        [
-          "courtyards_overlap|67145025|118855000|8f223cb1-d7bf-4ed9-b342-6567306e1b80|a5a0e431-e8da-4091-96de-001915c1ae33",
           ""
         ],
         [
@@ -175,14 +159,6 @@
         ],
         [
           "courtyards_overlap|74105000|90255000|43263c69-fdf7-4f73-8da5-c5c3e021f9d6|bdbcc78b-996e-4497-ae58-b5200832d04d",
-          ""
-        ],
-        [
-          "courtyards_overlap|75447056|118855000|8f223cb1-d7bf-4ed9-b342-6567306e1b80|c16f54e3-4ae0-4a0e-ab67-a2ac2702512c",
-          ""
-        ],
-        [
-          "courtyards_overlap|75555675|118855000|7ff1faca-8f17-40fa-9e56-0a070ad314f4|8f223cb1-d7bf-4ed9-b342-6567306e1b80",
           ""
         ],
         [
@@ -254,6 +230,38 @@
           ""
         ],
         [
+          "lib_footprint_mismatch|93111251|147208750|0d20420a-d541-4ffb-bdb8-57d15f310269|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|87390000|133750000|1741ee1b-20e9-49d1-bb9d-d1ba581cb62b|6453e66d-283d-4df2-a27c-8a13dba9809a",
+          ""
+        ],
+        [
+          "silk_overlap|87390000|133750000|1741ee1b-20e9-49d1-bb9d-d1ba581cb62b|8e6c8c9c-e5d4-4bf9-8ceb-af1fb97ba51b",
+          ""
+        ],
+        [
+          "silk_overlap|91890000|133710000|09e06ff9-4c7e-425d-bb8c-809cb6e4a2fe|1741ee1b-20e9-49d1-bb9d-d1ba581cb62b",
+          ""
+        ],
+        [
+          "silk_overlap|91890000|133750000|1741ee1b-20e9-49d1-bb9d-d1ba581cb62b|e546da42-7a5e-49a7-8810-4ad7840f8b2e",
+          ""
+        ],
+        [
+          "silk_overlap|96390000|133750000|1741ee1b-20e9-49d1-bb9d-d1ba581cb62b|5db1b4bd-d1ca-4aa5-ad44-a97a2bc5861e",
+          ""
+        ],
+        [
+          "silk_overlap|96390000|133750000|1741ee1b-20e9-49d1-bb9d-d1ba581cb62b|c7ea1f8e-2fa1-43ca-bca7-22990102e2c1",
+          ""
+        ],
+        [
+          "starved_thermal|79025000|137290000|59f1bbfb-d18c-49a3-b191-3c436b6e2acf|9146f336-9d62-429f-9b22-b1904ed22368|F.Cu",
+          ""
+        ],
+        [
           "starved_thermal|84467500|117902500|59f1bbfb-d18c-49a3-b191-3c436b6e2acf|7bb9cb66-1a71-4473-acca-65d38b4f6f02|F.Cu",
           ""
         ]
@@ -287,7 +295,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "ignore",
+        "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -302,8 +310,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -1138,7 +1146,7 @@
         "uuid": "9d086174-c3f9-4f2b-b5ac-a2d10e7f2013"
       }
     ],
-    "used_designators": "D6,D21-27,#PWR2,#PWR14-15,#PWR129,#PWR131,R31,R37-40",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
