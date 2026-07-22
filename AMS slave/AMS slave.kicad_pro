@@ -40,7 +40,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.45,
+          "height": 1.4362,
           "width": 1.5312
         },
         "silk_line_width": 0.1,
@@ -238,11 +238,7 @@
           ""
         ],
         [
-          "hole_clearance|90000000|89659992|8576e533-f3e3-49f6-b801-34a3f03bfa27|4d621b62-7544-4652-aa15-9fb4c00947aa",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|103637500|144374999|0d20420a-d541-4ffb-bdb8-57d15f310269|00000000-0000-0000-0000-000000000000",
+          "hole_clearance|90000000|80340008|678e6aaf-0222-412e-af03-dbd6585e38ac|7f5fd097-2659-4a37-8142-82ed68086b53",
           ""
         ],
         [
@@ -311,22 +307,6 @@
         ],
         [
           "silk_overlap|101354203|99301907|31a48fe7-4987-4962-9f53-126fc9ae7ab6|ec78bbdd-66c4-4ff2-a022-874816ba6fe4",
-          ""
-        ],
-        [
-          "silk_overlap|65625000|114240000|12cab416-6da5-49a5-8e8c-e33d10bc1ac7|cc953af1-931b-4872-8954-1164ff395c56",
-          ""
-        ],
-        [
-          "silk_overlap|65625000|114250000|12cab416-6da5-49a5-8e8c-e33d10bc1ac7|3479e336-5360-4f0c-88f1-f44d733976e6",
-          ""
-        ],
-        [
-          "silk_overlap|65625000|114260000|3479e336-5360-4f0c-88f1-f44d733976e6|8c298002-d7f2-4a4f-91d9-2c74575d9530",
-          ""
-        ],
-        [
-          "silk_overlap|65625000|114260000|8c298002-d7f2-4a4f-91d9-2c74575d9530|cc953af1-931b-4872-8954-1164ff395c56",
           ""
         ],
         [
@@ -451,7 +431,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -1302,7 +1282,7 @@
         "uuid": "9d086174-c3f9-4f2b-b5ac-a2d10e7f2013"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D26-27,RLED4-5",
     "variants": []
   },
   "sheets": [
