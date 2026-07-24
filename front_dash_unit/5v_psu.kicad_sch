@@ -783,6 +783,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:BZT52Bxx"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZT52Bxx"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123F"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "500mW Zener Diode, SOD-123F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D?SOD?123F*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BZT52Bxx_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZT52Bxx_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_1"
 			(power global)
 			(pin_numbers
@@ -2313,6 +2478,12 @@
 		(uuid "5e4ce9fb-ee16-4ed5-8ec4-bacbbf996684")
 	)
 	(junction
+		(at 58.42 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ec4ad21-0893-42a4-bf1d-855ea5d459b2")
+	)
+	(junction
 		(at 120.65 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2375,6 +2546,16 @@
 			(type default)
 		)
 		(uuid "040c4b3d-2ea5-4868-a8b9-31ef4d1c838a")
+	)
+	(wire
+		(pts
+			(xy 58.42 116.84) (xy 58.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046676d3-3670-4461-b107-2289b3af7ee8")
 	)
 	(wire
 		(pts
@@ -2508,13 +2689,23 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 114.3) (xy 49.53 116.84)
+			(xy 49.53 116.84) (xy 49.53 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6abfba72-afcd-44c5-8ad7-da32bf721e51")
+		(uuid "66d2789c-6a7b-40df-a48a-ec4eb089b3a4")
+	)
+	(wire
+		(pts
+			(xy 49.53 127) (xy 49.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760ce59b-7966-4278-b47a-be351c1fcd0b")
 	)
 	(wire
 		(pts
@@ -2578,7 +2769,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 127) (xy 49.53 124.46)
+			(xy 58.42 127) (xy 49.53 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74b2870-7dfc-4001-b27e-afcfad15ccf5")
+	)
+	(wire
+		(pts
+			(xy 58.42 124.46) (xy 58.42 127)
 		)
 		(stroke
 			(width 0)
@@ -2635,6 +2836,16 @@
 			(type default)
 		)
 		(uuid "f6282525-3ec2-4e7d-869e-dcb8abd95d50")
+	)
+	(wire
+		(pts
+			(xy 49.53 114.3) (xy 58.42 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6393b3d-6b1e-4cbb-8730-b818b96188b8")
 	)
 	(wire
 		(pts
@@ -2941,7 +3152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 90.17 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3582,7 +3793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 47.752 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -3715,7 +3926,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 49.53 127 0)
+		(at 58.42 127 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3726,7 +3937,7 @@
 		(fields_autoplaced yes)
 		(uuid "56278dff-35f0-4e9a-ab9b-ebb1c3a6704b")
 		(property "Reference" "#PWR026"
-			(at 49.53 133.35 0)
+			(at 58.42 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +3948,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 132.08 0)
+			(at 58.42 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3747,7 +3958,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 127 0)
+			(at 58.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3758,7 +3969,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 127 0)
+			(at 58.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3769,7 +3980,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 127 0)
+			(at 58.42 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,7 +4597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 47.752 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -4628,7 +4839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 84.328 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -4828,6 +5039,87 @@
 			(project "front_dash_unit"
 				(path "/fd8cd165-77cc-46bb-a4e0-203fa46c9998/1dd70725-422d-49bb-957c-a13410ca92ab"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZT52Bxx")
+		(at 58.42 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9996088-623f-48aa-b94c-9d19fe94b772")
+		(property "Reference" "D3"
+			(at 60.96 119.3799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BZT52B5V1"
+			(at 60.96 121.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 53.975 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
+			(at 58.42 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4434b7e8-680b-41f9-adfd-a4edc76dbdc1")
+		)
+		(pin "2"
+			(uuid "79e2b2fa-f08c-4d4f-a570-2da4a9ff628e")
+		)
+		(instances
+			(project "front_dash_unit"
+				(path "/fd8cd165-77cc-46bb-a4e0-203fa46c9998/1dd70725-422d-49bb-957c-a13410ca92ab"
+					(reference "D3")
 					(unit 1)
 				)
 			)
