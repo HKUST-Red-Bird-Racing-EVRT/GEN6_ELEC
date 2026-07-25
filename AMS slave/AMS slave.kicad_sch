@@ -6319,12 +6319,12 @@
 		(uuid "7f3adfe4-3a49-4371-8db3-0016a9bbb4e0")
 	)
 	(label "NTC5+"
-		(at 40.64 58.42 180)
+		(at 73.66 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "84f821cc-3039-41d1-bd09-c276a6bc171f")
 	)
@@ -6469,12 +6469,12 @@
 		(uuid "ac1d2a67-2173-4dd8-a7c7-08c7b9527e11")
 	)
 	(label "NTC1+"
-		(at 73.66 81.28 0)
+		(at 40.64 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "af49f8f8-5767-4fbf-ba92-694d365455b0")
 	)
@@ -6503,7 +6503,7 @@
 		(uuid "b1c9fa4b-90cd-4d5b-b28b-3202a84dcbe2")
 	)
 	(label "NTC4+"
-		(at 73.66 73.66 0)
+		(at 73.66 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6645,7 +6645,7 @@
 		(uuid "f01dd361-a105-4b48-af17-b2df05157ef2")
 	)
 	(label "NTC2+"
-		(at 73.66 78.74 0)
+		(at 73.66 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)

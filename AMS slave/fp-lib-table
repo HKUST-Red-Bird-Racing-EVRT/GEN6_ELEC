@@ -15,4 +15,5 @@
 	(lib (name "RMC_toggle_switch") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/RMC_toggle_switch.pretty") (options "") (descr ""))
 	(lib (name "CON_550910274_MOL") (type "KiCad") (uri "${KIPRJMOD}/CON_550910274_MOL.pretty") (options "") (descr ""))
 	(lib (name "B05xxMT-1WR4_MNS") (type "KiCad") (uri "${KIPRJMOD}/B05xxMT-1WR4_MNS.pretty") (options "") (descr ""))
+	(lib (name "to be sorted") (type "KiCad") (uri "${KICAD10_FOOTPRINT_DIR}/to be sorted") (options "") (descr ""))
 )
