@@ -6178,16 +6178,6 @@
 		)
 		(uuid "41e769f6-f5e2-46fd-8cf0-379e9a67390c")
 	)
-	(label "NTC4+"
-		(at 73.66 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "43ad1a73-e309-419d-9ad8-0d0f92a57ef7")
-	)
 	(label "GND2"
 		(at 200.66 29.21 180)
 		(effects
@@ -6199,16 +6189,6 @@
 			(justify right bottom)
 		)
 		(uuid "47e13125-f4fc-4078-aecd-4659cfdbf721")
-	)
-	(label "NTC5+"
-		(at 73.66 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "556a4a54-e074-494b-a48a-d536baa7b127")
 	)
 	(label "NTC5+"
 		(at 269.24 59.69 0)
@@ -6338,15 +6318,15 @@
 		)
 		(uuid "7f3adfe4-3a49-4371-8db3-0016a9bbb4e0")
 	)
-	(label "NTC2+"
-		(at 73.66 73.66 0)
+	(label "NTC5+"
+		(at 40.64 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "81ea0fb7-b13d-4f82-b34b-b5d26c7887ac")
+		(uuid "84f821cc-3039-41d1-bd09-c276a6bc171f")
 	)
 	(label "CANL"
 		(at 173.99 26.67 180)
@@ -6359,6 +6339,16 @@
 			(justify right bottom)
 		)
 		(uuid "86226476-fe7a-4442-97fb-de39577bb15b")
+	)
+	(label "NTC3+"
+		(at 73.66 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8661c883-9a14-4c35-9c77-4bcc3a630f19")
 	)
 	(label "CANL"
 		(at 200.66 26.67 180)
@@ -6383,16 +6373,6 @@
 			(justify left bottom)
 		)
 		(uuid "8be29b1f-8c4a-4553-aaba-34fecb250d9e")
-	)
-	(label "NTC3+"
-		(at 40.64 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "92f57ccd-5c54-46cc-8c72-849076e968d0")
 	)
 	(label "MISO"
 		(at 199.39 53.34 180)
@@ -6488,6 +6468,16 @@
 		)
 		(uuid "ac1d2a67-2173-4dd8-a7c7-08c7b9527e11")
 	)
+	(label "NTC1+"
+		(at 73.66 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af49f8f8-5767-4fbf-ba92-694d365455b0")
+	)
 	(label "~{INT}"
 		(at 93.98 171.45 0)
 		(effects
@@ -6512,15 +6502,15 @@
 		)
 		(uuid "b1c9fa4b-90cd-4d5b-b28b-3202a84dcbe2")
 	)
-	(label "NTC1+"
-		(at 73.66 76.2 0)
+	(label "NTC4+"
+		(at 73.66 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c490f04e-5323-4303-ba06-d1cecc7626d2")
+		(uuid "b8f6d967-4349-4ab5-80f8-edbcca798f4d")
 	)
 	(label "~{RX0BF}"
 		(at 93.98 173.99 0)
@@ -6653,6 +6643,16 @@
 			(justify left bottom)
 		)
 		(uuid "f01dd361-a105-4b48-af17-b2df05157ef2")
+	)
+	(label "NTC2+"
+		(at 73.66 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f34f48d2-b1f1-4e96-891f-bc8e6fba2349")
 	)
 	(label "CS"
 		(at 73.66 55.88 0)
