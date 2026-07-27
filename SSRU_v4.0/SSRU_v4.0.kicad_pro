@@ -532,7 +532,7 @@
       "plot": "./SSRU_GERBER",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SSRU_v4.0.glb",
       "svg": "",
       "vrml": ""
     },
