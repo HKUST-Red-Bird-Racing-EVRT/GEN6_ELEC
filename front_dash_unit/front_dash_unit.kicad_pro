@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 0,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
@@ -794,7 +794,7 @@
         "uuid": "fd8cd165-77cc-46bb-a4e0-203fa46c9998"
       }
     ],
-    "used_designators": "#PWR3,#PWR10,D2-4,C19-20,J13,R2,R4-6",
+    "used_designators": "#PWR59-60,#PWR90,U3,R30-31",
     "variants": []
   },
   "sheets": [
