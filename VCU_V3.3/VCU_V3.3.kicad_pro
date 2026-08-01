@@ -282,7 +282,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "VCU_v3.3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -712,7 +712,7 @@
       {
         "filename": "VCU_V3.3.kicad_sch",
         "name": "VCU_V3.3",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "763833dc-bbcb-46fa-abab-1e60581348ee"
       }
     ],
     "used_designators": "",
@@ -721,7 +721,7 @@
   "sheets": [
     [
       "763833dc-bbcb-46fa-abab-1e60581348ee",
-      "Root"
+      "VCU_V3.3"
     ],
     [
       "4de3fa49-f848-498f-8af8-097b30b6f2cd",
@@ -748,12 +748,8 @@
       "CAN BUS_1"
     ],
     [
-      "458068ba-3c3c-4a96-a5a7-8ef1f085ac76",
-      "APPS_5V"
-    ],
-    [
-      "93473fac-c544-4ab7-816f-ccec5b9857d7",
-      "APPS_3V3"
+      "23600079-1031-47c7-bf9a-e6f6c4fcdbee",
+      "Analog Input1"
     ],
     [
       "8122f23e-c381-4ae5-b34a-5abe261e4548",
@@ -772,24 +768,16 @@
       "Analog Input"
     ],
     [
-      "073866bb-0e91-414f-bb53-ed1edf39e43f",
-      "PDU_5"
-    ],
-    [
-      "826909b1-840f-4b5b-87b7-e55043ae36c6",
-      "PDU_6"
-    ],
-    [
-      "c4d1d952-e0d9-4e21-bcbb-75287079142b",
-      "PDU_7"
-    ],
-    [
       "baac5f27-d3eb-4504-9f83-90b722b437aa",
       "CAN BUS_3"
     ],
     [
       "c8eb25e3-5a0d-480a-af8f-3867545194ba",
       "Connectors"
+    ],
+    [
+      "cbb0ad62-3285-411e-bc46-cdbceec36302",
+      "Accelerator"
     ]
   ],
   "text_variables": {},
