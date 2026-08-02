@@ -715,7 +715,7 @@
         "uuid": "763833dc-bbcb-46fa-abab-1e60581348ee"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR19,#PWR21-22",
     "variants": []
   },
   "sheets": [
@@ -745,7 +745,7 @@
     ],
     [
       "d99a1d8c-b439-4a46-9d7e-503c303d1fb2",
-      "CAN BUS_1"
+      "CAN BUS_2"
     ],
     [
       "23600079-1031-47c7-bf9a-e6f6c4fcdbee",
@@ -753,7 +753,7 @@
     ],
     [
       "8122f23e-c381-4ae5-b34a-5abe261e4548",
-      "CAN BUS_2"
+      "CAN BUS_1"
     ],
     [
       "b417edad-fcc9-4afb-a8ec-d6310121a771",
