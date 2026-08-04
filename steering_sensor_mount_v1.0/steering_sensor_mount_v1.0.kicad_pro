@@ -501,7 +501,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Steering_Sensor_Mount.kicad_pro",
+    "filename": "steering_sensor_mount_v1.0.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -537,7 +537,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "steering_sensor_mount_v1.0",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -656,8 +656,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Steering_Sensor_Mount.kicad_sch",
-        "name": "Steering_Sensor_Mount",
+        "filename": "steering_sensor_mount_v1.0.kicad_sch",
+        "name": "steering_sensor_mount_v1.0",
         "uuid": "d2bff0e9-5287-457e-bd5d-465f030d6b97"
       }
     ],
