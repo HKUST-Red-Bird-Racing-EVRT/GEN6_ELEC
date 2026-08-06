@@ -2319,6 +2319,12 @@
 			(uuid "8dc4c133-5648-4456-bbc4-f841e8e617d1")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J6")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "J6")
@@ -2397,6 +2403,12 @@
 			(uuid "8a1321ad-9563-45a7-b589-4f3c7993e2cd")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR097")
@@ -2475,6 +2487,12 @@
 			(uuid "91a8a806-5a30-45db-9151-3d4c9708451c")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR098")
@@ -2556,6 +2574,12 @@
 			(uuid "1489a17d-a298-4e84-8e46-88d6be9080b2")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J7")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "J7")
@@ -2634,6 +2658,12 @@
 			(uuid "dff339e7-3317-4cbb-913b-1be6a20c2197")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR095")
@@ -2712,6 +2742,12 @@
 			(uuid "20faea13-8029-46c5-b71d-cd4a3e5c66f0")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR0102")
@@ -2790,6 +2826,12 @@
 			(uuid "95947eaa-01a8-4504-a329-f9ddae21929c")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#FLG05")
@@ -2869,6 +2911,12 @@
 			(uuid "c4cea725-e04c-4467-b6a7-350abb8a478f")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR092")
@@ -2947,6 +2995,12 @@
 			(uuid "ec8e8230-907c-4151-87e8-28509ee2668d")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR099")
@@ -3026,6 +3080,12 @@
 			(uuid "5756eb4e-511b-42b7-8322-4ce7aa2d8891")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR093")
@@ -3131,6 +3191,12 @@
 			(uuid "2468d587-d408-47aa-9a3f-ae98928204f0")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "J3")
@@ -3215,6 +3281,12 @@
 			(uuid "27bae933-ee25-4d18-84c6-9ec2ee4a6324")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J5")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "J5")
@@ -3293,6 +3365,12 @@
 			(uuid "38ce5fae-733d-423b-853c-89eb74a5fda6")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#FLG06")
@@ -3371,6 +3449,12 @@
 			(uuid "c8ac684e-6e23-4f82-9e8d-d53eb083c7eb")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR0100")
@@ -3455,6 +3539,12 @@
 			(uuid "ccb4ec51-ac6c-4f49-9d41-1787cea264a5")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "J4")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "J4")
@@ -3533,6 +3623,12 @@
 			(uuid "f0afb83d-bb5b-473d-8ae4-737c0569f725")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR096")
@@ -3612,6 +3708,12 @@
 			(uuid "55ed30c3-26a1-4a9b-9b1d-e67d52559397")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR094")
@@ -3695,6 +3797,12 @@
 			(uuid "6b6ce6eb-eaff-4edb-a6d6-885f2d41234b")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "P1")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "P1")
@@ -3773,6 +3881,12 @@
 			(uuid "44e81bed-45ba-41c6-819e-35bc0170b10d")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR0101")
@@ -3851,6 +3965,12 @@
 			(uuid "df3810a1-cfbb-47e0-ae5a-4958a42163a7")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#FLG07")
@@ -3929,6 +4049,12 @@
 			(uuid "0df704b8-1767-4598-a23c-241bcd543ec9")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#FLG08")
@@ -4007,6 +4133,12 @@
 			(uuid "be6ea0ff-f1db-44e7-8780-02b513540aa5")
 		)
 		(instances
+			(project "Schematics"
+				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#FLG04")
