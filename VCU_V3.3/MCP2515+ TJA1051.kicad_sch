@@ -1469,6 +1469,12 @@
 		(uuid "16e0e9fd-fa8a-4b5e-b352-11e47bba5658")
 	)
 	(junction
+		(at 71.12 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19dfb0cd-a6b9-44aa-9702-0f96839239e3")
+	)
+	(junction
 		(at 64.77 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1624,6 +1630,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 68.58) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88e36c0e-990b-4597-9543-72b21e736f64")
+	)
+	(wire
+		(pts
 			(xy 91.44 83.82) (xy 69.85 83.82)
 		)
 		(stroke
@@ -1651,6 +1667,16 @@
 			(type default)
 		)
 		(uuid "a71cd560-4f5c-420a-90c6-890d0dbb6612")
+	)
+	(wire
+		(pts
+			(xy 71.12 68.58) (xy 91.44 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b344be78-cec2-484b-8546-720011fc62a3")
 	)
 	(wire
 		(pts
@@ -1850,7 +1876,7 @@
 	)
 	(hierarchical_label "CS"
 		(shape input)
-		(at 91.44 68.58 180)
+		(at 67.31 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2483,6 +2509,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 71.12 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37e17737-123c-4b87-b979-37eddf4562c4")
+		(property "Reference" "R83"
+			(at 73.66 63.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47k"
+			(at 73.66 66.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 69.342 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41d5c2cd-c86c-4cb4-80d5-4e9e7a2e06ec")
+		)
+		(pin "2"
+			(uuid "06dc199d-c45c-41d3-a923-590a3ce7e4ea")
+		)
+		(instances
+			(project "VCU_V3.3"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/8122f23e-c381-4ae5-b34a-5abe261e4548"
+					(reference "R84")
+					(unit 1)
+				)
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/baac5f27-d3eb-4504-9f83-90b722b437aa"
+					(reference "R85")
+					(unit 1)
+				)
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/d99a1d8c-b439-4a46-9d7e-503c303d1fb2"
+					(reference "R83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 137.16 76.2 0)
 		(unit 1)
@@ -2563,6 +2679,92 @@
 				)
 				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/d99a1d8c-b439-4a46-9d7e-503c303d1fb2"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 71.12 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "551cc5ea-04cd-418f-9f9f-53ff0f0a5808")
+		(property "Reference" "#PWR053"
+			(at 71.12 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 71.12 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 71.12 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd525d7c-68f2-478b-922e-1167b1323c8d")
+		)
+		(instances
+			(project "VCU_V3.3"
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/8122f23e-c381-4ae5-b34a-5abe261e4548"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/baac5f27-d3eb-4504-9f83-90b722b437aa"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/763833dc-bbcb-46fa-abab-1e60581348ee/d99a1d8c-b439-4a46-9d7e-503c303d1fb2"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)

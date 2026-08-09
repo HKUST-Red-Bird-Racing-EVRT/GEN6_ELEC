@@ -4601,7 +4601,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "350a8fb0-e388-4f0a-a1b5-14630d62a1ed")
 		(property "Reference" "L2"
 			(at 180.34 105.41 90)
