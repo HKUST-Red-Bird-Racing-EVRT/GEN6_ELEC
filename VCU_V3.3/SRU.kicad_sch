@@ -1831,12 +1831,6 @@
 		(uuid "038ad76e-d3b8-48d0-9a91-a4b1676948a7")
 	)
 	(junction
-		(at 120.65 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "14a7953d-0f0c-482f-a18b-cbb75f29ec61")
-	)
-	(junction
 		(at 168.91 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1921,6 +1915,12 @@
 		(uuid "d2be9c5c-8367-4d56-acdb-c7091f9bfc10")
 	)
 	(junction
+		(at 120.65 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e60b6952-9392-45a8-92be-586c2e5c81f1")
+	)
+	(junction
 		(at 120.65 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1944,7 +1944,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 135.89) (xy 137.16 135.89)
+			(xy 120.65 135.89) (xy 129.54 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2341,6 +2341,16 @@
 			(type default)
 		)
 		(uuid "d735845f-3124-4bf1-a6ca-d22cf1c6f643")
+	)
+	(wire
+		(pts
+			(xy 144.78 135.89) (xy 152.4 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c3d364-3c98-426e-8e30-b4b804f0792c")
 	)
 	(wire
 		(pts
@@ -3260,7 +3270,7 @@
 		(fields_autoplaced yes)
 		(uuid "5147847a-1d41-4a18-a631-01da749e94db")
 		(property "Reference" "U11"
-			(at 157.48 102.362 0)
+			(at 157.48 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3269,8 +3279,8 @@
 				)
 			)
 		)
-		(property "Value" "LTV-847S"
-			(at 157.48 104.902 0)
+		(property "Value" "ELQ3H7"
+			(at 157.48 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4599,7 +4609,7 @@
 				)
 			)
 		)
-		(property "Value" "LTV-847S"
+		(property "Value" "ELQ3H7"
 			(at 160.02 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4957,7 +4967,7 @@
 				)
 			)
 		)
-		(property "Value" "LTV-847S"
+		(property "Value" "ELQ3H7"
 			(at 167.64 132.842 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5058,7 +5068,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:40106")
-		(at 144.78 135.89 0)
+		(at 137.16 135.89 0)
 		(unit 4)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5069,7 +5079,7 @@
 		(fields_autoplaced yes)
 		(uuid "c286dc16-87a6-4c82-a2e3-0c6e6b4ce8a4")
 		(property "Reference" "U10"
-			(at 144.78 127.762 0)
+			(at 137.16 127.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5079,7 +5089,7 @@
 			)
 		)
 		(property "Value" "40106"
-			(at 144.78 130.302 0)
+			(at 137.16 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5089,7 +5099,7 @@
 			)
 		)
 		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
-			(at 144.78 135.89 0)
+			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5100,7 +5110,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/HEF40106B.pdf"
-			(at 144.78 135.89 0)
+			(at 137.16 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5111,7 +5121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 135.89 0)
+			(at 137.16 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5509,7 +5519,7 @@
 				)
 			)
 		)
-		(property "Value" "LTV-847S"
+		(property "Value" "ELQ3H7"
 			(at 157.48 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1289,6 +1289,30 @@
 			)
 		)
 	)
+	(global_label "DIN_4"
+		(shape input)
+		(at 90.17 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d811b2c-2cbc-4ae8-b1e8-b9fab952d3c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.5376 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PDU_3"
 		(shape input)
 		(at 116.84 82.55 0)
@@ -1446,30 +1470,6 @@
 		(uuid "98045092-1497-4475-ac76-a994d031b6b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 98.5376 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "IGN_12V"
-		(shape input)
-		(at 90.17 85.09 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a0b4ac85-7dd5-4fc6-b7c8-c3d0ddfdca67")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.8357 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
