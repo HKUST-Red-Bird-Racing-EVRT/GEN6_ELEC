@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "9942a424-e19d-4ffb-8473-f960b5c811cf")
 	(paper "A4")
 	(lib_symbols)
@@ -18,11 +18,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "35f5b11b-5d0d-4700-8479-f25bb26aecd1")
 		(property "Sheetname" "Connectors"
 			(at 130.048 115.1124 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,6 +34,8 @@
 		)
 		(property "Sheetfile" "connectors.kicad_sch"
 			(at 130.048 144.6026 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60,11 +64,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "6945656a-1a27-4b96-8a88-6a11e7484dc7")
 		(property "Sheetname" "ANALOG_IN"
 			(at 130.556 82.0924 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -74,6 +80,8 @@
 		)
 		(property "Sheetfile" "hall_isense.kicad_sch"
 			(at 130.556 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,11 +110,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "8fc427df-2d97-44b9-b479-5014f2f05880")
 		(property "Sheetname" "MCU"
 			(at 186.944 84.1244 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,6 +126,8 @@
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
 			(at 186.944 104.7246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -144,11 +156,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d0210ccf-eb84-46ca-8cbf-aeaae330deeb")
 		(property "Sheetname" "HV iso measurement"
 			(at 130.302 52.3744 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -158,6 +172,8 @@
 		)
 		(property "Sheetfile" "hv_iso_analog.kicad_sch"
 			(at 130.302 75.2606 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -186,11 +202,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "d4ffcd89-988d-4b7a-a40c-cc22466602f9")
 		(property "Sheetname" "voltage regulator"
 			(at 187.96 52.6284 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,6 +218,8 @@
 		)
 		(property "Sheetfile" "voltage regulator.kicad_sch"
 			(at 187.96 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -228,11 +248,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "db59dc7f-5332-44a2-bb52-28901b78a7e3")
 		(property "Sheetname" "12V_Output"
 			(at 187.198 115.8744 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,6 +264,8 @@
 		)
 		(property "Sheetfile" "12v_output.kicad_sch"
 			(at 187.198 132.9186 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -251,11 +275,13 @@
 		)
 		(property "Field2" ""
 			(at 187.198 116.586 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
