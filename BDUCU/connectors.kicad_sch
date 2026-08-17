@@ -1797,12 +1797,6 @@
 		)
 	)
 	(junction
-		(at 147.32 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04e3f088-dde5-44f4-99b4-e040244938f2")
-	)
-	(junction
 		(at 49.022 74.168)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1847,16 +1841,6 @@
 			(type default)
 		)
 		(uuid "053b081b-c0a1-49e7-970d-5b1a87666645")
-	)
-	(wire
-		(pts
-			(xy 147.32 73.66) (xy 157.48 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a4bc1e8-f873-4be9-8335-7c84e80d2331")
 	)
 	(wire
 		(pts
@@ -1980,16 +1964,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 63.5) (xy 147.32 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae943446-34b1-4736-9eca-8a49f87182be")
-	)
-	(wire
-		(pts
 			(xy 50.038 48.006) (xy 50.038 45.466)
 		)
 		(stroke
@@ -2010,7 +1984,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 90.17) (xy 147.32 73.66)
+			(xy 147.32 63.5) (xy 147.32 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2057,16 +2031,6 @@
 			(type default)
 		)
 		(uuid "dec6b861-e06c-4cf4-9cdc-784db01527ae")
-	)
-	(label "sdc_latch"
-		(at 147.32 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba221a9b-1c27-44dd-b31e-bca1a108e972")
 	)
 	(global_label "HALL_LO_input"
 		(shape input)
@@ -2153,30 +2117,6 @@
 		(uuid "0b5c0115-39e4-4dcd-b4bb-c1c56a9027f5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 244.665 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SDC_IN"
-		(shape input)
-		(at 157.48 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ba599a1-d8b7-46c9-9845-960f48172740")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.8424 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2812,6 +2752,30 @@
 			)
 		)
 	)
+	(global_label "SDC_IN"
+		(shape input)
+		(at 147.32 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eea79fe9-7992-4faf-9587-5924aad1481d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.9576 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "INPUT2_5V"
 		(shape input)
 		(at 177.8 93.98 0)
@@ -2984,7 +2948,8 @@
 			)
 		)
 		(property "Price" ".372"
-			(at 142.24 60.96 0)
+			(at 139.954 69.596 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4284,72 +4249,6 @@
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1"
 					(reference "#PWR072")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 157.48 68.58)
-		(size 26.67 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "1890627c-a006-4e49-97ad-50a658112688")
-		(property "Sheetname" "SDC LATCH"
-			(at 157.48 67.8684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SDCLATCH.kicad_sch"
-			(at 157.48 76.7846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "SDC_IN" input
-			(at 157.48 69.85 180)
-			(uuid "4b32036e-259e-47e1-ba1d-157eca05a0d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SDC_OUT" input
-			(at 157.48 73.66 180)
-			(uuid "e4ba37f5-af01-4c14-9cce-46780332c439")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1"
-					(page "14")
 				)
 			)
 		)

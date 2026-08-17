@@ -786,7 +786,7 @@
         "uuid": "9942a424-e19d-4ffb-8473-f960b5c811cf"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR130-133",
     "variants": []
   },
   "sheets": [
@@ -841,10 +841,6 @@
     [
       "c134f24c-ab46-4924-b33f-80effb4eb7ed",
       "4_INPUT_1"
-    ],
-    [
-      "1890627c-a006-4e49-97ad-50a658112688",
-      "SDC LATCH"
     ],
     [
       "d4ffcd89-988d-4b7a-a40c-cc22466602f9",
