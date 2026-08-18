@@ -1734,142 +1734,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12VA"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+12VA"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12VA\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+12VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+12VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -2009,142 +1873,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5VA"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5VA"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5VA\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5VA_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5VA_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "+5VA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_names
@@ -2259,12 +1987,6 @@
 		)
 	)
 	(junction
-		(at 87.63 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0038f512-4bb5-42eb-8d25-0e4e03923f89")
-	)
-	(junction
 		(at 86.36 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2301,7 +2023,7 @@
 		(uuid "4214dc8c-fb2b-40fa-b66a-aaac252801a8")
 	)
 	(junction
-		(at 155.575 33.02)
+		(at 156.21 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76567269-6221-4b29-9c0a-cf17a8e11bcb")
@@ -2319,7 +2041,13 @@
 		(uuid "896b27c3-d6cd-483e-bef9-0ce46a02bf03")
 	)
 	(junction
-		(at 80.645 66.04)
+		(at 87.63 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92c66242-e259-405f-922c-667ca56740b5")
+	)
+	(junction
+		(at 81.28 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98a7846e-8402-45f8-bb7a-caa3dfc963d0")
@@ -2331,10 +2059,10 @@
 		(uuid "a3df1037-13d3-4c2d-b745-215912478efe")
 	)
 	(junction
-		(at 100.33 158.75)
+		(at 154.94 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a52d8d81-da9a-46b7-b486-7bc7d459ddf0")
+		(uuid "b632db40-ad71-426c-a102-2b6eccacd329")
 	)
 	(junction
 		(at 106.68 132.08)
@@ -2343,16 +2071,10 @@
 		(uuid "e0e5cb41-bdd7-41f6-8604-a538b5f5904f")
 	)
 	(junction
-		(at 80.645 33.02)
+		(at 81.28 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4fd2a84-5c4d-40ef-be59-80ea0b8f1d8f")
-	)
-	(junction
-		(at 154.94 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0d66cea-1d09-4a14-b6f2-730b9b43a6fb")
 	)
 	(junction
 		(at 154.94 99.06)
@@ -2394,7 +2116,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 66.04) (xy 80.645 66.04)
+			(xy 78.74 66.04) (xy 81.28 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2464,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 71.12) (xy 154.178 71.12)
+			(xy 151.13 71.12) (xy 153.67 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2554,7 +2276,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 137.16) (xy 152.908 137.16)
+			(xy 149.86 137.16) (xy 152.4 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2296,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 38.1) (xy 154.178 38.1)
+			(xy 151.13 38.1) (xy 153.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2634,7 +2356,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 33.02) (xy 155.575 33.02)
+			(xy 151.13 33.02) (xy 156.21 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2714,7 +2436,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 33.02) (xy 80.645 33.02)
+			(xy 78.74 33.02) (xy 81.28 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2744,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 66.04) (xy 80.645 66.675)
+			(xy 81.28 66.04) (xy 81.28 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2804,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 66.04) (xy 159.512 66.04)
+			(xy 156.21 66.04) (xy 160.02 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2814,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 33.02) (xy 86.36 33.02)
+			(xy 81.28 33.02) (xy 86.36 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2874,13 +2596,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.645 66.04) (xy 86.36 66.04)
+			(xy 81.28 66.04) (xy 86.36 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c474ee13-7bd3-44cb-b718-19b7eaaf7ceb")
+	)
+	(wire
+		(pts
+			(xy 156.21 24.13) (xy 156.21 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f827c7-e22f-4a2f-995d-44b95a89bfc7")
 	)
 	(wire
 		(pts
@@ -2934,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 33.02) (xy 159.512 33.02)
+			(xy 156.21 33.02) (xy 160.02 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2995,8 +2727,8 @@
 		(uuid "289c2219-fc29-4ffb-ad25-bc69bf0f4c54")
 	)
 	(hierarchical_label "OUT_4"
-		(shape input)
-		(at 159.512 66.04 0)
+		(shape output)
+		(at 160.02 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3006,8 +2738,8 @@
 		(uuid "54b4a96e-0853-44e0-9ac7-0b1b9324e884")
 	)
 	(hierarchical_label "OUT_3"
-		(shape input)
-		(at 159.512 33.02 0)
+		(shape output)
+		(at 160.02 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3028,7 +2760,7 @@
 		(uuid "d3bc0dc3-0ab7-48fa-9205-f465b36ad863")
 	)
 	(hierarchical_label "OUT_1"
-		(shape input)
+		(shape output)
 		(at 160.02 99.06 0)
 		(effects
 			(font
@@ -3050,7 +2782,7 @@
 		(uuid "f2c37570-831c-4a77-b0bb-6426fdb0ba42")
 	)
 	(hierarchical_label "OUT_2"
-		(shape input)
+		(shape output)
 		(at 160.02 132.08 0)
 		(effects
 			(font
@@ -3771,6 +3503,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 154.94 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13568ac6-4dfc-41a1-99a7-7bacbb701830")
+		(property "Reference" "#PWR0118"
+			(at 154.94 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 154.94 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 154.94 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34f28f5e-5680-408f-9333-7c4d82103d1c")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 130.81 137.16 0)
 		(unit 1)
@@ -3849,7 +3659,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 100.33 158.75 0)
+		(at 87.63 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3860,7 +3670,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e162815-2007-4905-8e8d-e2f0626403f1")
 		(property "Reference" "#PWR098"
-			(at 100.33 162.56 0)
+			(at 87.63 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3871,7 +3681,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 100.33 153.67 0)
+			(at 87.63 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3881,7 +3691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 158.75 0)
+			(at 87.63 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +3702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 158.75 0)
+			(at 87.63 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3903,7 +3713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 100.33 158.75 0)
+			(at 87.63 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4520,7 +4330,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 80.645 70.485 270)
+		(at 81.28 71.12 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4531,7 +4341,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bab4d63-a3f5-41f7-a6d7-1e96c2171893")
 		(property "Reference" "D11"
-			(at 84.709 69.215 90)
+			(at 85.344 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4542,7 +4352,7 @@
 			)
 		)
 		(property "Value" "ESDUM5060"
-			(at 84.709 71.755 90)
+			(at 85.344 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4553,7 +4363,7 @@
 			)
 		)
 		(property "Footprint" "to be sorted:D_SOD-523"
-			(at 76.2 70.485 0)
+			(at 76.835 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4564,7 +4374,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 80.645 70.485 0)
+			(at 81.28 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4575,7 +4385,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.645 70.485 0)
+			(at 81.28 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4671,6 +4481,84 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 156.21 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fab0805-df6c-43e1-ab42-2e1b8f25ea02")
+		(property "Reference" "#PWR0116"
+			(at 156.21 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 156.21 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 156.21 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c3b0cf0-3d7d-4149-b0d0-2fe950c24a40")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -4827,83 +4715,6 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
 					(reference "R61")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12VA")
-		(at 87.63 158.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b0a1efe-83bb-4d6d-ab10-e81d6e5a23f3")
-		(property "Reference" "#PWR095"
-			(at 87.63 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12VA"
-			(at 87.63 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e210dc25-f299-474a-831b-3981b7f4c4b4")
-		)
-		(instances
-			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -5298,83 +5109,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VA")
-		(at 154.94 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77635cd6-1e56-479a-92aa-e3565a80c94f")
-		(property "Reference" "#PWR0112"
-			(at 154.94 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 154.94 120.015 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "39278d4a-059e-4d50-b49c-5725ee6d30a9")
-		)
-		(instances
-			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR0112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 107.95 76.2 0)
 		(unit 1)
@@ -5452,7 +5186,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.178 38.1 0)
+		(at 153.67 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5463,7 +5197,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a959dcb-076a-4a01-a37a-16a7d3437d3b")
 		(property "Reference" "#PWR0109"
-			(at 154.178 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5474,7 +5208,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.178 43.18 0)
+			(at 153.67 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5484,7 +5218,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.178 38.1 0)
+			(at 153.67 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5495,7 +5229,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.178 38.1 0)
+			(at 153.67 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5506,7 +5240,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.178 38.1 0)
+			(at 153.67 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5522,6 +5256,84 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 154.94 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d0c63d6-b923-48e9-8dc3-8d95afeebcda")
+		(property "Reference" "#PWR0117"
+			(at 154.94 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 154.94 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 154.94 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "38c673b1-2145-488c-82fc-800ff3aa24b5")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -5602,83 +5414,6 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
 					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VA")
-		(at 156.21 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7fab7865-f9c5-4a0f-9b3e-bb785beeb14f")
-		(property "Reference" "#PWR0114"
-			(at 156.21 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 156.21 53.975 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 156.21 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4be76f5-9012-45ff-8c93-28a0b0eab538")
-		)
-		(instances
-			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -5879,83 +5614,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VA")
-		(at 155.575 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c6ecb78-69e1-4568-8ba3-3c66bd7449d1")
-		(property "Reference" "#PWR0113"
-			(at 155.575 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 155.575 20.955 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 155.575 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 155.575 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 155.575 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0032cf05-88ff-4703-ad73-8bc7dc9495bd")
-		)
-		(instances
-			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 99.06 132.08 90)
 		(unit 1)
@@ -6035,7 +5693,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.908 137.16 0)
+		(at 152.4 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6045,7 +5703,7 @@
 		(dnp no)
 		(uuid "a4164892-9fb1-457d-a929-51da54dd2831")
 		(property "Reference" "#PWR0108"
-			(at 152.908 143.51 0)
+			(at 152.4 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6056,7 +5714,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.908 142.24 0)
+			(at 152.4 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6066,7 +5724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.908 137.16 0)
+			(at 152.4 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6077,7 +5735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.908 137.16 0)
+			(at 152.4 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6088,7 +5746,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.908 137.16 0)
+			(at 152.4 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6939,7 +6597,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD5Zxx")
-		(at 80.645 36.83 270)
+		(at 81.28 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6950,7 +6608,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf23ab60-5eac-4d30-82fd-62081592b839")
 		(property "Reference" "D10"
-			(at 84.709 35.56 90)
+			(at 85.344 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6961,7 +6619,7 @@
 			)
 		)
 		(property "Value" "ESDUM5060"
-			(at 84.709 38.1 90)
+			(at 85.344 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6972,7 +6630,7 @@
 			)
 		)
 		(property "Footprint" "to be sorted:D_SOD-523"
-			(at 76.2 36.83 0)
+			(at 76.835 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6983,7 +6641,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 80.645 36.83 0)
+			(at 81.28 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,7 +6652,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.645 36.83 0)
+			(at 81.28 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7097,7 +6755,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.645 74.295 0)
+		(at 81.28 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7108,7 +6766,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1c08b61-926e-4335-9813-37b0b06104d4")
 		(property "Reference" "#PWR091"
-			(at 80.645 80.645 0)
+			(at 81.28 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7119,7 +6777,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.645 79.375 0)
+			(at 81.28 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7129,7 +6787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.645 74.295 0)
+			(at 81.28 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7140,7 +6798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.645 74.295 0)
+			(at 81.28 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7151,7 +6809,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.645 74.295 0)
+			(at 81.28 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7491,7 +7149,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.178 71.12 0)
+		(at 153.67 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7502,7 +7160,7 @@
 		(fields_autoplaced yes)
 		(uuid "e160d8fd-ae1c-432b-b49a-7b66168d0635")
 		(property "Reference" "#PWR0110"
-			(at 154.178 77.47 0)
+			(at 153.67 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7513,7 +7171,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.178 76.2 0)
+			(at 153.67 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7523,7 +7181,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.178 71.12 0)
+			(at 153.67 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7534,7 +7192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.178 71.12 0)
+			(at 153.67 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7545,7 +7203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.178 71.12 0)
+			(at 153.67 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7648,7 +7306,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 155.575 29.21 180)
+		(at 156.21 29.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7658,7 +7316,7 @@
 		(dnp no)
 		(uuid "e5041c0e-751c-4cfc-9718-a9901f44d97b")
 		(property "Reference" "R66"
-			(at 157.099 27.686 0)
+			(at 157.734 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7669,7 +7327,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 157.099 29.718 0)
+			(at 157.734 29.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7680,7 +7338,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 157.353 29.21 90)
+			(at 157.988 29.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7691,7 +7349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.575 29.21 0)
+			(at 156.21 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7702,7 +7360,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 155.575 29.21 0)
+			(at 156.21 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7727,8 +7385,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 80.645 40.64 0)
+		(lib_id "power:+5V")
+		(at 156.21 24.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7737,9 +7395,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eec4db96-2210-4162-9f30-4753a9e5d080")
-		(property "Reference" "#PWR090"
-			(at 80.645 46.99 0)
+		(uuid "ecebe7c6-44c5-4474-aa3b-39efc3135ccf")
+		(property "Reference" "#PWR0115"
+			(at 156.21 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7749,8 +7407,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 80.645 45.72 0)
+		(property "Value" "+5V"
+			(at 156.21 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7760,7 +7418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.645 40.64 0)
+			(at 156.21 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7771,7 +7429,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.645 40.64 0)
+			(at 156.21 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 156.21 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15fff2a0-7872-4824-9e1c-339e9013eb64")
+		)
+		(instances
+			(project "BDUCU"
+				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eec4db96-2210-4162-9f30-4753a9e5d080")
+		(property "Reference" "#PWR090"
+			(at 81.28 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7782,7 +7518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.645 40.64 0)
+			(at 81.28 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7798,83 +7534,6 @@
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
 					(reference "#PWR090")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VA")
-		(at 154.94 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f46087bb-5799-4c46-8009-64418341c584")
-		(property "Reference" "#PWR0111"
-			(at 154.94 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VA"
-			(at 154.94 86.995 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 154.94 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a499212f-e365-4555-ab29-fc700e8bc469")
-		)
-		(instances
-			(project "BDUCU"
-				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/35f5b11b-5d0d-4700-8479-f25bb26aecd1/c134f24c-ab46-4924-b33f-80effb4eb7ed"
-					(reference "#PWR0111")
 					(unit 1)
 				)
 			)

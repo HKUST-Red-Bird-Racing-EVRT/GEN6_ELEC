@@ -2168,12 +2168,6 @@
 		(uuid "29420611-1565-44a8-8f51-5b543a1def2b")
 	)
 	(junction
-		(at 34.29 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4007967a-44da-4cc4-82e6-7db47f865f33")
-	)
-	(junction
 		(at 107.95 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2233,6 +2227,12 @@
 		(color 0 0 0 0)
 		(uuid "d56ab1d2-e5ac-4c8d-8cc4-ef02ea7427ad")
 	)
+	(junction
+		(at 27.94 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2ca86d0-5cdc-4c9b-878c-0512e4d921d0")
+	)
 	(no_connect
 		(at 40.64 53.34)
 		(uuid "1e31b8ab-df95-49db-b13a-7c5897561ccd")
@@ -2283,23 +2283,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 48.26) (xy 34.29 48.26)
+			(xy 27.94 48.26) (xy 40.64 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ba0c149-6387-4fbe-8f16-618dc3e99daa")
-	)
-	(wire
-		(pts
-			(xy 34.29 48.26) (xy 40.64 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "213731d9-ab57-4739-b13a-bc2a5118d6bd")
 	)
 	(wire
 		(pts
@@ -2313,7 +2303,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 45.72) (xy 34.29 48.26)
+			(xy 27.94 46.99) (xy 27.94 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3856,7 +3846,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 34.29 45.72 0)
+		(at 27.94 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3867,7 +3857,7 @@
 		(fields_autoplaced yes)
 		(uuid "2be86fd6-2141-4f3b-b987-b4d5dfd5ea43")
 		(property "Reference" "#PWR048"
-			(at 34.29 49.53 0)
+			(at 27.94 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3878,7 +3868,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 34.29 40.64 0)
+			(at 27.94 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3888,7 +3878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 45.72 0)
+			(at 27.94 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3899,7 +3889,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 45.72 0)
+			(at 27.94 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3910,7 +3900,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 45.72 0)
+			(at 27.94 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

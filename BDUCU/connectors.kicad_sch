@@ -2441,7 +2441,7 @@
 		)
 	)
 	(global_label "RST"
-		(shape input)
+		(shape output)
 		(at 177.8 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2777,7 +2777,7 @@
 		)
 	)
 	(global_label "INPUT2_5V"
-		(shape input)
+		(shape output)
 		(at 177.8 93.98 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4301,7 +4301,7 @@
 				(justify left)
 			)
 		)
-		(pin "OUT_1" input
+		(pin "OUT_1" output
 			(at 177.8 91.44 0)
 			(uuid "d4051570-8da3-4065-ac9b-8aaa8d969717")
 			(effects
@@ -4311,7 +4311,7 @@
 				(justify right)
 			)
 		)
-		(pin "OUT_2" input
+		(pin "OUT_2" output
 			(at 177.8 93.98 0)
 			(uuid "05ad34ba-b3f4-4bf0-8d08-c66e08e7dac3")
 			(effects
@@ -4321,7 +4321,7 @@
 				(justify right)
 			)
 		)
-		(pin "OUT_4" input
+		(pin "OUT_4" output
 			(at 177.8 99.06 0)
 			(uuid "4ba5b158-e6bb-4662-b9a3-ae0332df5974")
 			(effects
@@ -4331,7 +4331,7 @@
 				(justify right)
 			)
 		)
-		(pin "OUT_3" input
+		(pin "OUT_3" output
 			(at 177.8 96.52 0)
 			(uuid "6e735b5e-c686-4bcd-8717-2499206f7f9a")
 			(effects
