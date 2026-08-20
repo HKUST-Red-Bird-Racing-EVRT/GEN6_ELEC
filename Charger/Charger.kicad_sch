@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "ba218c5d-b6ee-4635-9cf5-de406e83bbdf")
 	(paper "A4")
+	(title_block
+		(date "2026-08-20")
+		(rev "0.1.1")
+	)
 	(lib_symbols
 		(symbol "Connector:AVR-ISP-6"
 			(pin_names
@@ -4111,12 +4115,6 @@
 		(uuid "faf69dd4-94f4-40c4-ad8a-983cb602e225")
 	)
 	(junction
-		(at 190.5 32.385)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b2c7c3a-b9d4-4fc4-a738-1346a7a857d5")
-	)
-	(junction
 		(at 247.396 54.102)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4135,6 +4133,12 @@
 		(uuid "6df17064-32fa-4146-8bbe-ea5a8c542751")
 	)
 	(junction
+		(at 190.5 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77911200-21df-4b24-8cb1-1fc5d3c4bc1f")
+	)
+	(junction
 		(at 235.331 24.892)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4151,6 +4155,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92651b9e-46f7-427e-b5d5-ea6ee66e2aaa")
+	)
+	(junction
+		(at 175.26 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a4de324-5da5-462a-8500-74887619b98a")
 	)
 	(junction
 		(at 235.331 32.512)
@@ -4175,6 +4185,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b13ed1d2-308a-40b1-86ed-b55453c1cbb9")
+	)
+	(junction
+		(at 215.9 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be520ca0-2dda-4b02-9e42-c873ce9976e2")
 	)
 	(junction
 		(at 229.87 152.4)
@@ -4218,15 +4234,9 @@
 		(color 0 0 0 0)
 		(uuid "f802cfc3-ed9b-41c5-b0cb-509afbc7c1a3")
 	)
-	(junction
-		(at 218.44 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f8ec198f-6f7a-444b-8827-86c86833d6b8")
-	)
 	(no_connect
-		(at 205.74 86.36)
-		(uuid "2d97d8d6-dba7-45ad-8d64-c5d45dc47c4c")
+		(at 205.74 88.9)
+		(uuid "450f29ca-170a-4ffe-9709-bd04b52c40a6")
 	)
 	(no_connect
 		(at 205.74 83.82)
@@ -4234,19 +4244,15 @@
 	)
 	(no_connect
 		(at 205.74 76.2)
-		(uuid "565a6e56-e893-474f-b44f-4a000fe077df")
+		(uuid "617189eb-5c46-4348-919c-a27bb5f55ff5")
 	)
 	(no_connect
 		(at 175.26 48.26)
-		(uuid "7144b943-c951-4582-b255-bf7b53024b46")
+		(uuid "6e2ae038-fd6a-4648-9d15-c7d2211256f5")
 	)
 	(no_connect
 		(at 50.8 191.77)
 		(uuid "72bb342c-fa2c-4ae4-b1f5-363b89f2d9c3")
-	)
-	(no_connect
-		(at 205.74 73.66)
-		(uuid "872b597d-c0fb-4081-97db-db42fdc7f30d")
 	)
 	(no_connect
 		(at 33.02 191.77)
@@ -4257,8 +4263,8 @@
 		(uuid "b19e3241-29bc-4581-aeca-2d9b79ecdf8c")
 	)
 	(no_connect
-		(at 205.74 71.12)
-		(uuid "e1f60036-3151-4126-8a2d-c0a5c39378de")
+		(at 205.74 86.36)
+		(uuid "ef89174e-6f7a-421b-b5e0-d466e253b69b")
 	)
 	(wire
 		(pts
@@ -4312,6 +4318,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 91.44) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18890eff-177b-4d3e-bffe-8e67386debac")
+	)
+	(wire
+		(pts
 			(xy 249.301 32.512) (xy 262.001 32.512)
 		)
 		(stroke
@@ -4339,16 +4355,6 @@
 			(type default)
 		)
 		(uuid "1e9ea394-fef3-47f7-9ae8-6d676479594f")
-	)
-	(wire
-		(pts
-			(xy 218.44 40.64) (xy 218.44 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f62fd60-4d2f-461d-82f2-602b49dcc12b")
 	)
 	(wire
 		(pts
@@ -4389,6 +4395,16 @@
 			(type default)
 		)
 		(uuid "37949f2d-5140-4f2a-b71b-cfacf8e186b5")
+	)
+	(wire
+		(pts
+			(xy 213.36 93.98) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387088d8-c360-4396-860c-37f58ac8063f")
 	)
 	(wire
 		(pts
@@ -4442,16 +4458,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 43.18) (xy 218.44 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "518b646f-571f-443a-badc-fe28650b665b")
-	)
-	(wire
-		(pts
 			(xy 260.35 152.4) (xy 259.08 152.4)
 		)
 		(stroke
@@ -4459,16 +4465,6 @@
 			(type default)
 		)
 		(uuid "55ac48be-2f58-49f2-830e-1fa18b7dc4d9")
-	)
-	(wire
-		(pts
-			(xy 208.28 43.18) (xy 205.74 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55d6af75-b6ed-4dd3-b1b0-32bc041d3b8e")
 	)
 	(wire
 		(pts
@@ -4522,16 +4518,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 40.64) (xy 218.44 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60fe01f6-0673-4b38-b3d5-8ecacfb479fe")
-	)
-	(wire
-		(pts
 			(xy 39.37 30.48) (xy 39.37 44.45)
 		)
 		(stroke
@@ -4582,7 +4568,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 32.385) (xy 193.04 32.385)
+			(xy 190.5 31.75) (xy 193.04 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4612,7 +4598,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 30.48) (xy 190.5 32.385)
+			(xy 190.5 30.48) (xy 190.5 31.75)
 		)
 		(stroke
 			(width 0)
@@ -4629,6 +4615,16 @@
 			(type default)
 		)
 		(uuid "7cb2ad09-cfe6-41df-bc9d-327579c8c820")
+	)
+	(wire
+		(pts
+			(xy 175.26 40.64) (xy 175.26 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eae24b2-964f-4e5b-a2aa-b82631091f34")
 	)
 	(wire
 		(pts
@@ -4732,6 +4728,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 93.98) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04f3cc2-9e4f-4905-8cc3-eacc3c250554")
+	)
+	(wire
+		(pts
 			(xy 251.46 152.4) (xy 250.19 152.4)
 		)
 		(stroke
@@ -4752,13 +4758,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 32.385) (xy 190.5 33.02)
+			(xy 190.5 31.75) (xy 190.5 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a90540ce-9ba6-4f47-a218-8a655a705dd5")
+		(uuid "a1555702-3bb8-439a-aecc-c869985b4b2c")
+	)
+	(wire
+		(pts
+			(xy 213.36 91.44) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a967ff06-f8c8-4c3f-adb1-217230a130fe")
 	)
 	(wire
 		(pts
@@ -4772,7 +4788,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 32.385) (xy 193.04 33.02)
+			(xy 193.04 31.75) (xy 193.04 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4852,6 +4868,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 31.75) (xy 190.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72dc1fa-5a16-4048-8ea4-f007dfd1bb1d")
+	)
+	(wire
+		(pts
 			(xy 262.001 78.867) (xy 265.176 78.867)
 		)
 		(stroke
@@ -4859,16 +4885,6 @@
 			(type default)
 		)
 		(uuid "c7df7e4c-93ca-4ff5-a4d0-82a4765c8a62")
-	)
-	(wire
-		(pts
-			(xy 208.28 40.64) (xy 205.74 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd6cb853-dad0-4699-9269-dd9518cc0c99")
 	)
 	(wire
 		(pts
@@ -5222,30 +5238,6 @@
 			)
 		)
 	)
-	(global_label "TS_ISO"
-		(shape input)
-		(at 205.74 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0e340780-be60-4c15-bc96-92fbb2b444d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.0147 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "CHARGER_ERR"
 		(shape output)
 		(at 33.02 176.53 180)
@@ -5307,6 +5299,54 @@
 		(uuid "1c2e56a7-67cb-4966-a9f7-2793a13d80b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.4081 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ADC_2"
+		(shape input)
+		(at 205.74 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d793ca0-ea97-4534-8def-9a17f9c788cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.5309 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "DIGIPOT_CS"
+		(shape input)
+		(at 205.74 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2b051881-7334-4449-a304-4fee54a1c307")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 219.49 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5558,30 +5598,6 @@
 			)
 		)
 	)
-	(global_label "HV_ON_5V"
-		(shape output)
-		(at 205.74 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4357da8a-4d4e-4adb-8fba-8eae683b3aac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.0386 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "RST"
 		(shape input)
 		(at 265.176 78.867 0)
@@ -5702,6 +5718,30 @@
 			)
 		)
 	)
+	(global_label "DIGIPOT_RDY"
+		(shape input)
+		(at 205.74 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a98fb2b-e642-4832-ae95-8b5d76b93096")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.5138 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "HV_ON_5V"
 		(shape output)
 		(at 33.02 166.37 180)
@@ -5723,30 +5763,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "DIGIPOT_RDY"
-		(shape input)
-		(at 205.74 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "66cb2b8b-258c-4c99-8d30-3a9cc766bc3a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.5138 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -5859,6 +5875,30 @@
 		(uuid "8614ec79-f30f-4c16-81da-832a705c7f5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.9753 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "HV_ON_5V"
+		(shape output)
+		(at 205.74 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88d1fe54-4474-4589-919d-e0a9aca0eaa5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.0386 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,30 +6078,6 @@
 			)
 		)
 	)
-	(global_label "CHARGER_ERR"
-		(shape output)
-		(at 205.74 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "abd41355-af19-4e07-bf96-76a248e72934")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.0299 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "RST"
 		(shape input)
 		(at 274.32 111.76 0)
@@ -6075,6 +6091,30 @@
 		(uuid "b27a2432-ae1e-42e7-87a2-4c5d08f76f43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.6729 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ADC_1"
+		(shape input)
+		(at 205.74 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b3d612fd-3935-4d74-afb9-9aa5dc4b01c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.5309 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6131,6 +6171,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "CHARGER_ERR"
+		(shape output)
+		(at 205.74 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5d1ff7c-14bb-4ac5-b615-914bb55003b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.0299 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6243,6 +6307,30 @@
 		(uuid "c2bfd293-17d6-4eba-a54f-31d00de05578")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 217.0709 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TS_ISO"
+		(shape input)
+		(at 205.74 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8b3380c-2797-40b3-a0ca-93883e2d04e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.0147 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6625,7 +6713,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1499febd-71be-4c95-8027-12b5d98f04d8")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 254 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6686,7 +6774,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6704,7 +6792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15014b28-e4e9-42a0-bdc6-e3dee6a1f990")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR067"
 			(at 261.62 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6763,7 +6851,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR069")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -6781,7 +6869,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d9be9a7-7ba7-4ca1-bdc7-aa8083c44869")
-		(property "Reference" "D8"
+		(property "Reference" "D13"
 			(at 267.0175 125.603 0)
 			(hide yes)
 			(show_name no)
@@ -6843,7 +6931,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "D8")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -6862,7 +6950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e7e783f-e4ae-4480-ae7c-7a5372d5aa31")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 259.461 62.357 0)
 			(hide yes)
 			(show_name no)
@@ -6921,7 +7009,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7176,7 +7264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f510b4-2d0e-4849-b014-62910b4206a8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 235.331 39.497 0)
 			(hide yes)
 			(show_name no)
@@ -7235,7 +7323,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7253,7 +7341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4afced01-d34a-41d7-8b41-6b57c8f6a952")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR068"
 			(at 262.001 73.152 0)
 			(hide yes)
 			(show_name no)
@@ -7312,7 +7400,86 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR021")
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 209.55 91.44 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4ea991af-0bbb-4799-92d0-e0e175508c05")
+		(property "Reference" "D2"
+			(at 211.1375 84.963 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.932 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
+			(at 209.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "00a6198e-36d3-4144-a144-e92a993361a3")
+		)
+		(pin "2"
+			(uuid "63aead1c-8fde-4100-a06b-d3b62e993651")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7391,83 +7558,6 @@
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 218.44 43.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5dbe42e3-b68b-4f7d-8da9-f68017c9e186")
-		(property "Reference" "#PWR013"
-			(at 218.44 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 218.44 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 218.44 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 218.44 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c2825ebb-9daf-442f-8a2d-ed4802fe1c2b")
-		)
-		(instances
-			(project "Charger"
-				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7657,7 +7747,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "658154ce-cd59-4f8d-936b-19bd34b7d532")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 235.712 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7730,7 +7820,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7748,7 +7838,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "677d54ef-304f-4b65-b443-cd2ab27382ad")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR069"
 			(at 273.558 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -7807,7 +7897,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR022")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -7981,7 +8071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f9d38d6-0d5d-4984-adc0-da2fe13bac83")
-		(property "Reference" "D13"
+		(property "Reference" "D8"
 			(at 235.712 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8054,7 +8144,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "D13")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -8389,7 +8479,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "851de08d-39e4-4d95-9783-94e84c202253")
-		(property "Reference" "D4"
+		(property "Reference" "D5"
 			(at 235.712 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8462,86 +8552,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 212.09 40.64 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "89f2f769-c0db-421d-bb64-76e325b112cc")
-		(property "Reference" "D1"
-			(at 213.6775 34.163 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.472 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
-			(at 212.09 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "08dc35e7-831d-4d77-b18a-40bc64fde4db")
-		)
-		(pin "2"
-			(uuid "6d8d35e0-45d5-424c-a0df-a3fc7a8ec00f")
-		)
-		(instances
-			(project "Charger"
-				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "D1")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -8623,6 +8634,85 @@
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 209.55 93.98 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "93483965-b19b-4a41-bd84-2279703d0f7d")
+		(property "Reference" "D3"
+			(at 211.1375 87.503 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 217.932 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
+			(at 209.55 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7602061-fa65-4485-aeb7-303d08d6007e")
+		)
+		(pin "2"
+			(uuid "a79d587e-4a13-47ee-ab0f-d2a9e23bb9dd")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8803,7 +8893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2ba6084-1525-4da4-ad4c-c449a1ce29eb")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 229.87 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -8862,7 +8952,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8880,7 +8970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5845d14-caf9-40dd-8418-6ac382b7877a")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR022"
 			(at 261.62 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8939,7 +9029,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR068")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9041,7 +9131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab6a762c-f921-486a-969b-a8c260247ea6")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR019"
 			(at 248.793 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -9100,7 +9190,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9118,7 +9208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acbcc029-025b-41b1-b0c1-0ef75400ddd8")
-		(property "Reference" "D3"
+		(property "Reference" "D4"
 			(at 235.712 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9191,7 +9281,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "D3")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -9443,7 +9533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bacd6446-7f48-4815-b9b3-31aa9d081f10")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 190.5 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -9502,7 +9592,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -9542,7 +9632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 257.81 107.95 90)
 			(hide yes)
 			(show_name no)
@@ -9603,6 +9693,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 220.98 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3a64ce4-2d46-44ca-9fea-701fd9e60221")
+		(property "Reference" "#PWR014"
+			(at 227.33 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5452acd-a438-403f-93a1-792a140d5f9f")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 226.06 149.86 180)
@@ -9614,7 +9782,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4935de0-a964-4bdc-9854-cd2bee7f0596")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 235.712 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9687,7 +9855,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -9956,7 +10124,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf97157b-3a95-4bf0-b4ee-fcaf93d82894")
-		(property "Reference" "D12"
+		(property "Reference" "D1"
 			(at 180.34 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10029,7 +10197,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "D12")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10046,7 +10214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfefa457-f1a7-454c-aaee-17c79323b1fe")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR011"
 			(at 180.34 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10107,7 +10275,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR067")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10437,7 +10605,7 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2e5e103-1c6d-4d02-aac4-4f76f622f0fb")
@@ -10681,7 +10849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f57cd848-82da-49af-a565-9f45439c690e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 235.331 28.067 0)
 			(hide yes)
 			(show_name no)
@@ -10740,7 +10908,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10924,7 +11092,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7d4a23c-5c2e-4b56-8aed-1ec4bcf8f65a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 190.5 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -10983,86 +11151,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 212.09 43.18 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f84d0da8-4b2c-46eb-ac5d-f4fd9757d4b6")
-		(property "Reference" "D2"
-			(at 213.6775 36.703 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 220.472 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
-			(at 212.09 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 212.09 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1f9016ea-0832-4eca-942f-ce43854131f8")
-		)
-		(pin "2"
-			(uuid "a7df81c0-509f-4b81-a067-ba0da6527063")
-		)
-		(instances
-			(project "Charger"
-				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "D2")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11080,7 +11169,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ffa2de45-40d9-401a-91f0-91c4448cdeb5")
-		(property "Reference" "D7"
+		(property "Reference" "D12"
 			(at 255.27 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11153,7 +11242,7 @@
 		(instances
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf"
-					(reference "D7")
+					(reference "D12")
 					(unit 1)
 				)
 			)
