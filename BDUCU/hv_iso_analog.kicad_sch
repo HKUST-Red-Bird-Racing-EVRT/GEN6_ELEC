@@ -6799,7 +6799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e566781-e243-4994-b2a5-5eff7037a626")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 275.082 163.068 0)
 			(hide yes)
 			(show_name no)
@@ -6858,7 +6858,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d0210ccf-eb84-46ca-8cbf-aeaae330deeb"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8267,7 +8267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4f32c92-000c-45c9-88c5-e69fe3347a7c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR027"
 			(at 275.082 143.764 0)
 			(hide yes)
 			(show_name no)
@@ -8326,7 +8326,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d0210ccf-eb84-46ca-8cbf-aeaae330deeb"
-					(reference "#PWR028")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

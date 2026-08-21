@@ -1299,7 +1299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42358b71-56af-4630-9550-f4d3084130f5")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR059"
 			(at 130.81 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -1359,19 +1359,19 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/db59dc7f-5332-44a2-bb52-28901b78a7e3/57d5af05-edab-40f7-aafe-6a2e0130ba84"
-					(reference "#PWR0130")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/db59dc7f-5332-44a2-bb52-28901b78a7e3/b88b6ec3-afc4-43aa-baa2-21af531f917d"
-					(reference "#PWR0131")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/db59dc7f-5332-44a2-bb52-28901b78a7e3/cd40e0a1-5e03-48e1-9b54-a7b8526d72ef"
-					(reference "#PWR0132")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/db59dc7f-5332-44a2-bb52-28901b78a7e3/f4a90ec5-c194-4316-a05a-ec25706dc995"
-					(reference "#PWR0133")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)

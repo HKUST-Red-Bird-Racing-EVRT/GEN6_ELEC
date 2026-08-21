@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "border_display_style": 2,
+          "border_display_style": 0,
           "border_hatch_pitch": 0.5,
           "corner_radius": 0.0,
           "corner_smoothing": 0,
@@ -786,7 +786,7 @@
         "uuid": "9942a424-e19d-4ffb-8473-f960b5c811cf"
       }
     ],
-    "used_designators": "#PWR69,#PWR74,#PWR76,#PWR115-118,#PWR130-133,J9-14",
+    "used_designators": "L1,D1-11,#PWR1-126,#PWR130-133,J1-15,AVR\\-ISP1,C1-39,F1-3,CA1-5,Q1-8,R1-70,SW1,U1-17,Y1-3",
     "variants": []
   },
   "sheets": [

@@ -4356,7 +4356,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03ea9a57-b729-4103-9d29-855912fccb4a")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0120"
 			(at 190.5 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -4416,7 +4416,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "#PWR0127")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "083cde5e-056e-4f66-af94-3a9d1d0e1ea0")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0121"
 			(at 201.93 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4499,7 +4499,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "#PWR0128")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -4523,7 +4523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15475dc7-5264-4569-8d60-44169647756f")
-		(property "Reference" "C40"
+		(property "Reference" "C37"
 			(at 171.45 76.5809 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4587,7 +4587,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "C40")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -4611,7 +4611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26287f60-1f67-4c89-9a5a-fc68e95e8d02")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0122"
 			(at 212.09 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4671,7 +4671,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "#PWR0129")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -4695,7 +4695,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30e2824b-c28c-4b06-bb8f-a5582f6bc611")
-		(property "Reference" "C37"
+		(property "Reference" "C34"
 			(at 104.14 74.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4759,7 +4759,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "C37")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -4783,7 +4783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3178d0d0-3336-42b4-b7a4-5a081f49ccb3")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0119"
 			(at 173.99 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4843,7 +4843,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "#PWR0126")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -4867,7 +4867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b704980-2628-4e87-9faa-82a93bf2420f")
-		(property "Reference" "U18"
+		(property "Reference" "U17"
 			(at 137.16 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4952,7 +4952,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "U18")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -4976,7 +4976,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "580755fc-e1d4-4390-a351-ebf6905dddcd")
-		(property "Reference" "R74"
+		(property "Reference" "R69"
 			(at 193.04 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5040,7 +5040,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "R74")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -5160,7 +5160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "617f5bc3-6cbd-42f7-8833-8e309ec693ec")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0117"
 			(at 93.98 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5220,7 +5220,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "#PWR0124")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -5244,7 +5244,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7858e207-70f0-4347-9c73-16f57e4540ba")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0118"
 			(at 137.16 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5304,7 +5304,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "#PWR0125")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -5328,7 +5328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dc5a48b-35e0-4d63-91bf-df3da332c526")
-		(property "Reference" "C42"
+		(property "Reference" "C39"
 			(at 205.74 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5392,7 +5392,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "C42")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -5416,7 +5416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f14477e-3e6f-480d-a83d-502336063ab7")
-		(property "Reference" "C38"
+		(property "Reference" "C35"
 			(at 118.11 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5480,7 +5480,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "C38")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -5590,7 +5590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f8241e2-71a3-4254-9aed-efdf6b5cf309")
-		(property "Reference" "C39"
+		(property "Reference" "C36"
 			(at 151.13 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5652,7 +5652,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "C39")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -5676,7 +5676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a03c2a73-736e-4405-a69b-1d04656fa584")
-		(property "Reference" "R73"
+		(property "Reference" "R68"
 			(at 193.04 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5740,7 +5740,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "R73")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -5764,7 +5764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a15e889a-93d0-4221-aae0-a2f67c086a8b")
-		(property "Reference" "C41"
+		(property "Reference" "C38"
 			(at 182.88 76.5809 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5828,7 +5828,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "C41")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5852,7 +5852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b666091b-37d9-47a0-95ed-42c4977cf2c8")
-		(property "Reference" "C36"
+		(property "Reference" "C33"
 			(at 90.17 74.0409 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5926,7 +5926,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "C36")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5950,7 +5950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d575da22-a9a7-4081-adb3-16785082acf2")
-		(property "Reference" "R75"
+		(property "Reference" "R70"
 			(at 193.04 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6014,7 +6014,7 @@
 		(instances
 			(project "BDUCU"
 				(path "/9942a424-e19d-4ffb-8473-f960b5c811cf/d4ffcd89-988d-4b7a-a40c-cc22466602f9"
-					(reference "R75")
+					(reference "R70")
 					(unit 1)
 				)
 			)
