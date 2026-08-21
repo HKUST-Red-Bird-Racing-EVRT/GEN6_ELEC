@@ -4437,7 +4437,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k/1%"
 			(at 164.846 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4675,7 +4675,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k/1%"
 			(at 210.82 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)

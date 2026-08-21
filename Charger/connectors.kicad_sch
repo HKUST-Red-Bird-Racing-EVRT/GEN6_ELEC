@@ -2297,6 +2297,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 14.605 26.67)
+		(end 78.74 68.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "6584e83b-40a5-4e0e-b1f0-d88314caab5a")
+	)
 	(text "A control"
 		(exclude_from_sim no)
 		(at 99.06 55.372 0)
@@ -2317,6 +2329,16 @@
 		)
 		(uuid "5d5db300-b7f7-44cf-91b7-410bc70b0cd9")
 	)
+	(text "output"
+		(exclude_from_sim no)
+		(at 168.91 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "660f46ea-b827-45f0-9fff-0c3d688b896f")
+	)
 	(text "not fully accurate but sufficent information"
 		(exclude_from_sim no)
 		(at 52.324 63.754 0)
@@ -2326,6 +2348,16 @@
 			)
 		)
 		(uuid "75f12d7a-a469-4dc6-95a5-3bbe924a8dc4")
+	)
+	(text "External"
+		(exclude_from_sim no)
+		(at 35.56 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "814306cc-4cff-4e4e-850f-40b47d10e059")
 	)
 	(text "V control\n"
 		(exclude_from_sim no)
@@ -2346,6 +2378,16 @@
 			)
 		)
 		(uuid "d4f80f78-7bf1-4657-b9dd-2d8944ae9b88")
+	)
+	(text "input"
+		(exclude_from_sim no)
+		(at 133.604 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d56fdb67-5485-407f-a250-1e3a16a6a2db")
 	)
 	(text "J"
 		(exclude_from_sim no)
@@ -2368,80 +2410,24 @@
 		(uuid "efc718c4-ace5-4e11-95a8-4f88f0c97556")
 	)
 	(junction
-		(at 83.82 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "085fff2a-e19f-42ee-96fc-d60d13383b4e")
-	)
-	(junction
-		(at 83.82 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0afd64fc-a1de-4585-ac0b-e851b3571df1")
-	)
-	(junction
-		(at 120.65 90.17)
+		(at 238.76 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2dd608c9-1e03-484a-a485-7bf839890120")
 	)
 	(junction
-		(at 83.82 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a0a6e94-5bc4-4d92-ac84-847738703bb5")
-	)
-	(junction
-		(at 120.65 77.47)
+		(at 238.76 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8db2daac-790c-4c09-9abc-9c07d89ec263")
 	)
-	(junction
-		(at 83.82 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b95d31f2-b364-4b89-a95d-2426e7b1f673")
-	)
-	(junction
-		(at 83.82 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1d95d67-b173-4eb5-b887-3dee0f183d9d")
+	(no_connect
+		(at 130.81 113.03)
+		(uuid "5a985bab-85dd-4f16-a7ce-5e3594888ef6")
 	)
 	(wire
 		(pts
-			(xy 120.65 140.97) (xy 120.65 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ea062b-d14c-43c6-80cf-dc1ca6549896")
-	)
-	(wire
-		(pts
-			(xy 120.65 102.87) (xy 120.65 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36b19bbc-ee91-4dd0-ac48-583bcaebd128")
-	)
-	(wire
-		(pts
-			(xy 83.82 80.01) (xy 83.82 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48a3e91b-63e7-47bc-a6af-dadb01b8ff1e")
-	)
-	(wire
-		(pts
-			(xy 120.65 90.17) (xy 120.65 92.71)
+			(xy 238.76 44.45) (xy 238.76 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2451,17 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 82.55) (xy 83.82 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b21d57d-3904-487c-a088-950e36852693")
-	)
-	(wire
-		(pts
-			(xy 120.65 77.47) (xy 120.65 80.01)
+			(xy 238.76 31.75) (xy 238.76 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2471,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 90.17) (xy 128.27 90.17)
+			(xy 238.76 44.45) (xy 246.38 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2479,59 +2455,9 @@
 		)
 		(uuid "a0641d33-3640-4b82-a9b7-f488857ed71c")
 	)
-	(wire
-		(pts
-			(xy 120.65 115.57) (xy 120.65 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b83dd326-4c8f-41bb-92a9-d901d41bcc38")
-	)
-	(wire
-		(pts
-			(xy 120.65 128.27) (xy 120.65 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9898cf2-4e76-4ae6-a3e7-c4dc5d10fade")
-	)
-	(wire
-		(pts
-			(xy 83.82 85.09) (xy 83.82 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4b52194-53ce-4da4-87bf-9474a8ee00bb")
-	)
-	(wire
-		(pts
-			(xy 83.82 87.63) (xy 83.82 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5ccca02-7a7b-4735-8c47-2ba5ea5261d6")
-	)
-	(wire
-		(pts
-			(xy 83.82 90.17) (xy 83.82 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed79800d-313e-409b-9435-21f76e031913")
-	)
 	(global_label "HV_RELAY_AUX"
 		(shape input)
-		(at 120.65 140.97 0)
+		(at 130.81 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2541,7 +2467,7 @@
 		)
 		(uuid "0523cf88-4332-4379-9ec1-a45a3ae25df2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.2424 140.97 0)
+			(at 147.4024 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2579,7 +2505,7 @@
 	)
 	(global_label "RSNS+"
 		(shape input)
-		(at 120.65 63.5 0)
+		(at 227.33 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2589,7 +2515,7 @@
 		)
 		(uuid "2d57102d-bfc2-4d58-a002-44c4609d812c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.2271 63.5 0)
+			(at 236.9071 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2603,7 +2529,7 @@
 	)
 	(global_label "CANL"
 		(shape bidirectional)
-		(at 120.65 153.67 0)
+		(at 121.92 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2613,7 +2539,7 @@
 		)
 		(uuid "2df6d453-9d37-4d19-a8dc-b043fbc25315")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.4637 153.67 0)
+			(at 130.7337 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2627,7 +2553,7 @@
 	)
 	(global_label "CHARGING_ENABLE"
 		(shape input)
-		(at 120.65 46.99 0)
+		(at 128.27 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2637,7 +2563,7 @@
 		)
 		(uuid "3fbaa682-9465-4ccb-88a3-e355a2ed425b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0524 46.99 0)
+			(at 148.6724 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2699,7 +2625,7 @@
 	)
 	(global_label "SDC_IN"
 		(shape input)
-		(at 120.65 128.27 0)
+		(at 130.81 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2709,7 +2635,7 @@
 		)
 		(uuid "4ead1728-d0c8-4ed3-9694-8ef35d08af6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.2876 128.27 0)
+			(at 140.4476 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2723,7 +2649,7 @@
 	)
 	(global_label "HV_ON"
 		(shape input)
-		(at 120.65 102.87 0)
+		(at 170.18 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2733,7 +2659,7 @@
 		)
 		(uuid "599c8c73-1cb7-4231-a03b-ab77c88cb26f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6829 102.87 0)
+			(at 179.2129 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2747,7 +2673,7 @@
 	)
 	(global_label "TS-"
 		(shape input)
-		(at 128.27 90.17 0)
+		(at 246.38 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2757,7 +2683,7 @@
 		)
 		(uuid "5b091e06-87a4-40b3-af26-4b8497d76a39")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0047 90.17 0)
+			(at 253.1147 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2795,7 +2721,7 @@
 	)
 	(global_label "RSNS-"
 		(shape input)
-		(at 120.65 60.96 0)
+		(at 227.33 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2805,7 +2731,7 @@
 		)
 		(uuid "6b8b9f5c-585c-4dd5-94c4-b63e12c1155f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.2271 60.96 0)
+			(at 236.9071 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2819,7 +2745,7 @@
 	)
 	(global_label "TS+"
 		(shape input)
-		(at 128.27 77.47 0)
+		(at 246.38 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2829,7 +2755,7 @@
 		)
 		(uuid "7274fe82-61ca-4d38-9393-4153dc6cf676")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0047 77.47 0)
+			(at 253.1147 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +2793,7 @@
 	)
 	(global_label "CHARGER_ERR_12V"
 		(shape input)
-		(at 120.65 115.57 0)
+		(at 170.18 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2877,7 +2803,7 @@
 		)
 		(uuid "a63b83ba-1ae6-4922-a785-71180b25a509")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.4151 115.57 0)
+			(at 190.9451 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2891,7 +2817,7 @@
 	)
 	(global_label "CANH"
 		(shape bidirectional)
-		(at 120.65 156.21 0)
+		(at 121.92 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2901,7 +2827,7 @@
 		)
 		(uuid "c3e12e1a-a6eb-4bc4-bb53-9c269cb12778")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.7661 156.21 0)
+			(at 131.0361 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3131,7 +3057,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 153.67 0)
+		(at 116.84 142.24 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3143,7 +3069,7 @@
 		(fields_autoplaced yes)
 		(uuid "030d0496-bbfc-474c-8aa6-42804ce4f982")
 		(property "Reference" "J17"
-			(at 115.57 147.32 0)
+			(at 116.84 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3153,7 +3079,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 115.57 149.86 0)
+			(at 116.84 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3163,7 +3089,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 115.57 153.67 0)
+			(at 116.84 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3174,7 +3100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 153.67 0)
+			(at 116.84 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3185,7 +3111,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 153.67 0)
+			(at 116.84 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3212,7 +3138,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 46.99 0)
+		(at 123.19 81.28 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3224,7 +3150,7 @@
 		(fields_autoplaced yes)
 		(uuid "043c24d0-4836-4512-9c9e-76b98a5359b8")
 		(property "Reference" "J6"
-			(at 115.57 40.64 0)
+			(at 123.19 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3234,7 +3160,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 115.57 43.18 0)
+			(at 123.19 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3244,7 +3170,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 115.57 46.99 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3255,7 +3181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 46.99 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3266,7 +3192,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 46.99 0)
+			(at 123.19 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3299,7 +3225,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 120.65 49.53 270)
+		(at 128.27 83.82 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3309,7 +3235,7 @@
 		(dnp no)
 		(uuid "052a62b9-f60e-466d-84ba-8f7c578cfd5a")
 		(property "Reference" "#PWR097"
-			(at 116.84 49.53 0)
+			(at 124.46 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3320,7 +3246,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 124.46 49.5299 90)
+			(at 132.08 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3331,7 +3257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 49.53 0)
+			(at 128.27 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,7 +3268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 49.53 0)
+			(at 128.27 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3353,7 +3279,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 120.65 49.53 0)
+			(at 128.27 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3467,7 +3393,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 140.97 0)
+		(at 125.73 96.52 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3479,7 +3405,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dd00ab3-9eb1-4fad-bc40-31c99b125c50")
 		(property "Reference" "J16"
-			(at 115.57 134.62 0)
+			(at 125.73 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3489,7 +3415,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 115.57 137.16 0)
+			(at 125.73 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3499,7 +3425,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 115.57 140.97 0)
+			(at 125.73 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3510,7 +3436,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 140.97 0)
+			(at 125.73 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3521,7 +3447,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 140.97 0)
+			(at 125.73 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3632,7 +3558,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 60.96 0)
+		(at 222.25 66.04 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3644,7 +3570,7 @@
 		(fields_autoplaced yes)
 		(uuid "23f38d10-b545-425c-bf29-b3817a3bbac7")
 		(property "Reference" "J7"
-			(at 115.57 54.61 0)
+			(at 222.25 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3654,7 +3580,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 115.57 57.15 0)
+			(at 222.25 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3664,7 +3590,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 115.57 60.96 0)
+			(at 222.25 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3675,7 +3601,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 60.96 0)
+			(at 222.25 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3686,7 +3612,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 60.96 0)
+			(at 222.25 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3719,7 +3645,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 90.17 0)
+		(at 233.68 44.45 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -3731,7 +3657,7 @@
 		(fields_autoplaced yes)
 		(uuid "284b3523-1daf-490f-8dff-32422532dda2")
 		(property "Reference" "J12"
-			(at 115.57 83.82 0)
+			(at 233.68 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3741,7 +3667,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 115.57 86.36 0)
+			(at 233.68 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3751,7 +3677,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 115.57 90.17 0)
+			(at 233.68 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3762,7 +3688,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 90.17 0)
+			(at 233.68 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3773,7 +3699,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 90.17 0)
+			(at 233.68 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3883,90 +3809,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+12V")
-		(at 83.82 80.01 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "331ecf6b-972a-48a7-90c8-4bae80639c20")
-		(property "Reference" "#PWR084"
-			(at 87.63 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 80.01 80.0101 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 83.82 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92ebcee6-143c-4983-ad0a-5d40ddbbdf4f")
-		)
-		(instances
-			(project "Schematics"
-				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-			(project "Charger"
-				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
-					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 45.72 92.71 90)
 		(unit 1)
@@ -4045,6 +3887,400 @@
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "380b222a-03ed-4211-8601-43cb3cb416bb")
+		(property "Reference" "#PWR0118"
+			(at 80.01 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edffc736-c025-4076-a38c-a3c69b4bc768")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 68.58 101.6 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "394c36b7-e030-4908-882b-656be2289c1d")
+		(property "Reference" "J18"
+			(at 68.58 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 68.58 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 68.58 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b3becb2f-d45b-4ca8-8631-b1376a893d93")
+		)
+		(pin "1"
+			(uuid "0459c51b-2699-474f-9b41-ea26199230ff")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a39208d-9ba1-49e5-b7b5-7371663caaec")
+		(property "Reference" "#PWR0117"
+			(at 80.01 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 121.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de7463b8-d71a-4bb6-a6a9-868f5af50a64")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 148.59 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e26c9a4-d59d-43cc-9aa4-4116ab660d5e")
+		(property "Reference" "#PWR0115"
+			(at 128.27 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 148.5899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbcbc1e2-676d-4802-be26-43123a6a9775")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 170.18 52.07 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "411a76be-a4e9-4837-9287-ce4e3be336f8")
+		(property "Reference" "#PWR0112"
+			(at 166.37 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 173.99 52.0701 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 170.18 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33e8b159-bd59-4c01-84b7-415072455761")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -4379,6 +4615,166 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 68.58 121.92 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5174f1f2-6c8e-4b71-a964-c9d1355ebf91")
+		(property "Reference" "J19"
+			(at 68.58 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 68.58 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 68.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dd7a2c48-93c4-47e6-a8f9-7dc01f568dd5")
+		)
+		(pin "1"
+			(uuid "9e028ec1-12ed-49f4-99c3-66031869d80b")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 73.66 101.6 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55167d02-9e17-4d38-8bb4-0c27b17e35c3")
+		(property "Reference" "#PWR084"
+			(at 69.85 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 77.47 101.6001 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 73.66 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "385134dc-ca0e-4527-8773-98ecf738aa96")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 34.29 43.18 270)
 		(unit 1)
@@ -4549,7 +4945,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 102.87 0)
+		(at 165.1 49.53 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4561,7 +4957,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ae7fe62-2f54-4f60-bf4a-08ffcbcf457f")
 		(property "Reference" "J13"
-			(at 115.57 96.52 0)
+			(at 165.1 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4571,7 +4967,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 115.57 99.06 0)
+			(at 165.1 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4581,7 +4977,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 115.57 102.87 0)
+			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4592,7 +4988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 102.87 0)
+			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4603,7 +4999,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 102.87 0)
+			(at 165.1 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4630,7 +5026,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 128.27 0)
+		(at 125.73 110.49 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4642,7 +5038,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f2757af-81b2-4d5a-8ed1-c7739cf014ff")
 		(property "Reference" "J15"
-			(at 115.57 121.92 0)
+			(at 125.73 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4652,7 +5048,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 115.57 124.46 0)
+			(at 125.73 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4662,7 +5058,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 115.57 128.27 0)
+			(at 125.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4673,7 +5069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 128.27 0)
+			(at 125.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4684,7 +5080,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 128.27 0)
+			(at 125.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4796,7 +5192,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 77.47 0)
+		(at 233.68 31.75 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -4808,7 +5204,7 @@
 		(fields_autoplaced yes)
 		(uuid "8af7a4a8-d1c6-4d61-ac13-a570bcdae5c0")
 		(property "Reference" "J11"
-			(at 115.57 71.12 0)
+			(at 233.68 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4818,7 +5214,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 115.57 73.66 0)
+			(at 233.68 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4828,7 +5224,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 115.57 77.47 0)
+			(at 233.68 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +5235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 77.47 0)
+			(at 233.68 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4850,7 +5246,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 77.47 0)
+			(at 233.68 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5756,8 +6152,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 88.9 85.09 0)
+		(lib_id "power:GND")
+		(at 73.66 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5765,9 +6161,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ba442f4a-06f8-4d95-aa74-65d4f9f17e49")
-		(property "Reference" "J10"
-			(at 88.9 73.66 0)
+		(fields_autoplaced yes)
+		(uuid "b7a533cd-4a72-4bce-908f-3d52c8c8bb7e")
+		(property "Reference" "#PWR0116"
+			(at 80.01 104.14 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5776,18 +6174,19 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x06"
-			(at 88.9 76.2 0)
+		(property "Value" "GND"
+			(at 77.47 104.1399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0615_1x06_P3.00mm_Vertical"
-			(at 88.9 85.09 0)
+		(property "Footprint" ""
+			(at 73.66 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5798,7 +6197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 85.09 0)
+			(at 73.66 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5808,9 +6207,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 88.9 85.09 0)
-			(hide yes)
+		(property "Description" ""
+			(at 73.66 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5818,35 +6216,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "7c5639e2-4e47-4acb-9cdf-be2baa3facd9")
 		)
 		(pin "1"
-			(uuid "927f9e67-b4f8-4c0a-abfc-eac6a9af87ea")
-		)
-		(pin "3"
-			(uuid "bf0b8ea7-0f49-43c1-ac37-e486a05d7d04")
-		)
-		(pin "6"
-			(uuid "b0e944f4-0ecc-413e-8336-1773edbd8a4b")
-		)
-		(pin "5"
-			(uuid "fa0a5df1-61cb-4056-8409-f8d20ef6b179")
-		)
-		(pin "4"
-			(uuid "8d88540e-ef18-4a9f-8f99-5ffc60489979")
+			(uuid "ff870862-5239-4155-90e7-b7f29ea48e49")
 		)
 		(instances
-			(project "Schematics"
-				(path "/55cbadab-af07-45b3-b9ce-9748abc6dcd0/a8dfb84d-4f19-46f5-8d49-137208f2c268"
-					(reference "J10")
-					(unit 1)
-				)
-			)
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
-					(reference "J10")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -5943,6 +6320,85 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
+		(at 170.18 64.77 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc4328b3-389f-44aa-85b0-63bed54e8355")
+		(property "Reference" "#PWR0113"
+			(at 166.37 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 173.99 64.7701 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 170.18 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ea6ec1f-4c9b-4b8c-84b7-86f10328ef6d")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
 		(at 213.36 173.99 0)
 		(unit 1)
 		(body_style 1)
@@ -6027,7 +6483,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 124.46 77.47 90)
+		(at 242.57 31.75 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6038,7 +6494,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf156608-72e7-4557-8a48-3d20c0096b2b")
 		(property "Reference" "F2"
-			(at 124.46 72.39 90)
+			(at 242.57 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6048,7 +6504,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 124.46 74.93 90)
+			(at 242.57 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6058,7 +6514,7 @@
 			)
 		)
 		(property "Footprint" "fuse:LittleFuse_462"
-			(at 124.46 79.248 90)
+			(at 242.57 33.528 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,7 +6525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 77.47 0)
+			(at 242.57 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6080,7 +6536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 77.47 0)
+			(at 242.57 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6433,7 +6889,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 115.57 115.57 0)
+		(at 165.1 62.23 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6445,7 +6901,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc8d434d-5d85-42df-a435-5b648a0cf8af")
 		(property "Reference" "J14"
-			(at 115.57 109.22 0)
+			(at 165.1 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6455,7 +6911,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 115.57 111.76 0)
+			(at 165.1 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6465,7 +6921,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 115.57 115.57 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6476,7 +6932,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 115.57 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6487,7 +6943,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 115.57 115.57 0)
+			(at 165.1 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6507,6 +6963,85 @@
 			(project "Charger"
 				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
 					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 130.81 99.06 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de3a6ba6-237f-4ae7-b303-0ba2dc986ce6")
+		(property "Reference" "#PWR0114"
+			(at 127 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 134.62 99.0601 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 130.81 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf3e6331-e9fe-4189-86b5-a7ae44e9e04a")
+		)
+		(instances
+			(project "Charger"
+				(path "/ba218c5d-b6ee-4635-9cf5-de406e83bbdf/31db9058-1875-4020-8110-a9a0958439e1"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
