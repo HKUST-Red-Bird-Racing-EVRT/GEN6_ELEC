@@ -2965,7 +2965,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+		(property "Footprint" "RMC_Connnector:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal_BiggerPad"
 			(at 165.1 127 0)
 			(hide yes)
 			(show_name no)
@@ -3051,7 +3051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal"
+		(property "Footprint" "RMC_Connnector:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal_BiggerPad"
 			(at 134.62 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3154,7 +3154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
+		(property "Footprint" "RMC_Connnector:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal_BiggerPad"
 			(at 220.98 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3962,7 +3962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+		(property "Footprint" "RMC_Connnector:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal_BiggerPad"
 			(at 165.1 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4050,7 +4050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal"
+		(property "Footprint" "RMC_Connnector:Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal_BiggerPad"
 			(at 191.77 15.24 0)
 			(hide yes)
 			(show_name no)
@@ -4291,7 +4291,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+		(property "Footprint" "RMC_Connnector:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal_BiggerPad"
 			(at 218.44 113.03 0)
 			(hide yes)
 			(show_name no)
