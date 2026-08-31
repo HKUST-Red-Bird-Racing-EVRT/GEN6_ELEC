@@ -924,6 +924,12 @@
 		(uuid "1261b9cf-0aef-4c47-b480-cf6101d48b15")
 	)
 	(junction
+		(at 143.51 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ea4b200-4ac0-45e0-ab26-9202a5203928")
+	)
+	(junction
 		(at 147.32 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -946,6 +952,28 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1f94241-68e3-4148-9ddd-515fb272757f")
+	)
+	(junction
+		(at 90.17 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d920c724-b389-455d-a369-fcb63dbd89c9")
+	)
+	(junction
+		(at 116.84 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edb48d0c-e22b-4132-965f-37fdb1ee706e")
+	)
+	(wire
+		(pts
+			(xy 116.84 87.63) (xy 116.84 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296e09fa-7f4f-4ce8-8f75-a8fe0617080b")
 	)
 	(wire
 		(pts
@@ -999,6 +1027,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 87.63) (xy 90.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e54a5c4-f3c6-45eb-8206-7c68f9af16b8")
+	)
+	(wire
+		(pts
 			(xy 147.32 110.49) (xy 143.51 110.49)
 		)
 		(stroke
@@ -1016,6 +1054,16 @@
 			(type default)
 		)
 		(uuid "9237f8f5-e1cd-4063-9a1d-7d7c96209ab0")
+	)
+	(wire
+		(pts
+			(xy 143.51 87.63) (xy 143.51 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9426a5ff-225c-4c90-8251-f74c7c088ed5")
 	)
 	(wire
 		(pts
@@ -2571,7 +2619,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC_Connnector:HD241_24pin"
+		(property "Footprint" "RMC_Connnector:HD241_GF30"
 			(at 78.74 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2806,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC_Connnector:HD241_24pin"
+		(property "Footprint" "RMC_Connnector:HD241_GF30"
 			(at 105.41 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2957,7 +3005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC_Connnector:HD241_24pin"
+		(property "Footprint" "RMC_Connnector:HD241_GF30"
 			(at 132.08 69.85 0)
 			(hide yes)
 			(show_name no)
