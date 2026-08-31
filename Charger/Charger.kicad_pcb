@@ -46239,7 +46239,7 @@
 		(layer "User.1")
 		(uuid "08dca333-d9cb-4c1d-abea-e5b29653c6f3")
 	)
-	(gr_text "Charger controller\n31/08/26\n1.0.0\nPCB by Martin Chong"
+	(gr_text "Charger controller\n31/08/26\nv1.0\nPCB by Martin Chong"
 		(at 100.5 50.5 0)
 		(layer "F.SilkS")
 		(uuid "2ec0033f-ffff-414b-8d03-318d948d9144")
