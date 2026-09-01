@@ -36,7 +36,7 @@ MPUreadings MPU6050::readGyro(){
                 return -128;                // out-of-range error
             }
 
-            uint16_t offset = raw + LIMIT;           // → 0..3276
+            uint16_t offset = raw + LIMIT;           // → 0..3276in
             uint16_t scaled = (offset * TO) / SPAN;  // → 0..254
 
             return scaled - 127;                     // → -127..0..+127

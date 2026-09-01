@@ -4175,11 +4175,11 @@ C:\Users\jasmine\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\3.1.2\co
   UCSR0B = 0;
     1324:	10 92 c1 00 	sts	0x00C1, r1	; 0x8000c1 <__DATA_REGION_ORIGIN__+0x61>
 setup():
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:67
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:38
+MCP2515 mcp2515(CS_CAN);
+unsigned long last100ms = 0;
+unsigned long last1000ms = 0;
 
-// ==========================================
-// 3. MAIN SETUP & LOOP
-// ==========================================
 void setup() {
   SPI.begin();
     1328:	0e 94 ac 04 	call	0x958	; 0x958 <SPIClass::begin()>
@@ -4558,7 +4558,7 @@ void twi_attachSlaveRxEvent( void (*function)(uint8_t*, int) )
     14b2:	90 93 7b 01 	sts	0x017B, r25	; 0x80017b <twi_onSlaveReceive+0x1>
     14b6:	80 93 7a 01 	sts	0x017A, r24	; 0x80017a <twi_onSlaveReceive>
 setup():
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:74
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:45
   mcp2515.setBitrate(CAN_500KBPS, MCP_20MHZ);
   mcp2515.setNormalMode();
   Wire.begin();
@@ -4568,12 +4568,12 @@ C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:74
     14ba:	85 e3       	ldi	r24, 0x35	; 53
     14bc:	92 e0       	ldi	r25, 0x02	; 2
     14be:	0e 94 f7 04 	call	0x9ee	; 0x9ee <MPU6050::wakeSensor()>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:75
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:46
   mpu4.wakeSensor();
     14c2:	88 e2       	ldi	r24, 0x28	; 40
     14c4:	92 e0       	ldi	r25, 0x02	; 2
     14c6:	0e 94 f7 04 	call	0x9ee	; 0x9ee <MPU6050::wakeSensor()>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:77
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:48
     
   can700.can_id = 0x700;
     14ca:	80 e0       	ldi	r24, 0x00	; 0
@@ -4584,11 +4584,11 @@ C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:77
     14d6:	90 93 a9 01 	sts	0x01A9, r25	; 0x8001a9 <can700+0x1>
     14da:	a0 93 aa 01 	sts	0x01AA, r26	; 0x8001aa <can700+0x2>
     14de:	b0 93 ab 01 	sts	0x01AB, r27	; 0x8001ab <can700+0x3>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:78
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:49
   can700.can_dlc = 8;
     14e2:	88 e0       	ldi	r24, 0x08	; 8
     14e4:	80 93 ac 01 	sts	0x01AC, r24	; 0x8001ac <can700+0x4>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:80
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:51
     
   can701.can_id = 0x701;
     14e8:	41 e0       	ldi	r20, 0x01	; 1
@@ -4599,10 +4599,10 @@ C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:80
     14f4:	50 93 99 01 	sts	0x0199, r21	; 0x800199 <can701+0x1>
     14f8:	60 93 9a 01 	sts	0x019A, r22	; 0x80019a <can701+0x2>
     14fc:	70 93 9b 01 	sts	0x019B, r23	; 0x80019b <can701+0x3>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:81
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:52
   can701.can_dlc = 8;
     1500:	80 93 9c 01 	sts	0x019C, r24	; 0x80019c <can701+0x4>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:83
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:54
     
   can702.can_id = 0x702;
     1504:	82 e0       	ldi	r24, 0x02	; 2
@@ -4613,7 +4613,7 @@ C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:83
     1510:	90 93 89 01 	sts	0x0189, r25	; 0x800189 <can702+0x1>
     1514:	a0 93 8a 01 	sts	0x018A, r26	; 0x80018a <can702+0x2>
     1518:	b0 93 8b 01 	sts	0x018B, r27	; 0x80018b <can702+0x3>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:84
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:55
   can702.can_dlc = 3;
     151c:	83 e0       	ldi	r24, 0x03	; 3
     151e:	80 93 8c 01 	sts	0x018C, r24	; 0x80018c <can702+0x4>
@@ -4654,7 +4654,7 @@ C:\Users\jasmine\AppData\Local\Arduino15\packages\MiniCore\hardware\avr\3.1.2\co
   SREG = oldSREG;
     153e:	8f bf       	out	0x3f, r24	; 63
 loop():
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:106
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:77
   unsigned long currentMillis = millis();
 
   // ===========
@@ -4679,7 +4679,7 @@ C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:10
     1566:	b1 05       	cpc	r27, r1
     1568:	08 f4       	brcc	.+2      	; 0x156c <main+0x2a8>
     156a:	7f c0       	rjmp	.+254    	; 0x166a <main+0x3a6>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:107
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:78
     last100ms = currentMillis;
     156c:	c0 92 b8 01 	sts	0x01B8, r12	; 0x8001b8 <last100ms>
     1570:	d0 92 b9 01 	sts	0x01B9, r13	; 0x8001b9 <last100ms+0x1>
@@ -4711,7 +4711,7 @@ C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/Pot.h:15
     15a6:	02 0f       	add	r16, r18
     15a8:	13 1f       	adc	r17, r19
 loop():
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:112
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:83
 
     #ifdef FRONT
     // --- ID 0x700 ---
@@ -4723,37 +4723,37 @@ C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:11
     15b2:	76 2e       	mov	r7, r22
     15b4:	87 2e       	mov	r8, r23
     15b6:	98 2e       	mov	r9, r24
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:113
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:84
     MPUreadings mpu1G = mpu1.readGyro();
     15b8:	85 e3       	ldi	r24, 0x35	; 53
     15ba:	92 e0       	ldi	r25, 0x02	; 2
     15bc:	0e 94 b4 06 	call	0xd68	; 0xd68 <MPU6050::readGyro()>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:115
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:86
     
     can700.data[0] = potL >> 8;
     15c0:	10 93 b0 01 	sts	0x01B0, r17	; 0x8001b0 <can700+0x8>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:116
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:87
     can700.data[1] = potL & 0xFF;
     15c4:	00 93 b1 01 	sts	0x01B1, r16	; 0x8001b1 <can700+0x9>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:117
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:88
     can700.data[2] = mpu1A.x;
     15c8:	70 92 b2 01 	sts	0x01B2, r7	; 0x8001b2 <can700+0xa>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:118
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:89
     can700.data[3] = mpu1A.y;
     15cc:	80 92 b3 01 	sts	0x01B3, r8	; 0x8001b3 <can700+0xb>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:119
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:90
     can700.data[4] = mpu1A.z;
     15d0:	90 92 b4 01 	sts	0x01B4, r9	; 0x8001b4 <can700+0xc>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:120
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:91
     can700.data[5] = mpu1G.x;
     15d4:	60 93 b5 01 	sts	0x01B5, r22	; 0x8001b5 <can700+0xd>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:121
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:92
     can700.data[6] = mpu1G.y;
     15d8:	70 93 b6 01 	sts	0x01B6, r23	; 0x8001b6 <can700+0xe>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:122
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:93
     can700.data[7] = mpu1G.z;
     15dc:	80 93 b7 01 	sts	0x01B7, r24	; 0x8001b7 <can700+0xf>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:123
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:94
     mcp2515.sendMessage(&can700);
     15e0:	88 ea       	ldi	r24, 0xA8	; 168
     15e2:	91 e0       	ldi	r25, 0x01	; 1
@@ -4784,7 +4784,7 @@ C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/Pot.h:15
     1612:	02 0f       	add	r16, r18
     1614:	13 1f       	adc	r17, r19
 loop():
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:127
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:98
 
     // --- ID 0x701 ---
     uint16_t potR = FRpot.readPot();
@@ -4795,59 +4795,59 @@ C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:12
     161e:	76 2e       	mov	r7, r22
     1620:	87 2e       	mov	r8, r23
     1622:	98 2e       	mov	r9, r24
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:128
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:99
     MPUreadings mpu4G = mpu4.readGyro();
     1624:	88 e2       	ldi	r24, 0x28	; 40
     1626:	92 e0       	ldi	r25, 0x02	; 2
     1628:	0e 94 b4 06 	call	0xd68	; 0xd68 <MPU6050::readGyro()>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:130
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:101
     
     can701.data[0] = potR >> 8;
     162c:	10 93 a0 01 	sts	0x01A0, r17	; 0x8001a0 <can701+0x8>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:131
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:102
     can701.data[1] = potR & 0xFF;
     1630:	00 93 a1 01 	sts	0x01A1, r16	; 0x8001a1 <can701+0x9>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:132
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:103
     can701.data[2] = mpu4A.x;
     1634:	70 92 a2 01 	sts	0x01A2, r7	; 0x8001a2 <can701+0xa>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:133
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:104
     can701.data[3] = mpu4A.y;
     1638:	80 92 a3 01 	sts	0x01A3, r8	; 0x8001a3 <can701+0xb>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:134
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:105
     can701.data[4] = mpu4A.z;
     163c:	90 92 a4 01 	sts	0x01A4, r9	; 0x8001a4 <can701+0xc>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:135
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:106
     can701.data[5] = mpu4G.x;
     1640:	60 93 a5 01 	sts	0x01A5, r22	; 0x8001a5 <can701+0xd>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:136
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:107
     can701.data[6] = mpu4G.y;
     1644:	70 93 a6 01 	sts	0x01A6, r23	; 0x8001a6 <can701+0xe>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:137
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:108
     can701.data[7] = mpu4G.z;
     1648:	80 93 a7 01 	sts	0x01A7, r24	; 0x8001a7 <can701+0xf>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:138
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:109
     mcp2515.sendMessage(&can701);
     164c:	88 e9       	ldi	r24, 0x98	; 152
     164e:	91 e0       	ldi	r25, 0x01	; 1
     1650:	0e 94 d7 05 	call	0xbae	; 0xbae <MCP2515::sendMessage(can_frame const*) [clone .constprop.7]>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:141
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:112
 
     // --- ID 0x702 ---
     uint16_t steer = analogRead(STEER);
     1654:	80 e1       	ldi	r24, 0x10	; 16
     1656:	0e 94 ba 03 	call	0x774	; 0x774 <analogRead>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:142
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:113
     can702.data[0] = steer >> 8;
     165a:	90 93 90 01 	sts	0x0190, r25	; 0x800190 <can702+0x8>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:143
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:114
     can702.data[1] = steer & 0xFF;
     165e:	80 93 91 01 	sts	0x0191, r24	; 0x800191 <can702+0x9>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:144
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:115
     mcp2515.sendMessage(&can702);
     1662:	88 e8       	ldi	r24, 0x88	; 136
     1664:	91 e0       	ldi	r25, 0x01	; 1
     1666:	0e 94 d7 05 	call	0xbae	; 0xbae <MCP2515::sendMessage(can_frame const*) [clone .constprop.7]>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:175
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:146
   }
 
   // ============
@@ -4871,19 +4871,19 @@ C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:17
     168e:	a1 05       	cpc	r26, r1
     1690:	b1 05       	cpc	r27, r1
     1692:	88 f0       	brcs	.+34     	; 0x16b6 <main+0x3f2>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:176
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:147
     last1000ms = currentMillis;
     1694:	c0 92 7e 01 	sts	0x017E, r12	; 0x80017e <last1000ms>
     1698:	d0 92 7f 01 	sts	0x017F, r13	; 0x80017f <last1000ms+0x1>
     169c:	e0 92 80 01 	sts	0x0180, r14	; 0x800180 <last1000ms+0x2>
     16a0:	f0 92 81 01 	sts	0x0181, r15	; 0x800181 <last1000ms+0x3>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:179
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:150
 
     #ifdef FRONT
     uint16_t ambRaw = analogRead(AMBIENT_NTC);
     16a4:	81 e1       	ldi	r24, 0x11	; 17
     16a6:	0e 94 ba 03 	call	0x774	; 0x774 <analogRead>
-C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:180
+C:\Users\jasmine\Documents\GitHub\GEN6_ELEC\SSRU_v4.0\SSRU_v4.0/SSRU_v4.0.ino:151
     can702.data[2] = (int8_t)pgm_read_byte(&adc_to_temp[ambRaw]);
     16aa:	88 59       	subi	r24, 0x98	; 152
     16ac:	9f 4f       	sbci	r25, 0xFF	; 255
