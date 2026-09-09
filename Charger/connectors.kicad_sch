@@ -2421,10 +2421,6 @@
 		(color 0 0 0 0)
 		(uuid "8db2daac-790c-4c09-9abc-9c07d89ec263")
 	)
-	(no_connect
-		(at 130.81 113.03)
-		(uuid "5a985bab-85dd-4f16-a7ce-5e3594888ef6")
-	)
 	(wire
 		(pts
 			(xy 238.76 44.45) (xy 238.76 46.99)
@@ -2434,6 +2430,16 @@
 			(type default)
 		)
 		(uuid "53eb29b8-a384-4226-82a7-4e6e8e82117b")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 130.81 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c2e9c5e-76cc-4dad-af2f-45f1fdab5476")
 	)
 	(wire
 		(pts
@@ -2457,7 +2463,7 @@
 	)
 	(global_label "HV_RELAY_AUX"
 		(shape input)
-		(at 130.81 96.52 0)
+		(at 130.81 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2467,7 +2473,7 @@
 		)
 		(uuid "0523cf88-4332-4379-9ec1-a45a3ae25df2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.4024 96.52 0)
+			(at 147.4024 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2649,7 +2655,7 @@
 	)
 	(global_label "HV_ON"
 		(shape input)
-		(at 170.18 49.53 0)
+		(at 170.18 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2659,7 +2665,7 @@
 		)
 		(uuid "599c8c73-1cb7-4231-a03b-ab77c88cb26f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.2129 49.53 0)
+			(at 179.2129 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2793,7 +2799,7 @@
 	)
 	(global_label "CHARGER_ERR_12V"
 		(shape input)
-		(at 170.18 62.23 0)
+		(at 170.18 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2803,7 +2809,7 @@
 		)
 		(uuid "a63b83ba-1ae6-4922-a785-71180b25a509")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.9451 62.23 0)
+			(at 190.9451 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4251,8 +4257,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 170.18 52.07 270)
-		(mirror x)
+		(at 170.18 49.53 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4262,7 +4267,7 @@
 		(dnp no)
 		(uuid "411a76be-a4e9-4837-9287-ce4e3be336f8")
 		(property "Reference" "#PWR0112"
-			(at 166.37 52.07 0)
+			(at 166.37 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4273,7 +4278,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 173.99 52.0701 90)
+			(at 173.99 49.5299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4284,7 +4289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 52.07 0)
+			(at 170.18 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4295,7 +4300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 52.07 0)
+			(at 170.18 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4306,7 +4311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 170.18 52.07 0)
+			(at 170.18 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6410,8 +6415,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 170.18 64.77 270)
-		(mirror x)
+		(at 170.18 62.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6421,7 +6425,7 @@
 		(dnp no)
 		(uuid "bc4328b3-389f-44aa-85b0-63bed54e8355")
 		(property "Reference" "#PWR0113"
-			(at 166.37 64.77 0)
+			(at 166.37 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6432,7 +6436,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 173.99 64.7701 90)
+			(at 173.99 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6443,7 +6447,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 64.77 0)
+			(at 170.18 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6454,7 +6458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 64.77 0)
+			(at 170.18 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6465,7 +6469,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 170.18 64.77 0)
+			(at 170.18 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,8 +7100,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 130.81 99.06 270)
-		(mirror x)
+		(at 130.81 96.52 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7107,7 +7110,7 @@
 		(dnp no)
 		(uuid "de3a6ba6-237f-4ae7-b303-0ba2dc986ce6")
 		(property "Reference" "#PWR0114"
-			(at 127 99.06 0)
+			(at 127 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7118,7 +7121,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 134.62 99.0601 90)
+			(at 134.62 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7129,7 +7132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 99.06 0)
+			(at 130.81 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7140,7 +7143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 99.06 0)
+			(at 130.81 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7151,7 +7154,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 130.81 99.06 0)
+			(at 130.81 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
