@@ -549,7 +549,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./gerbers_bducu",
+      "plot": "./gerbers_bducuv1.1",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -786,7 +786,7 @@
         "uuid": "9942a424-e19d-4ffb-8473-f960b5c811cf"
       }
     ],
-    "used_designators": "L1,D1-11,#PWR1-126,#PWR130-133,J1-15,AVR\\-ISP1,C1-39,F1-3,CA1-5,Q1-8,R1-70,SW1,U1-17,Y1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

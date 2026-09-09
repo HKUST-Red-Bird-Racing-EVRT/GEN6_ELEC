@@ -4717,7 +4717,7 @@
 	)
 	(global_label "FS_CAN_L"
 		(shape bidirectional)
-		(at 353.06 39.37 0)
+		(at 354.33 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4727,7 +4727,7 @@
 		)
 		(uuid "362ae427-8d56-42e2-a081-12eacf564407")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.107 39.37 0)
+			(at 367.377 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4935,7 +4935,7 @@
 	)
 	(global_label "MCU_CAN_L"
 		(shape input)
-		(at 353.06 46.99 0)
+		(at 354.33 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4945,7 +4945,7 @@
 		)
 		(uuid "6ecda58c-00dd-48fa-9279-f98fed4f3d5a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.7495 46.99 0)
+			(at 368.0195 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5247,7 +5247,7 @@
 	)
 	(global_label "FS_CAN_H"
 		(shape bidirectional)
-		(at 353.06 41.91 0)
+		(at 354.33 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5257,7 +5257,7 @@
 		)
 		(uuid "e11ef0f6-8887-4850-a730-f91e4edd181a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.4094 41.91 0)
+			(at 367.6794 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5271,7 +5271,7 @@
 	)
 	(global_label "MCU_CAN_H"
 		(shape input)
-		(at 353.06 44.45 0)
+		(at 354.33 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5281,7 +5281,7 @@
 		)
 		(uuid "f0b1b95c-5e5d-4e09-aa7c-7a93e602f583")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 367.0519 44.45 0)
+			(at 368.3219 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5386,7 +5386,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 347.98 41.91 0)
+		(at 349.25 25.4 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -5397,7 +5397,7 @@
 		(dnp no)
 		(uuid "0564e3fb-5efd-4cc0-9cd8-13b4c91bbc30")
 		(property "Reference" "J63"
-			(at 347.98 33.02 0)
+			(at 349.25 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5407,7 +5407,7 @@
 			)
 		)
 		(property "Value" "RT00104PN03"
-			(at 351.028 35.56 0)
+			(at 352.298 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5417,7 +5417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 347.98 41.91 0)
+			(at 349.25 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,7 +5428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 41.91 0)
+			(at 349.25 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5439,7 +5439,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 347.98 41.91 0)
+			(at 349.25 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
