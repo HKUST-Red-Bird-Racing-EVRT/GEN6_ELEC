@@ -1352,7 +1352,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 0 2.5 0)
+			(at 3.75 0 0)
 			(layer "F.SilkS")
 			(uuid "011387ca-9599-48ca-b4db-f5519d90091b")
 			(effects
@@ -9609,7 +9609,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q4"
-			(at 0 2.5 0)
+			(at 3.5 0 0)
 			(layer "F.SilkS")
 			(uuid "8b1be391-4255-4ab6-8a6e-8bb5b4f7566c")
 			(effects
@@ -10063,7 +10063,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
-			(at 1 1.75 0)
+			(at -1 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "c68ab3cb-aae8-4bab-a205-fbc66f63dbbe")
 			(effects
@@ -47496,6 +47496,30 @@
 			)
 		)
 	)
+	(gr_text "HV ON\n+12V"
+		(at 59.75 121.75 0)
+		(layer "F.SilkS")
+		(uuid "281f72b7-4f9d-4bf4-b690-105f3c71b270")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "HV R_AUX\n+12V"
+		(at 61 110 0)
+		(layer "F.SilkS")
+		(uuid "e65f30ae-1b6e-4467-a5ab-dcf5c7ab1abc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "VOLT CONTROL"
 		(at 77.25 141.5 0)
 		(layer "F.SilkS")
@@ -47568,30 +47592,6 @@
 			)
 		)
 	)
-	(gr_text "HV ON"
-		(at 58.25 123.5 90)
-		(layer "F.SilkS")
-		(uuid "281f72b7-4f9d-4bf4-b690-105f3c71b270")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-		)
-	)
-	(gr_text "CHARGER ERR"
-		(at 58.25 135 90)
-		(layer "F.SilkS")
-		(uuid "1c7ce2b7-4308-40bf-9625-6da125a0c183")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.2)
-				(bold yes)
-			)
-		)
-	)
 	(gr_text "+12V IN"
 		(at 58.5 68.75 90)
 		(layer "F.SilkS")
@@ -47604,10 +47604,10 @@
 			)
 		)
 	)
-	(gr_text "HV RELAY\nAUX"
-		(at 58.75 111.5 90)
+	(gr_text "+12V  CHGR\n	  ERR"
+		(at 59 135.25 90)
 		(layer "F.SilkS")
-		(uuid "e65f30ae-1b6e-4467-a5ab-dcf5c7ab1abc")
+		(uuid "1c7ce2b7-4308-40bf-9625-6da125a0c183")
 		(effects
 			(font
 				(size 1 1)
