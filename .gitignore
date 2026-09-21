@@ -1,1 +1,4 @@
 .DS_Store
+/steering_sensor_mount_v1.0/steering_sensor_mount_v1.0
+*.kicad_prl
+steering_sensor_mount_v1.0/.history/
