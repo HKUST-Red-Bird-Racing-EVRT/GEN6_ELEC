@@ -1,0 +1,168 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5826de07-2dfc-4b26-8f2d-f37e9b29b777")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 58.42 78.74)
+		(size 39.37 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8615d14c-4ede-4fb4-89da-8061dc6dedfc")
+		(property "Sheetname" "falling_edge_trigger"
+			(at 58.42 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "falling_edge_trigger_v2.kicad_sch"
+			(at 58.42 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A" input
+			(at 58.42 85.09 180)
+			(uuid "c1b60ef7-dd8e-401a-a9da-10c04b63861c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "A'" output
+			(at 97.79 85.09 0)
+			(uuid "c5e3a118-9a99-4ee1-8c9d-6fcfff42b67e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "signal_in" input
+			(at 58.42 90.17 180)
+			(uuid "d5bd634c-ee13-428b-8125-3b851cf89581")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "signal_out" output
+			(at 97.79 90.17 0)
+			(uuid "430f75b9-134c-4949-8a29-8d06de89f399")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 78.74)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c75a9aad-321d-483b-973d-907a6ec0e0c7")
+		(property "Sheetname" "error_high_latch_low"
+			(at 127 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "latch_to_low.kicad_sch"
+			(at 127 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "reset" input
+			(at 127 92.71 180)
+			(uuid "a0f40078-a65e-486a-aff2-7b86a2945291")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "signal_in" input
+			(at 127 86.36 180)
+			(uuid "c2f184e8-f201-49a0-a991-09631990e80f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "signal_out" output
+			(at 162.56 86.36 0)
+			(uuid "00fbed41-d06c-4fa3-9884-11b65b1eec4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
