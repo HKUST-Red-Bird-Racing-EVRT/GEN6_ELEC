@@ -1622,11 +1622,11 @@
 	(footprint "RMC-KiCad:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 		(layer "F.Cu")
 		(uuid "547dd4c1-a9c8-4c7e-8b40-9dbbe22ac078")
-		(at 34.1884 38.7096 -45)
+		(at 34.0868 39.2684 -45)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at -3.7084 -0.0508 135)
+			(at -2.155261 1.76013 135)
 			(layer "F.SilkS")
 			(uuid "55175de2-ffd6-4b58-b8f4-7a75275e7bb0")
 			(effects
@@ -4469,7 +4469,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "787.4016"
+			(gr_text "20"
 				(at 64.701 50.2336 90)
 				(layer "Dwgs.User")
 				(uuid "435ee222-1e25-4313-ab18-b7c093088edc")
@@ -4507,7 +4507,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "155.5118"
+			(gr_text "3.95"
 				(at 129.926 63.0836 0)
 				(layer "Dwgs.User")
 				(uuid "4a961eed-71ab-47f5-9fa5-5e9d808e50d1")
@@ -4545,7 +4545,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "155.5118"
+			(gr_text "3.95"
 				(at 63.876 63.0836 0)
 				(layer "Dwgs.User")
 				(uuid "546dcf0c-c376-4ac9-b670-9bdd50c261e2")
@@ -4583,7 +4583,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "905.5118"
+			(gr_text "23"
 				(at 126.801001 40.2336 90)
 				(layer "Dwgs.User")
 				(uuid "82a3d310-9158-4087-98bb-9a32468b6be8")
@@ -4621,7 +4621,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "492.126"
+			(gr_text "12.5"
 				(at 126.801 57.9836 90)
 				(layer "Dwgs.User")
 				(uuid "86650ac9-ec97-4814-926c-31be9e596b06")
@@ -4659,7 +4659,7 @@
 				(extension_offset 0.5)
 				(keep_text_aligned yes)
 			)
-			(gr_text "157.4803"
+			(gr_text "4"
 				(at 64.701 62.2336 90)
 				(layer "Dwgs.User")
 				(uuid "c9b7f2b1-adad-43e9-9d50-603e614106b9")
@@ -11062,11 +11062,21 @@
 		(uuid "9abdc8a5-cd47-4452-95f0-b4a71f266dc1")
 	)
 	(gr_line
+		(start 32.4358 38.2524)
+		(end 29.0576 36.5506)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "b88f292f-d83a-4371-9f74-052670d95296")
+	)
+	(gr_line
 		(start 32.7406 45.7962)
 		(end 37.3888 42.926)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "Dwgs.User")
 		(uuid "d978325e-9244-45d6-ac5a-c827e97fc4a7")
@@ -11082,11 +11092,21 @@
 		(uuid "da9a4fe0-2c14-4163-841c-9568fcd6c538")
 	)
 	(gr_line
-		(start 38.1 41.7322)
-		(end 34.2646 38.0746)
+		(start 33.274 39.2684)
+		(end 29.845 43.0022)
 		(stroke
 			(width 0.1)
 			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "e0d1e34e-0c59-400f-9443-af3aaffb2e2f")
+	)
+	(gr_line
+		(start 38.1 41.7322)
+		(end 33.821635 38.119351)
+		(stroke
+			(width 0.1)
+			(type solid)
 		)
 		(layer "Dwgs.User")
 		(uuid "e4927461-5eb1-441c-b901-a3a8308e4ff2")
@@ -11096,7 +11116,7 @@
 		(end 38.1 41.7322)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "Dwgs.User")
 		(uuid "fb843611-9c8c-47a4-a7c1-796971be7b33")
@@ -13691,12 +13711,12 @@
 		(uuid "1af5e5b9-6e44-489b-8aaa-f63095902af8")
 	)
 	(segment
-		(start 38.14624 42.621478)
-		(end 35.026322 39.50156)
+		(start 38.14624 42.646322)
+		(end 37.510684 42.646322)
 		(width 0.508)
 		(layer "F.Cu")
 		(net 24)
-		(uuid "646155da-de48-4ba0-8636-d6b4029b347d")
+		(uuid "5bf5a25a-07d3-4536-8b80-2d679d025e27")
 	)
 	(segment
 		(start 38.337398 42.056002)
@@ -13707,20 +13727,20 @@
 		(uuid "b4385dbd-a1e6-4a66-b909-d1a35e1c1e02")
 	)
 	(segment
-		(start 38.14624 42.646322)
-		(end 38.14624 42.621478)
+		(start 37.510684 42.646322)
+		(end 35.026322 40.16196)
 		(width 0.508)
 		(layer "F.Cu")
 		(net 24)
-		(uuid "f4e22599-47a7-4e67-8bdc-41774cb48536")
+		(uuid "d8757fe8-e6ce-489a-8f08-e7d32c3d7428")
 	)
 	(segment
-		(start 33.39644 37.871678)
-		(end 31.447462 35.9227)
+		(start 33.29484 38.430478)
+		(end 33.29484 37.770078)
 		(width 0.508)
 		(layer "F.Cu")
 		(net 25)
-		(uuid "60785305-0955-4c4c-ba4d-58604abd6d5e")
+		(uuid "2e5d9a9b-6034-4b57-8489-731d0c8ecda6")
 	)
 	(segment
 		(start 31.447462 35.9227)
@@ -13728,7 +13748,15 @@
 		(width 0.508)
 		(layer "F.Cu")
 		(net 25)
-		(uuid "ceb91f66-9da4-4cfd-91d4-1677279b8d9f")
+		(uuid "c6144878-2a89-40f0-b54f-853fe508982d")
+	)
+	(segment
+		(start 33.29484 37.770078)
+		(end 31.447462 35.9227)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 25)
+		(uuid "fcf90340-8c53-4fe3-a536-3201ae0e4acf")
 	)
 	(segment
 		(start 18.526101 36.1005)
@@ -13886,7 +13914,7 @@
 		(net 14)
 		(net_name "/GLV+")
 		(layer "F.Cu")
-		(uuid "b94630ac-a44a-4fc2-b8c0-bad485595a50")
+		(uuid "8d435df3-d0b1-4e3f-86f4-1db703d6f771")
 		(name "$teardrop_padvia$")
 		(hatch full 0.1)
 		(priority 30000)
