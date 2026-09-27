@@ -2969,6 +2969,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 175.26) (xy 55.88 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bec07db-3836-4120-ad10-217777cba01c")
+	)
+	(wire
+		(pts
 			(xy 111.76 63.5) (xy 121.92 63.5)
 		)
 		(stroke
@@ -3269,16 +3279,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 177.8) (xy 55.88 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "759287fb-1b0e-4879-ba2b-def86655b4e8")
-	)
-	(wire
-		(pts
 			(xy 186.69 53.34) (xy 193.04 53.34)
 		)
 		(stroke
@@ -3319,6 +3319,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 177.8) (xy 55.88 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d552777-09e7-4c07-878e-d5970d4e7990")
+	)
+	(wire
+		(pts
 			(xy 199.39 39.37) (xy 193.04 39.37)
 		)
 		(stroke
@@ -3356,16 +3366,6 @@
 			(type default)
 		)
 		(uuid "9e5fc472-6d5b-4ce6-be39-c1b38d8efe3d")
-	)
-	(wire
-		(pts
-			(xy 45.72 175.26) (xy 55.88 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3c633bb-2b45-456a-a802-a7e2f22ccff6")
 	)
 	(wire
 		(pts
@@ -3697,6 +3697,16 @@
 		)
 		(uuid "3fdf16e5-f8c3-49b2-8e65-f61cdf8552e5")
 	)
+	(label "SDC_IN"
+		(at 39.37 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41140fa5-54a1-4e3b-a8a8-a2e44dd00d52")
+	)
 	(label "IMD_KL31_GND"
 		(at 194.31 134.62 0)
 		(effects
@@ -3716,6 +3726,16 @@
 			(justify left bottom)
 		)
 		(uuid "44b2402e-062e-47cb-8df7-a6ed676a55d9")
+	)
+	(label "SDC_OUT"
+		(at 39.37 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "520af3af-6948-4bc1-9bd6-a80e437126be")
 	)
 	(label "AMS_latch"
 		(at 214.63 58.42 0)
@@ -3827,16 +3847,6 @@
 		)
 		(uuid "947aa471-78a0-4ddc-bd65-ac46c408bab1")
 	)
-	(label "SDC_OUT"
-		(at 45.72 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1c137d6-ed5e-44bd-b4da-58a9a4428dd2")
-	)
 	(label "AMS_reset"
 		(at 87.63 38.1 0)
 		(effects
@@ -3896,16 +3906,6 @@
 			(justify left bottom)
 		)
 		(uuid "ec164eb8-0b12-4f20-b68f-24f74e9e3c1b")
-	)
-	(label "SDC_IN"
-		(at 45.72 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "feb06c13-3f0c-4f88-a7a7-4ab87f090ee4")
 	)
 	(symbol
 		(lib_id "Device:R_US")
