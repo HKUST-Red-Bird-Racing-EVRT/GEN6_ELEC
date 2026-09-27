@@ -4215,7 +4215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 182.88 135.89 0)
 			(effects
 				(font
@@ -4428,7 +4428,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 256.54 147.32 0)
 			(effects
 				(font
@@ -5149,7 +5149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 64.77 128.27 0)
 			(effects
 				(font
@@ -6009,7 +6009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 213.36 132.08 0)
 			(effects
 				(font
@@ -6778,7 +6778,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 57.15 152.4 0)
 			(effects
 				(font
@@ -6848,7 +6848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 60.96 175.26 0)
 			(effects
 				(font
@@ -7902,7 +7902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 158.75 148.59 0)
 			(effects
 				(font
@@ -8041,7 +8041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
 			(at 57.15 147.32 0)
 			(effects
 				(font
