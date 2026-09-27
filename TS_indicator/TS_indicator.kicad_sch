@@ -9203,7 +9203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-885"
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-462"
 			(at 45.212 82.55 90)
 			(effects
 				(font

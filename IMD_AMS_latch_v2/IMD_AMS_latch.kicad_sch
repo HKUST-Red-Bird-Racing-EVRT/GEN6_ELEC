@@ -2649,6 +2649,16 @@
 		)
 		(uuid "ba9f993c-8d53-4103-83ee-4a4fe82310f9")
 	)
+	(text "external IMD led\n"
+		(exclude_from_sim no)
+		(at 250.698 141.732 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb262d15-48b0-456b-8fc3-f539b804a8af")
+	)
 	(junction
 		(at 40.64 68.58)
 		(diameter 0)
@@ -2674,6 +2684,12 @@
 		(uuid "1a683079-5eeb-440a-a30e-becf4f851ca7")
 	)
 	(junction
+		(at 231.14 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c02fd65-0682-4f1e-b0fa-fc20c040d519")
+	)
+	(junction
 		(at 193.04 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2684,6 +2700,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e6ed61a-a0d2-4d5b-bb49-c61ad96a2e76")
+	)
+	(junction
+		(at 245.11 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52ff60f8-aee4-4909-bcec-e72f3a69c18d")
 	)
 	(junction
 		(at 177.8 135.89)
@@ -2750,6 +2772,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "daa949a0-1814-464b-8fa6-99d52a348f33")
+	)
+	(junction
+		(at 231.14 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd91a209-10e6-40dd-ba27-3a8a5eb588bc")
+	)
+	(junction
+		(at 245.11 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0ce684e-3ac5-4c6c-a86a-a2710bbcabf8")
 	)
 	(junction
 		(at 193.04 96.52)
@@ -3025,16 +3059,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 176.53) (xy 100.33 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "315e5f62-5019-47a9-b446-c4ad8bdf6ffa")
-	)
-	(wire
-		(pts
 			(xy 72.39 58.42) (xy 78.74 58.42)
 		)
 		(stroke
@@ -3075,6 +3099,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 149.86) (xy 242.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0b4509-80ec-492d-8df5-a8988a95ff2a")
+	)
+	(wire
+		(pts
 			(xy 234.95 102.87) (xy 234.95 101.6)
 		)
 		(stroke
@@ -3085,16 +3119,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 185.42) (xy 100.33 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "422ff057-f771-40c2-9499-89decedc66a3")
-	)
-	(wire
-		(pts
 			(xy 52.07 60.96) (xy 52.07 68.58)
 		)
 		(stroke
@@ -3102,6 +3126,16 @@
 			(type default)
 		)
 		(uuid "44bcefcd-ea9f-4535-bd24-7724c573e62f")
+	)
+	(wire
+		(pts
+			(xy 242.57 147.32) (xy 251.46 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e0d0b4-b037-4d5e-a808-0f111d122f7a")
 	)
 	(wire
 		(pts
@@ -3192,6 +3226,16 @@
 			(type default)
 		)
 		(uuid "692d0222-469c-46a9-97c7-dd7dde2f6d87")
+	)
+	(wire
+		(pts
+			(xy 231.14 144.78) (xy 242.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab405e5-f5f3-47a9-8391-9240cb70ff28")
 	)
 	(wire
 		(pts
@@ -3365,6 +3409,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 144.78) (xy 242.57 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ef03db-8aec-4a1e-9ab9-c073948b43b0")
+	)
+	(wire
+		(pts
 			(xy 234.95 101.6) (xy 237.49 101.6)
 		)
 		(stroke
@@ -3485,6 +3539,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 149.86) (xy 251.46 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5332a9f-0902-488b-af33-eb0ef6280c8b")
+	)
+	(wire
+		(pts
 			(xy 78.74 58.42) (xy 87.63 58.42)
 		)
 		(stroke
@@ -3515,6 +3579,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 152.4) (xy 242.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecac6b91-eb47-4e40-af2a-57b82d563308")
+	)
+	(wire
+		(pts
 			(xy 193.04 82.55) (xy 193.04 96.52)
 		)
 		(stroke
@@ -3532,16 +3606,6 @@
 			(type default)
 		)
 		(uuid "f19edef8-3d21-447e-a743-91ca574a538d")
-	)
-	(wire
-		(pts
-			(xy 99.06 179.07) (xy 100.33 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2959464-92d1-4d78-9009-3c1e335714ca")
 	)
 	(wire
 		(pts
@@ -3613,16 +3677,6 @@
 		)
 		(uuid "1cb37ba8-8bc0-4663-becf-510da81a3064")
 	)
-	(label "AMS_latch"
-		(at 90.17 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2e67b6c6-32ba-4c3f-9bf3-08821b91146e")
-	)
 	(label "IMD_MHS"
 		(at 193.04 144.78 0)
 		(effects
@@ -3662,16 +3716,6 @@
 			(justify left bottom)
 		)
 		(uuid "44b2402e-062e-47cb-8df7-a6ed676a55d9")
-	)
-	(label "IMD_latch"
-		(at 90.17 185.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "560edaa2-323e-4a5c-8017-09bfaef95e1d")
 	)
 	(label "AMS_latch"
 		(at 214.63 58.42 0)
@@ -4357,6 +4401,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 256.54 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d15f890-1ac5-487f-8a46-6e4c5f8af5d7")
+		(property "Reference" "J13"
+			(at 259.08 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 259.08 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+			(at 256.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "476cda96-0ac1-4416-9da5-5075c2e03389")
+		)
+		(pin "2"
+			(uuid "03098b45-9e37-4a0a-b297-473afdb77846")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 231.14 58.42 90)
 		(unit 1)
@@ -4774,6 +4888,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 245.11 49.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e48d0f4-5205-4db6-8a31-6d4b58e3fcfb")
+		(property "Reference" "D5"
+			(at 248.92 49.8474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 248.92 52.3874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e0c369e-e4f7-43d0-8e44-434df72cb97a")
+		)
+		(pin "2"
+			(uuid "dfd1468b-641f-467a-ae07-4abf12950391")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Comparator:LM393")
 		(at 64.77 58.42 0)
 		(unit 2)
@@ -4855,6 +5048,75 @@
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "U2")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 245.11 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2834eee6-ae01-440a-acec-acbeb1cd5c5d")
+		(property "Reference" "R17"
+			(at 243.332 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 243.332 84.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 244.094 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "44d29077-e101-4093-817b-a461a7485f58")
+		)
+		(pin "1"
+			(uuid "062f06cc-6d9c-4df4-9c65-d4013b6febb1")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "R17")
+					(unit 1)
 				)
 			)
 		)
@@ -5513,76 +5775,6 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 105.41 185.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44e881b0-1686-4e72-970b-5d91356dc0a3")
-		(property "Reference" "J12"
-			(at 107.95 185.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 107.95 187.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 105.41 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7ecd68d-d28d-4498-93a8-2ef07582fd85")
-		)
-		(pin "2"
-			(uuid "061a7c12-bb12-49ce-98dc-93208d7bf5d8")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -6282,6 +6474,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 245.11 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "785e5de3-2286-4908-b99f-7eb16d4231c3")
+		(property "Reference" "D6"
+			(at 248.92 93.0274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 248.92 95.5674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b3f5392-3e86-434f-9354-6369420c7db1")
+		)
+		(pin "2"
+			(uuid "4279d694-e00d-40bf-990e-0877a157a7b6")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 147.32 36.83 0)
 		(unit 1)
@@ -6408,6 +6679,72 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 245.11 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "817cc484-b69d-4a4e-809a-284ef1518597")
+		(property "Reference" "#PWR033"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 245.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 245.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8059a44b-dba7-4934-ba16-110231e3f976")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -7401,6 +7738,75 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 245.11 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b373f766-5427-4926-8beb-e01c34fe8167")
+		(property "Reference" "R16"
+			(at 243.332 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 243.332 40.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 244.094 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 245.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6858c7ac-225e-4e10-8764-dea0df280e2b")
+		)
+		(pin "1"
+			(uuid "5e04c422-9c04-4ca5-bf0d-ce492f9a31ac")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 40.64 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7748,73 +8154,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 100.33 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcd29baa-c452-42a0-98ce-c86d23eec866")
-		(property "Reference" "#PWR031"
-			(at 100.33 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 100.33 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 100.33 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76526a68-2c06-4126-b8ff-db036e9920ca")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 121.92 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7874,6 +8213,72 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 245.11 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf9a903d-dcd3-4162-b9b1-17d14c93c0ce")
+		(property "Reference" "#PWR034"
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 245.11 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 245.11 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4ed3f41-baa6-46dd-8c11-a7bbba1687aa")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -8436,73 +8841,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb7949b7-7381-426d-bac7-df39d5a14649")
-		(property "Reference" "#PWR032"
-			(at 99.06 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.06 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6bb052f-b146-405f-a079-35672bc352cc")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 33.02 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8822,76 +9160,6 @@
 			(project ""
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 105.41 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd54e2e8-f02b-4fb3-b210-65af4ef479b0")
-		(property "Reference" "J11"
-			(at 107.95 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 107.95 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
-			(at 105.41 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 105.41 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "394d5021-4634-4103-a859-a5682c32fd3f")
-		)
-		(pin "2"
-			(uuid "c67838e3-6276-4021-aa5c-007ee68b9e16")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "J11")
 					(unit 1)
 				)
 			)
