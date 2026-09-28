@@ -533,7 +533,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/heiha/Desktop/929BATCHORDER/HVBTSALGB/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -657,7 +657,7 @@
         "uuid": "1a0db5be-015a-4c37-8fdf-517b77516d13"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D11-13,#PWR1,#PWR6,#PWR8,#PWR11-12,#PWR28-30,R13-15",
     "variants": []
   },
   "sheets": [

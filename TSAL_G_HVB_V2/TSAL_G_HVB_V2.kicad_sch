@@ -5975,16 +5975,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.696 101.346) (xy 107.696 97.028)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a8d4c1e-d930-4d77-b1a7-7f6170bd7343")
-	)
-	(wire
-		(pts
 			(xy 254.762 35.814) (xy 280.162 35.814)
 		)
 		(stroke
@@ -5992,6 +5982,16 @@
 			(type default)
 		)
 		(uuid "2bf8b640-d24e-469f-9c1b-0c2ebb111527")
+	)
+	(wire
+		(pts
+			(xy 64.516 130.81) (xy 64.516 131.572)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea85e88-1f4e-432f-a13f-860bbe74be3f")
 	)
 	(wire
 		(pts
@@ -6075,6 +6075,16 @@
 	)
 	(wire
 		(pts
+			(xy 141.986 131.572) (xy 141.986 132.334)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "345a5dd0-268d-42bb-9fbd-b8f97f6e78b6")
+	)
+	(wire
+		(pts
 			(xy 213.868 158.496) (xy 214.884 158.496)
 		)
 		(stroke
@@ -6082,6 +6092,16 @@
 			(type default)
 		)
 		(uuid "35ec49a1-06c5-4801-bc6e-7ec68426846d")
+	)
+	(wire
+		(pts
+			(xy 107.696 88.9) (xy 107.696 93.218)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384fad62-1f41-4f5f-8b44-cf18692826bb")
 	)
 	(wire
 		(pts
@@ -6102,6 +6122,16 @@
 			(type default)
 		)
 		(uuid "39f225ec-635a-47e0-8047-dee107e9af66")
+	)
+	(wire
+		(pts
+			(xy 82.804 89.154) (xy 82.804 93.218)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af92d3a-d262-4038-a64d-5274a0f2b530")
 	)
 	(wire
 		(pts
@@ -6385,7 +6415,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.578 100.838) (xy 52.578 97.282)
+			(xy 52.578 89.154) (xy 52.578 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6455,7 +6485,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.718 101.346) (xy 29.718 98.552)
+			(xy 30.734 92.202) (xy 30.734 89.408)
 		)
 		(stroke
 			(width 0)
@@ -6505,6 +6535,16 @@
 	)
 	(wire
 		(pts
+			(xy 141.986 139.954) (xy 141.986 141.478)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ba2971-e30e-4f96-b4b5-399e65f7c7c6")
+	)
+	(wire
+		(pts
 			(xy 299.212 38.354) (xy 295.402 38.354)
 		)
 		(stroke
@@ -6515,7 +6555,7 @@
 	)
 	(wire
 		(pts
-			(xy 141.732 101.854) (xy 141.732 96.52)
+			(xy 141.732 88.392) (xy 141.732 93.726)
 		)
 		(stroke
 			(width 0)
@@ -6572,6 +6612,16 @@
 			(type default)
 		)
 		(uuid "aca657cc-61f6-435e-9696-b278bd99aec6")
+	)
+	(wire
+		(pts
+			(xy 106.172 131.318) (xy 106.172 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae91c717-b03f-448a-b7a5-e63042e46789")
 	)
 	(wire
 		(pts
@@ -6735,6 +6785,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.172 139.7) (xy 106.172 141.224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9599aeb-40fe-4094-aeec-b180f78525a8")
+	)
+	(wire
+		(pts
 			(xy 189.992 83.058) (xy 195.326 83.058)
 		)
 		(stroke
@@ -6755,13 +6815,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.804 97.282) (xy 82.804 101.346)
+			(xy 64.516 139.192) (xy 64.516 140.716)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dda730f3-7e58-44df-80b6-c13139b5b486")
+		(uuid "e7846962-c0c6-4f81-b9e8-81e5c38544fa")
 	)
 	(wire
 		(pts
@@ -7009,6 +7069,30 @@
 			)
 		)
 	)
+	(global_label "RELAY_INTENDED_STATE"
+		(shape input)
+		(at 82.804 81.534 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "235439ca-34fb-4b76-a508-8533a33e5d5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.8056 81.534 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RELAY_AUX_STATE"
 		(shape input)
 		(at 203.962 27.686 180)
@@ -7022,6 +7106,30 @@
 		(uuid "28b349ef-af49-43ec-a9f7-89a87e208d11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.4064 27.686 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RELAY_PLAUSIBILITY _FAULT"
+		(shape input)
+		(at 141.986 123.952 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2979de0c-4cea-4629-b893-eb1beeab9e62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.8749 123.952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7129,54 +7237,6 @@
 			)
 		)
 	)
-	(global_label "SCS_SIGN_IN"
-		(shape input)
-		(at 52.578 100.838 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a86a780-750f-4b9f-abf8-1cc6e577b423")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.6185 100.838 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SCS_SIGN_IN"
-		(shape input)
-		(at 45.466 152.908 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4fc77a6e-2492-4b17-8eca-9d2134607c34")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.5065 152.908 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "RELAY_PLAUSIBILITY _FAULT"
 		(shape input)
 		(at 196.342 138.684 180)
@@ -7246,6 +7306,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "HV_SIGN_IN"
+		(shape input)
+		(at 30.734 81.788 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5cf2ae21-b510-41f4-bd7e-79cc989a79aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.0444 81.788 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7369,6 +7453,30 @@
 			)
 		)
 	)
+	(global_label "INVERTED_RELAY_AUX_STATE"
+		(shape input)
+		(at 141.732 80.772 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87a0d64b-2cc0-4df6-8e64-f457b4d50247")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3793 80.772 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "TS_VOLTAGE_MISMATCH_FAULT"
 		(shape input)
 		(at 197.358 147.828 180)
@@ -7414,6 +7522,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "SCS_FAULT"
+		(shape input)
+		(at 64.516 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8e47aaff-9908-42c2-a846-1a5bf72a6753")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.3708 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TS_VOLTAGE_MISMATCH_FAULT"
+		(shape input)
+		(at 106.172 123.698 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91defc9f-0356-4805-bcfc-3d1a6cf74228")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.3073 123.698 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -7465,9 +7621,9 @@
 			)
 		)
 	)
-	(global_label "RELAY_AUX_STATE"
+	(global_label "SCS_SIGN_IN"
 		(shape input)
-		(at 107.696 101.346 180)
+		(at 52.578 81.534 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7475,9 +7631,9 @@
 			)
 			(justify right)
 		)
-		(uuid "aad82c93-40e1-4ee4-93fa-0a1c49f3ed19")
+		(uuid "9c7e191e-129f-4cc1-8a38-5b6b43219ebf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.1404 101.346 0)
+			(at 37.6185 81.534 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7491,7 +7647,7 @@
 	)
 	(global_label "RELAY_AUX_STATE"
 		(shape input)
-		(at 50.038 157.734 180)
+		(at 107.696 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7499,33 +7655,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ab7899e0-babf-4712-8f59-dea4c8263784")
+		(uuid "b8a05eff-9b8f-4054-8bac-076c2e92aa77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.4824 157.734 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HV_SIGN_IN"
-		(shape input)
-		(at 44.45 148.336 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1ea011e-9313-4f66-8b6c-6788249cc2bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.7604 148.336 0)
+			(at 88.1404 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7609,30 +7741,6 @@
 			)
 		)
 	)
-	(global_label "INVERTED_RELAY_AUX_STATE"
-		(shape input)
-		(at 141.732 101.854 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d31693bc-887b-4ecd-96d3-a139ca3d5886")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.3793 101.854 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "GN_LIGHT"
 		(shape input)
 		(at 264.16 220.98 180)
@@ -7646,78 +7754,6 @@
 		(uuid "decd756c-df78-4b18-9232-4ed562034797")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 252.4057 220.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "HV_SIGN_IN"
-		(shape input)
-		(at 29.718 101.346 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e23661e3-f917-473b-a7db-2068a44019d6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.0284 101.346 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RELAY_INTENDED_STATE"
-		(shape input)
-		(at 82.804 101.346 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f42963a9-086c-426e-9d2b-acc529613e2e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.8056 101.346 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RELAY_INTENDED_STATE"
-		(shape input)
-		(at 55.626 163.322 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "feb9c95d-692f-4076-849a-974bcd0cb44f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.6276 163.322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8078,7 +8114,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.804 85.852 0)
+		(at 82.804 97.028 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8088,7 +8124,7 @@
 		(dnp no)
 		(uuid "0b6b4ad1-dd3c-4c13-9451-a6ef08d0d9ae")
 		(property "Reference" "R3"
-			(at 76.454 83.566 0)
+			(at 76.454 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8099,7 +8135,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 76.708 86.106 0)
+			(at 76.708 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8110,7 +8146,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 81.026 85.852 90)
+			(at 81.026 97.028 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8121,7 +8157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.804 85.852 0)
+			(at 82.804 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8132,7 +8168,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.804 85.852 0)
+			(at 82.804 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8229,83 +8265,6 @@
 			(project "TSAL_G_HVB_V2"
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 52.578 82.042 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1130c947-ea7a-4e51-a4eb-fdfc4334770e")
-		(property "Reference" "#PWR06"
-			(at 52.578 85.852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 50.546 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.578 82.042 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.578 82.042 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.578 82.042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a14b9b03-d834-455d-812e-afc3f30aa197")
-		)
-		(instances
-			(project "TSAL_G_HVB_V2"
-				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8422,6 +8381,83 @@
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
 					(reference "U3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 141.986 141.478 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14147f68-7643-4e6f-ab0a-414496b47004")
+		(property "Reference" "#PWR028"
+			(at 141.986 147.828 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 141.986 145.923 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.986 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.986 141.478 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 141.986 141.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5dcd64ee-34b4-49d3-ba8f-df9a367ba03e")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "#PWR028")
+					(unit 1)
 				)
 			)
 		)
@@ -8917,7 +8953,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 107.696 85.598 0)
+		(at 107.696 97.028 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8927,7 +8963,7 @@
 		(dnp no)
 		(uuid "2b7a7fe4-ddfc-4b43-beb8-20fe3f73d60e")
 		(property "Reference" "R4"
-			(at 101.346 83.312 0)
+			(at 101.346 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8938,7 +8974,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 101.6 85.852 0)
+			(at 101.6 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8949,7 +8985,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 105.918 85.598 90)
+			(at 105.918 97.028 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8960,7 +8996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.696 85.598 0)
+			(at 107.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8971,7 +9007,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 107.696 85.598 0)
+			(at 107.696 97.028 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8998,7 +9034,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 141.732 85.09 0)
+		(at 106.172 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9006,9 +9042,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "309d1e85-1811-4240-a43a-fbb72c01a98a")
-		(property "Reference" "R5"
-			(at 135.382 82.804 0)
+		(uuid "2cc1a588-d066-4525-9285-f2132f47858a")
+		(property "Reference" "R14"
+			(at 99.822 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9019,7 +9055,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 135.636 85.344 0)
+			(at 100.076 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9030,7 +9066,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 139.954 85.09 90)
+			(at 104.394 135.89 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9041,7 +9077,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.732 85.09 0)
+			(at 106.172 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9052,7 +9088,88 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 141.732 85.09 0)
+			(at 106.172 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "230427b1-672d-4cab-9d14-fb618f93fdac")
+		)
+		(pin "2"
+			(uuid "a04d4484-9559-4f39-ae82-4623c161a25c")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 141.732 97.536 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "309d1e85-1811-4240-a43a-fbb72c01a98a")
+		(property "Reference" "R5"
+			(at 135.382 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 135.636 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 139.954 97.536 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.732 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 141.732 97.536 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9153,6 +9270,160 @@
 			(project "TSAL_G_HVB_V2"
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.804 100.838 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37fde9bf-8a5f-429f-827c-a19cb0762717")
+		(property "Reference" "#PWR08"
+			(at 82.804 107.188 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.804 105.283 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.804 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.804 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.804 100.838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1452ddf-0f1d-4948-b8e5-240294974fbd")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.172 141.224 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38b81f7c-b82b-4dc6-af25-ba452097c9e2")
+		(property "Reference" "#PWR029"
+			(at 106.172 147.574 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.172 145.669 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.172 141.224 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.172 141.224 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.172 141.224 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14fad89f-903d-4467-a861-d6e0a616a10f")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -9560,6 +9831,175 @@
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
 					(reference "U2")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 106.172 127.508 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45492d01-e23c-4a74-9c58-23c117a9401c")
+		(property "Reference" "D12"
+			(at 100.33 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 100.33 128.778 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
+			(at 106.172 127.508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.172 127.508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 106.172 127.508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 106.172 127.508 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61700339-ae62-4125-bf6b-10e8c568d46b")
+		)
+		(pin "2"
+			(uuid "abd7f366-7b46-4160-ba41-8259f6d67b6c")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.696 100.838 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "474db650-0775-497d-92d0-a8d860897bdb")
+		(property "Reference" "#PWR011"
+			(at 107.696 107.188 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.696 105.283 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.696 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.696 100.838 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.696 100.838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c7e1790-78b6-4d2f-9965-9e3cd6ab9eda")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "#PWR011")
+					(unit 1)
 				)
 			)
 		)
@@ -10124,8 +10564,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 141.732 81.28 0)
+		(lib_id "Device:R")
+		(at 141.986 136.144 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10133,20 +10573,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "640c1f2f-4834-4374-b3f2-b126d5a826bd")
-		(property "Reference" "#PWR012"
-			(at 141.732 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 139.7 76.708 0)
+		(uuid "649c3780-9161-440e-8705-a562bc6b090c")
+		(property "Reference" "R15"
+			(at 135.636 133.858 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10156,8 +10585,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 141.732 81.28 0)
+		(property "Value" "1k"
+			(at 135.89 136.398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 140.208 136.144 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10168,7 +10608,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.732 81.28 0)
+			(at 141.986 136.144 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10178,8 +10618,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 141.732 81.28 0)
+		(property "Description" "Resistor"
+			(at 141.986 136.144 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10189,12 +10630,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ab79a77c-185d-48aa-b120-90730ee7cee2")
+			(uuid "0e636952-547e-446b-9b37-5621c608d07c")
+		)
+		(pin "2"
+			(uuid "5114e38d-b275-4b6c-b009-3b9da246ed04")
 		)
 		(instances
 			(project "TSAL_G_HVB_V2"
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
-					(reference "#PWR012")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -10279,7 +10723,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 82.804 93.472 90)
+		(at 82.804 85.344 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10289,7 +10733,7 @@
 		(dnp no)
 		(uuid "67942b4b-40f0-4614-a822-696755f84978")
 		(property "Reference" "D3"
-			(at 76.962 92.202 90)
+			(at 76.962 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10300,7 +10744,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 76.962 94.742 90)
+			(at 76.962 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10311,7 +10755,7 @@
 			)
 		)
 		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
-			(at 82.804 93.472 0)
+			(at 82.804 85.344 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10322,7 +10766,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.804 93.472 0)
+			(at 82.804 85.344 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10333,7 +10777,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 82.804 93.472 0)
+			(at 82.804 85.344 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10344,7 +10788,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 82.804 93.472 0)
+			(at 82.804 85.344 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10564,7 +11008,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 141.732 92.71 90)
+		(at 141.732 84.582 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10574,7 +11018,7 @@
 		(dnp no)
 		(uuid "6ee2b12d-92f9-4b0d-94fb-c3425f63715a")
 		(property "Reference" "D5"
-			(at 135.89 91.44 90)
+			(at 135.89 83.312 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10585,7 +11029,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 135.89 93.98 90)
+			(at 135.89 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10596,7 +11040,7 @@
 			)
 		)
 		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
-			(at 141.732 92.71 0)
+			(at 141.732 84.582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10607,7 +11051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 141.732 92.71 0)
+			(at 141.732 84.582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10618,7 +11062,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 141.732 92.71 0)
+			(at 141.732 84.582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +11073,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 141.732 92.71 0)
+			(at 141.732 84.582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10649,6 +11093,83 @@
 			(project "TSAL_G_HVB_V2"
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 64.516 140.716 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fb7b6e4-f905-4e84-ac25-039421b02dfa")
+		(property "Reference" "#PWR030"
+			(at 64.516 147.066 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 64.516 145.161 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.516 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.516 140.716 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.516 140.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a36c7f11-2b7f-462e-b4f4-8291b2a8162e")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10737,7 +11258,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.578 85.852 0)
+		(at 52.578 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10747,7 +11268,7 @@
 		(dnp no)
 		(uuid "7398f011-db57-45b0-aa5a-cb845a174e7c")
 		(property "Reference" "R2"
-			(at 46.228 83.566 0)
+			(at 46.228 94.234 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10758,7 +11279,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 46.482 86.106 0)
+			(at 46.482 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10769,7 +11290,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 50.8 85.852 90)
+			(at 50.8 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10780,7 +11301,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.578 85.852 0)
+			(at 52.578 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10791,7 +11312,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 52.578 85.852 0)
+			(at 52.578 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10928,6 +11449,83 @@
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
 					(reference "U4")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.578 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77c254d6-d702-4e33-a6ab-7f0fb68f4287")
+		(property "Reference" "#PWR06"
+			(at 52.578 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.578 104.775 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.578 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.578 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 52.578 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b9f66c1-d2e5-4f17-9fce-9f2e5993b3e3")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "#PWR06")
+					(unit 1)
 				)
 			)
 		)
@@ -11561,8 +12159,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 107.696 81.788 0)
+		(lib_id "power:GND")
+		(at 30.734 99.822 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11570,9 +12168,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "85a16ea3-23b9-418a-87fc-a9ec4fd9a2ce")
-		(property "Reference" "#PWR011"
-			(at 107.696 85.598 0)
+		(fields_autoplaced yes)
+		(uuid "88037af4-e1c8-44e1-ba58-eec2c8043ad2")
+		(property "Reference" "#PWR01"
+			(at 30.734 106.172 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11582,19 +12181,18 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 105.664 77.216 0)
+		(property "Value" "GND"
+			(at 30.734 104.267 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 107.696 81.788 0)
+			(at 30.734 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11605,7 +12203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.696 81.788 0)
+			(at 30.734 99.822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11616,7 +12214,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.696 81.788 0)
+			(at 30.734 99.822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11626,12 +12224,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b78c6ce-1594-4a0e-894b-5b4cbc6ed742")
+			(uuid "361b8326-7e50-4d03-abcc-7d78699ad97e")
 		)
 		(instances
 			(project "TSAL_G_HVB_V2"
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
-					(reference "#PWR011")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11639,7 +12237,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 107.696 93.218 90)
+		(at 107.696 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11649,7 +12247,7 @@
 		(dnp no)
 		(uuid "8d18ffdd-c306-4cd5-b03c-56d82084b3e9")
 		(property "Reference" "D4"
-			(at 101.854 91.948 90)
+			(at 101.854 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11660,7 +12258,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 101.854 94.488 90)
+			(at 101.854 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11671,7 +12269,7 @@
 			)
 		)
 		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
-			(at 107.696 93.218 0)
+			(at 107.696 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11682,7 +12280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.696 93.218 0)
+			(at 107.696 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11693,7 +12291,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 107.696 93.218 0)
+			(at 107.696 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11704,7 +12302,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 107.696 93.218 0)
+			(at 107.696 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12198,7 +12796,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 52.578 93.472 90)
+		(at 52.578 85.344 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12208,7 +12806,7 @@
 		(dnp no)
 		(uuid "9ae98d91-6dc6-4f11-8f68-4c88acdedd5f")
 		(property "Reference" "D2"
-			(at 46.736 92.202 90)
+			(at 46.736 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12219,7 +12817,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 46.736 94.742 90)
+			(at 46.736 86.614 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12230,7 +12828,7 @@
 			)
 		)
 		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
-			(at 52.578 93.472 0)
+			(at 52.578 85.344 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12241,7 +12839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.578 93.472 0)
+			(at 52.578 85.344 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12252,7 +12850,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 52.578 93.472 0)
+			(at 52.578 85.344 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12263,7 +12861,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 52.578 93.472 0)
+			(at 52.578 85.344 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13166,6 +13764,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 141.986 127.762 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab907901-5362-4384-9bb7-5b52d3de0e51")
+		(property "Reference" "D13"
+			(at 136.144 126.492 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 136.144 129.032 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
+			(at 141.986 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.986 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 141.986 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 141.986 127.762 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "662407ac-ae05-4f37-9a16-e55b5d538252")
+		)
+		(pin "2"
+			(uuid "28cd76b7-aea8-4c42-be64-dfca2c03fd7e")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 371.602 134.112 0)
 		(unit 1)
@@ -13237,6 +13927,98 @@
 			(project "TSAL_G_HVB_V2"
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 64.516 127 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b276bb74-96ed-4ace-85a3-7910c08c13de")
+		(property "Reference" "D11"
+			(at 58.674 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 58.674 128.27 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
+			(at 64.516 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.516 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 64.516 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 64.516 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01a686a3-52f6-4d99-9211-141f1a6e101c")
+		)
+		(pin "2"
+			(uuid "c34f5977-1688-41bb-a81e-1f2c8bea0107")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -13480,83 +14262,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 82.804 82.042 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ba8007cd-b742-4d91-acb9-ca143523aa50")
-		(property "Reference" "#PWR08"
-			(at 82.804 85.852 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 80.772 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.804 82.042 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.804 82.042 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 82.804 82.042 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "40e3b699-1475-46c8-92bf-0f014155f79e")
-		)
-		(instances
-			(project "TSAL_G_HVB_V2"
-				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 266.446 132.842 0)
 		(unit 1)
@@ -13635,7 +14340,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 29.718 87.122 0)
+		(at 30.734 96.012 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13645,7 +14350,7 @@
 		(dnp no)
 		(uuid "befed2a6-57c3-4cf9-ad3c-dd22c6c51916")
 		(property "Reference" "R1"
-			(at 23.368 84.836 0)
+			(at 24.384 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13656,7 +14361,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 23.622 87.376 0)
+			(at 24.638 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13667,7 +14372,7 @@
 			)
 		)
 		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
-			(at 27.94 87.122 90)
+			(at 28.956 96.012 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13678,7 +14383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.718 87.122 0)
+			(at 30.734 96.012 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13689,7 +14394,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 29.718 87.122 0)
+			(at 30.734 96.012 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13982,6 +14687,83 @@
 			(project "TSAL_G_HVB_V2"
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 141.732 101.346 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb67d641-0d16-442b-8f9f-3f843988622a")
+		(property "Reference" "#PWR012"
+			(at 141.732 107.696 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 141.732 105.791 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.732 101.346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.732 101.346 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 141.732 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2823953-4c6d-4902-abc3-a47e1ac568cb")
+		)
+		(instances
+			(project "TSAL_G_HVB_V2"
+				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14700,7 +15482,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 29.718 94.742 90)
+		(at 30.734 85.598 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14710,7 +15492,7 @@
 		(dnp no)
 		(uuid "e44307f3-facb-4c26-a34d-4075e2f16c47")
 		(property "Reference" "D1"
-			(at 23.876 93.472 90)
+			(at 24.892 84.328 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14721,7 +15503,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 23.876 96.012 90)
+			(at 24.892 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14732,7 +15514,7 @@
 			)
 		)
 		(property "Footprint" "RMC_LED:LED_0805_2012Metric_Pad1.45x1.40mm_HandSolder"
-			(at 29.718 94.742 0)
+			(at 30.734 85.598 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14743,7 +15525,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.718 94.742 0)
+			(at 30.734 85.598 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14754,7 +15536,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 29.718 94.742 0)
+			(at 30.734 85.598 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14765,7 +15547,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 29.718 94.742 0)
+			(at 30.734 85.598 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15154,8 +15936,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 29.718 83.312 0)
+		(lib_id "Device:R")
+		(at 64.516 135.382 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15163,20 +15945,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f4cc97da-b434-40cf-9329-5d614a4b379d")
-		(property "Reference" "#PWR01"
-			(at 29.718 87.122 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 27.686 78.74 0)
+		(uuid "f9030b0b-b52e-437c-ad8e-7e157293f9de")
+		(property "Reference" "R13"
+			(at 58.166 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15186,8 +15957,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 29.718 83.312 0)
+		(property "Value" "1k"
+			(at 58.42 135.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
+			(at 62.738 135.382 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15198,7 +15980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.718 83.312 0)
+			(at 64.516 135.382 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15208,8 +15990,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 29.718 83.312 0)
+		(property "Description" "Resistor"
+			(at 64.516 135.382 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15219,12 +16002,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "36e8b0fe-91f5-4b47-9487-d21ecf2da0c8")
+			(uuid "46d3ff25-5f7b-4fc3-bfcd-0f30e5ee83a8")
+		)
+		(pin "2"
+			(uuid "412ff692-3ced-41d7-8a40-2eda0d44339d")
 		)
 		(instances
 			(project "TSAL_G_HVB_V2"
 				(path "/1a0db5be-015a-4c37-8fdf-517b77516d13"
-					(reference "#PWR01")
+					(reference "R13")
 					(unit 1)
 				)
 			)
