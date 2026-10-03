@@ -20378,7 +20378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-885"
+		(property "Footprint" "Fuse:Fuse_Littelfuse-NANO2-462"
 			(at 34.29 43.942 90)
 			(hide yes)
 			(show_name no)
