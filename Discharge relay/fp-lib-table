@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "NCZ5NE-20F") (type "KiCad") (uri "${KIPRJMOD}/lib/NCZ5NE-20F.pretty") (options "") (descr ""))
+)
