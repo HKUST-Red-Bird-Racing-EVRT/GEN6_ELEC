@@ -2000,7 +2000,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 161.036 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2159,7 +2159,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 161.036 122.936 0)
 			(show_name no)
 			(do_not_autoplace no)
