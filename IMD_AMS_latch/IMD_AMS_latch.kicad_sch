@@ -2017,304 +2017,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:AO3401A"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AO3401A"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AO3401A_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AO3401A_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -2594,16 +2296,6 @@
 		)
 		(uuid "4608f373-a417-4410-bf0b-b8e53e7b9cef")
 	)
-	(text "eliminates undeterministic state when reset and err is both high"
-		(exclude_from_sim no)
-		(at 109.982 166.878 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "56ecb6fb-fbc8-4fc0-8326-8f2632d2fd5c")
-	)
 	(text "power cycle reset"
 		(exclude_from_sim no)
 		(at 32.258 148.844 0)
@@ -2673,16 +2365,6 @@
 			)
 		)
 		(uuid "ef9c8026-08de-4b24-8b3b-0196237a2a0e")
-	)
-	(text "eliminates undeterministic state when reset and err is both high"
-		(exclude_from_sim no)
-		(at 112.522 129.286 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f2e1f663-6326-4171-b1bf-16e3cb061271")
 	)
 	(junction
 		(at 254 144.78)
@@ -2763,12 +2445,6 @@
 		(uuid "73919595-bb2d-4edc-bbcc-fad8b342c0cc")
 	)
 	(junction
-		(at 64.77 176.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77c5a4c6-2ee6-4e68-8dae-f9ddbd0e967d")
-	)
-	(junction
 		(at 203.2 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2785,12 +2461,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5e9005a-0cf7-4298-89cf-a13d931e8115")
-	)
-	(junction
-		(at 63.5 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a80c7418-dcfb-4a51-9e91-565b34627227")
 	)
 	(junction
 		(at 254 142.24)
@@ -3102,16 +2772,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 124.46) (xy 67.31 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28a5980d-f012-4323-972e-0b446ae5348a")
-	)
-	(wire
-		(pts
 			(xy 217.17 29.21) (xy 226.06 29.21)
 		)
 		(stroke
@@ -3159,16 +2819,6 @@
 			(type default)
 		)
 		(uuid "2fc24ee6-fb7c-403c-937f-8d945d4220a7")
-	)
-	(wire
-		(pts
-			(xy 58.42 129.54) (xy 74.93 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31ba85d6-f1b0-42c1-9226-2aaf9e16922c")
 	)
 	(wire
 		(pts
@@ -3302,16 +2952,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 139.7) (xy 72.39 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56b332a6-4abf-42e5-83c5-4a3eea481362")
-	)
-	(wire
-		(pts
 			(xy 36.83 127) (xy 36.83 128.27)
 		)
 		(stroke
@@ -3352,16 +2992,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 176.53) (xy 73.66 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d79768a-1580-4b27-b7d0-8f0508b04c5d")
-	)
-	(wire
-		(pts
 			(xy 245.11 106.68) (xy 255.27 106.68)
 		)
 		(stroke
@@ -3369,16 +2999,6 @@
 			(type default)
 		)
 		(uuid "5ff0d330-0c57-496e-9f90-fb8730753bd2")
-	)
-	(wire
-		(pts
-			(xy 59.69 166.37) (xy 76.2 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60d588a4-b5c9-4805-82e7-2fa8718d9d07")
 	)
 	(wire
 		(pts
@@ -3512,16 +3132,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 139.7) (xy 63.5 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76c960de-c96b-4ba8-988b-58210e30f85f")
-	)
-	(wire
-		(pts
 			(xy 217.17 78.74) (xy 226.06 78.74)
 		)
 		(stroke
@@ -3552,6 +3162,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 171.45) (xy 64.77 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927ef16b-361d-4de4-9096-6fbd94d6f5d4")
+	)
+	(wire
+		(pts
 			(xy 105.41 38.1) (xy 105.41 41.91)
 		)
 		(stroke
@@ -3569,16 +3189,6 @@
 			(type default)
 		)
 		(uuid "969ad985-2c81-4f1c-b96e-49263945b968")
-	)
-	(wire
-		(pts
-			(xy 59.69 176.53) (xy 64.77 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "974323e3-f9f6-4648-95e5-e62f7baca39f")
 	)
 	(wire
 		(pts
@@ -3749,16 +3359,6 @@
 			(type default)
 		)
 		(uuid "b57f5e3e-55b9-4a33-ba7e-5e851f2c11cc")
-	)
-	(wire
-		(pts
-			(xy 50.8 161.29) (xy 68.58 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b62f8dae-c308-40e0-bbde-f7e60dca32b6")
 	)
 	(wire
 		(pts
@@ -4150,16 +3750,6 @@
 		)
 		(uuid "26a1eab6-6c72-41c6-af2b-a84186a3a687")
 	)
-	(label "AMS_err_sig"
-		(at 50.8 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29e57d7e-6f59-4847-bb50-9fdf3e97b0e7")
-	)
 	(label "AMS_err"
 		(at 113.03 34.29 0)
 		(effects
@@ -4331,7 +3921,7 @@
 		(uuid "c085d4de-715f-4c57-b124-fce4d46a2d9e")
 	)
 	(label "AMS_power_on_reset"
-		(at 73.66 176.53 0)
+		(at 64.77 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4391,7 +3981,7 @@
 		(uuid "e34f1362-374f-4911-8326-e1ff88b823df")
 	)
 	(label "IMD_power_on_reset"
-		(at 72.39 139.7 0)
+		(at 58.42 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4429,16 +4019,6 @@
 			(justify left bottom)
 		)
 		(uuid "f6442837-58f9-4117-a918-7ed5c709c1ba")
-	)
-	(label "IMD_err_sig"
-		(at 49.53 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7b7b77a-f31a-4ef9-afd6-3724aae77f30")
 	)
 	(label "AMS_err'"
 		(at 105.41 45.72 0)
@@ -5261,6 +4841,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 54.61 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2abe21ad-3330-45b4-99f7-a0da3da356c5")
+		(property "Reference" "D10"
+			(at 54.61 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 54.61 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2208ffcd-332b-4bad-bbbb-b1c4a5b24912")
+		)
+		(pin "2"
+			(uuid "69e24da6-df1c-4211-bcf0-ed4d34dd7e28")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 156.21 250.19 0)
 		(unit 1)
@@ -5391,73 +5057,6 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30b7f8a4-2346-4a4e-b657-30ad7e473fe9")
-		(property "Reference" "#PWR029"
-			(at 63.5 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f922cff0-d3c7-4183-9e7a-c8fa14708117")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -5890,82 +5489,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 57.15 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42970251-3646-49d9-b2c5-e4dff2240fa5")
-		(property "Reference" "Q5"
-			(at 63.5 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 63.5 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 62.23 173.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 62.23 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 57.15 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65535695-cf95-4cba-986e-e043f1dd4001")
-		)
-		(pin "3"
-			(uuid "d73e2d00-b3ac-4b00-8b6a-37f449a4d5b9")
-		)
-		(pin "2"
-			(uuid "48d2ecfc-6f27-4d3c-9ef3-12b4797bfa2f")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 118.11 264.16 0)
 		(unit 1)
@@ -6235,76 +5758,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 64.77 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f20a7a7-363e-4f6d-abb4-f3f4f7b6cd7d")
-		(property "Reference" "R25"
-			(at 67.31 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 67.31 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 62.992 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 64.77 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "425e43c9-40ad-4346-9f36-3dc1296f9c8c")
-		)
-		(pin "2"
-			(uuid "111a8ba4-7eab-4582-9963-3881bd01ff5e")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "R25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:AO3400A")
 		(at 252.73 48.26 0)
 		(unit 1)
@@ -6445,149 +5898,6 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 72.39 124.46 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c4d8760-0412-466c-921e-f7f2451740bc")
-		(property "Reference" "Q4"
-			(at 78.74 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 78.74 125.7299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 77.47 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 77.47 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 72.39 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90d331bf-94b0-4a91-98cb-ad2f0e359ca6")
-		)
-		(pin "1"
-			(uuid "7519cf6c-e915-49f9-a8de-5dcdbe66fee3")
-		)
-		(pin "3"
-			(uuid "063e4cfe-4ad1-429a-b3a4-bbd815a93c43")
-		)
-		(instances
-			(project ""
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 74.93 119.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d8b884c-7aff-4274-89a3-7fe5dbcb4161")
-		(property "Reference" "#PWR025"
-			(at 74.93 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 74.93 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 74.93 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a464f9bb-6ce3-4ced-93c1-0eab10920ddd")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6921,73 +6231,6 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8513d860-3c6f-4fea-a5df-ad2043b3000d")
-		(property "Reference" "#PWR030"
-			(at 64.77 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "424c7453-19b1-47be-8622-c0ea56296b0a")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7523,82 +6766,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3400A")
-		(at 55.88 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9935bfb4-68c0-498b-8422-e7e680581943")
-		(property "Reference" "Q3"
-			(at 62.23 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3400A"
-			(at 62.23 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 60.96 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 60.96 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 55.88 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1448d25c-89a2-42ee-b58a-4e1b67cb248a")
-		)
-		(pin "3"
-			(uuid "f80aa849-e192-4021-9610-9d4d326770f9")
-		)
-		(pin "2"
-			(uuid "a0ed4b49-77f1-4610-a77e-4c9cad5fc774")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 156.21 261.62 0)
 		(unit 1)
@@ -7746,72 +6913,6 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 76.2 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a235ec23-96a7-49ef-afe5-240b3ca2e69b")
-		(property "Reference" "#PWR031"
-			(at 76.2 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 76.2 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 76.2 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "beffb880-0f58-4589-bf3c-79c0a17adf32")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -8041,76 +7142,6 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 63.5 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b220df1a-7dfe-4c61-8231-1d355a3de7a8")
-		(property "Reference" "R23"
-			(at 66.04 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 66.04 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 61.722 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 63.5 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f620482-c5f1-49a7-b490-7d9e803c2e4a")
-		)
-		(pin "2"
-			(uuid "0b5ce7fb-e26d-481c-a8ae-ff112e0d67b3")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8872,83 +7903,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:AO3401A")
-		(at 73.66 161.29 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0840a18-f478-4b43-962e-624c7fb16e5a")
-		(property "Reference" "Q6"
-			(at 80.01 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AO3401A"
-			(at 80.01 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 78.74 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
-			(at 78.74 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
-			(at 73.66 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0198228a-bd3e-4939-bb35-e9ed27a4ce29")
-		)
-		(pin "1"
-			(uuid "74b65fb6-36b0-4b07-a880-35272cc8f471")
-		)
-		(pin "3"
-			(uuid "3ae42929-0033-4a68-b500-29981e6b59c3")
-		)
-		(instances
-			(project "IMD_AMS_latch"
-				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 33.02 57.15 0)
 		(unit 1)
@@ -9500,6 +8454,92 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 55.88 171.45 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5f66991-b07c-469e-a1cf-ab98f73cba61")
+		(property "Reference" "D11"
+			(at 55.88 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 55.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 55.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 55.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 55.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 55.88 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bd93b79-5f7e-49f2-8a30-030cc534505c")
+		)
+		(pin "2"
+			(uuid "9b32a003-6429-41cc-be66-33075afa06d9")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "D11")
 					(unit 1)
 				)
 			)
