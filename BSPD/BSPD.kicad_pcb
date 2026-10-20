@@ -16347,6 +16347,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "SIG1_thres"
+		(at 148.86 67.81 0)
+		(layer "B.SilkS")
+		(uuid "6f777cbb-647f-4388-a9b4-b44bd2aa2873")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "V1.0"
 		(at 146.909864 97.4576 0)
 		(layer "B.SilkS")
@@ -16439,6 +16451,18 @@
 		(at 184.1246 110.6678 0)
 		(layer "B.SilkS")
 		(uuid "e5d21dad-f7d8-4600-a6d0-d3c217e91ea8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SIG2_thres"
+		(at 146.51 85.473999 0)
+		(layer "B.SilkS")
+		(uuid "e6e8d177-fec6-4abb-8d8c-c5aae907b00e")
 		(effects
 			(font
 				(size 1 1)
