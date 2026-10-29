@@ -540,7 +540,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./gerberout",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -664,7 +664,7 @@
         "uuid": "7efe75f6-2abc-4d6d-9c85-2df3e3fdde5e"
       }
     ],
-    "used_designators": "#PWR8-9,K1,J1-4,R1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
