@@ -3572,6 +3572,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 189.23) (xy 78.74 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89ee595-70a8-42d3-ae02-3273f98842a7")
+	)
+	(wire
+		(pts
 			(xy 245.11 57.15) (xy 255.27 57.15)
 		)
 		(stroke
@@ -3629,6 +3639,16 @@
 			(type default)
 		)
 		(uuid "f71b79ff-ac92-4c16-a991-3291dd225b11")
+	)
+	(wire
+		(pts
+			(xy 115.57 115.57) (xy 115.57 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7870757-8221-47d1-b978-7bfac3c21769")
 	)
 	(wire
 		(pts
@@ -3779,6 +3799,16 @@
 			(justify left bottom)
 		)
 		(uuid "54dd9156-741b-4338-81b4-b8febd98087d")
+	)
+	(label "IMD_err"
+		(at 67.31 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "683077c2-3783-416c-a22a-66628f026c8f")
 	)
 	(label "IMD_latch"
 		(at 234.95 71.12 0)
@@ -3970,6 +4000,16 @@
 		)
 		(uuid "dc71516c-7b69-42e9-adcc-ff37818f977a")
 	)
+	(label "AMS_err"
+		(at 115.57 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df6a2bd0-3108-4206-9cd0-316a773c6fbf")
+	)
 	(label "IMD_latch"
 		(at 167.64 86.36 0)
 		(effects
@@ -3989,6 +4029,16 @@
 			(justify left bottom)
 		)
 		(uuid "e3aa35e9-1794-4714-8aae-df16454a69ef")
+	)
+	(label "IMD_OKHS"
+		(at 78.74 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e917fe56-a090-4cb7-957b-e1d82dd8c98e")
 	)
 	(label "IMD_err'"
 		(at 119.38 69.85 0)
@@ -4614,6 +4664,74 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 110.49 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "126fdf88-5d90-4b0b-9f8c-861910bef01a")
+		(property "Reference" "J11"
+			(at 110.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 110.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 110.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09709c86-71f3-403d-bf63-55b086b79eef")
+		)
+		(pin "2"
+			(uuid "d63a44f9-4c01-411f-b8e7-f53b1ea45edd")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "J11")
 					(unit 1)
 				)
 			)
