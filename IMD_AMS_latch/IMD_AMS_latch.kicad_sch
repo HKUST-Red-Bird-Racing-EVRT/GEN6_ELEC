@@ -5769,6 +5769,16 @@
 		)
 		(uuid "bf5134b2-ea26-4918-8ae4-b5ec46563145")
 	)
+	(label "START"
+		(at 54.61 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf5475e9-02c4-4d7d-ad42-7ae885409927")
+	)
 	(label "IMD_KL31_GND"
 		(at 58.42 254 0)
 		(effects
@@ -5788,16 +5798,6 @@
 			(justify left bottom)
 		)
 		(uuid "c4e41e35-b464-4d31-be4f-921464f5f066")
-	)
-	(label "START"
-		(at 46.99 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c9b83412-60bc-4f08-b3eb-346631e08bb5")
 	)
 	(label "AMS_err"
 		(at 128.27 154.94 0)
@@ -7171,6 +7171,108 @@
 			(project "IMD_AMS_latch"
 				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 50.8 144.78 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d63fcd2-6f04-4675-bc7a-ce3a3ace852f")
+		(property "Reference" "D13"
+			(at 50.8 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 50.8 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 50.8 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 50.8 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 50.8 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a817d31-06b6-47fb-9455-545458c6ea9e")
+		)
+		(pin "2"
+			(uuid "d1342f9c-7dcd-488c-ab17-58e24b4f5522")
+		)
+		(instances
+			(project "IMD_AMS_latch"
+				(path "/5826de07-2dfc-4b26-8f2d-f37e9b29b777"
+					(reference "D13")
 					(unit 1)
 				)
 			)
