@@ -2289,7 +2289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC-KiCad:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2409,7 +2409,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC-KiCad:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 82.55 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2529,7 +2529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 121.92 141.2748 0)
 			(hide yes)
 			(show_name no)
@@ -2719,7 +2719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC-KiCad:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 58.42 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -2923,7 +2923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RMC-KiCad:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 110.49 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -3125,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 62.484 124.714 90)
 			(hide yes)
 			(show_name no)
@@ -3209,7 +3209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RMC-KiCad:SOIC127P600X175-14N"
+		(property "Footprint" "RMC_SO:SOIC127P600X175-14N"
 			(at 105.41 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3331,7 +3331,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "RMC_Resistor:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder_L"
 			(at 42.164 124.206 90)
 			(hide yes)
 			(show_name no)
@@ -3499,7 +3499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "RMC_Capacitor:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder_L"
 			(at 67.0052 135.89 0)
 			(hide yes)
 			(show_name no)
