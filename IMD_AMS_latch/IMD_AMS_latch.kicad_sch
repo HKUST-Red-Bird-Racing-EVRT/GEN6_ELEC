@@ -3226,12 +3226,6 @@
 		(uuid "2383b446-3d52-44de-8541-39a807c96a54")
 	)
 	(junction
-		(at 33.02 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2392d3dd-61e6-486f-81ac-932fe2cd0049")
-	)
-	(junction
 		(at 198.12 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3416,6 +3410,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb075efb-8540-47f8-a488-6e98c1781ed9")
+	)
+	(junction
+		(at 33.02 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc2cc187-e21f-41cf-bbfc-f6154f64f397")
 	)
 	(junction
 		(at 201.93 76.2)
@@ -3702,16 +3702,6 @@
 			(type default)
 		)
 		(uuid "135d5320-1806-47c7-8d2f-adbc3e8c96aa")
-	)
-	(wire
-		(pts
-			(xy 26.67 48.26) (xy 38.1 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "136ee213-2166-4883-93c2-2a8f9a3d8734")
 	)
 	(wire
 		(pts
@@ -4295,6 +4285,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 85.09) (xy 29.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9d4788-149b-42ed-9faa-dab12fddb6ff")
+	)
+	(wire
+		(pts
 			(xy 300.99 105.41) (xy 311.15 105.41)
 		)
 		(stroke
@@ -4372,16 +4372,6 @@
 			(type default)
 		)
 		(uuid "6943a504-f7c4-42b9-a9f1-f41fc93aff79")
-	)
-	(wire
-		(pts
-			(xy 26.67 50.8) (xy 33.02 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c5d983-8195-49c0-b72c-cedd1bd8fa1e")
 	)
 	(wire
 		(pts
@@ -4472,6 +4462,16 @@
 			(type default)
 		)
 		(uuid "749bc327-296f-4716-bd17-a3cb4040cef8")
+	)
+	(wire
+		(pts
+			(xy 29.21 85.09) (xy 29.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f9dabd-d1cd-4a3b-b5dc-387961bb2b72")
 	)
 	(wire
 		(pts
@@ -4985,6 +4985,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 82.55) (xy 26.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbee6cf8-2f6d-4ccd-8e27-2c262cb3d0eb")
+	)
+	(wire
+		(pts
 			(xy 201.93 73.66) (xy 201.93 76.2)
 		)
 		(stroke
@@ -4992,6 +5002,16 @@
 			(type default)
 		)
 		(uuid "bcf03832-1113-43a4-84ce-36ddf2f438d4")
+	)
+	(wire
+		(pts
+			(xy 29.21 50.8) (xy 33.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09393ce-b4e0-48f5-9404-bd43d91144cc")
 	)
 	(wire
 		(pts
@@ -5082,6 +5102,16 @@
 			(type default)
 		)
 		(uuid "ca5a699a-406c-433b-8e19-847c93ce8f8e")
+	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 38.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc75c9ac-284e-45ad-8f38-49def8a01931")
 	)
 	(wire
 		(pts
@@ -5433,6 +5463,16 @@
 		)
 		(uuid "fc76bc80-df3a-4f52-b556-73fec1a3cf9c")
 	)
+	(wire
+		(pts
+			(xy 27.94 48.26) (xy 27.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc2d5cd-3684-414b-9784-b4db26cd1e5d")
+	)
 	(label "IMD_err"
 		(at 38.1 85.09 0)
 		(effects
@@ -5583,6 +5623,16 @@
 		)
 		(uuid "4313f8a8-6fcf-4cab-abdc-504317bd0444")
 	)
+	(label "IMD_LED+"
+		(at 22.86 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "461580ed-55f4-44d8-bfbf-7426c4f186a4")
+	)
 	(label "START"
 		(at 304.8 147.32 0)
 		(effects
@@ -5612,16 +5662,6 @@
 			(justify left bottom)
 		)
 		(uuid "58ec7d7b-8d6a-428e-9769-3dd057f63125")
-	)
-	(label "IMD_LED+"
-		(at 26.67 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62cef388-e914-499f-a4a2-449c3ba82c69")
 	)
 	(label "IMD_LED+"
 		(at 356.87 60.96 0)
@@ -5833,16 +5873,6 @@
 		)
 		(uuid "d59c580c-a7fc-4129-a521-0fa9b2ff99d4")
 	)
-	(label "AMS_LED+"
-		(at 26.67 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6d2624c-f042-4c96-8efc-4ae66d5780d6")
-	)
 	(label "IMD_KL31_GND"
 		(at 119.38 243.84 0)
 		(effects
@@ -5942,6 +5972,16 @@
 			(justify left bottom)
 		)
 		(uuid "f4a6e58f-59c6-45c9-a4fd-b7091a422993")
+	)
+	(label "AMS_LED+"
+		(at 22.86 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f530cb38-dc35-4297-978f-4dd43c0daa89")
 	)
 	(label "EXT_LED+"
 		(at 165.1 254 0)
@@ -8942,7 +8982,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 21.59 50.8 180)
+		(at 17.78 33.02 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8953,7 +8993,7 @@
 		(fields_autoplaced yes)
 		(uuid "41a3369d-402d-4989-9526-7edc43f78334")
 		(property "Reference" "J15"
-			(at 21.59 41.91 0)
+			(at 17.78 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8963,7 +9003,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 21.59 44.45 0)
+			(at 17.78 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8973,7 +9013,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0200_1x02_P3.00mm_Horizontal"
-			(at 21.59 50.8 0)
+			(at 17.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8984,7 +9024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 50.8 0)
+			(at 17.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8995,7 +9035,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 21.59 50.8 0)
+			(at 17.78 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

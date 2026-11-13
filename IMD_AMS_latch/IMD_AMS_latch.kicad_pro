@@ -247,6 +247,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.5
         }
       ],
       "zones_allow_external_fillets": false
@@ -545,7 +549,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "output/",
+      "plot": "latch fsec 26 urgent/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -710,7 +714,7 @@
         "uuid": "5826de07-2dfc-4b26-8f2d-f37e9b29b777"
       }
     ],
-    "used_designators": "#PWR4,#PWR24-25,#PWR27,#PWR29-32,#PWR35-49,#PWR51-65,D12-19,C8-13,J13-15,R12-13,R23,R25-51,Q3-11,U5-7,H5-8",
+    "used_designators": "D12-19,#PWR4,#PWR24-25,#PWR27,#PWR29-32,#PWR35-49,#PWR51-65,C8-13,R12-13,R23,R25-51,J13-15,Q3-11,U5-7,H5-8",
     "variants": []
   },
   "sheets": [
